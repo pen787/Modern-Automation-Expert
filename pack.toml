@@ -1,0 +1,13 @@
+name = "Modern Automation Expert"
+author = "pen787"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "bf4d1c8561f7cfc9e6afb13ce4f2f92dda47468d5567f27b75071bded6b27080"
+
+[versions]
+fabric = "0.14.20"
+minecraft = "1.19.2"

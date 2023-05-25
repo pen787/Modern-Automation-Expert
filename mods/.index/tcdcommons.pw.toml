@@ -1,0 +1,14 @@
+name = "TCDCommons API"
+filename = "tcdcommons-2.7+1.19.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "7e8cf7e572fe2ac66b3bea96a9ef8be24a0e00ea"
+
+[update]
+[update.curseforge]
+file-id = 4533991
+project-id = 711539

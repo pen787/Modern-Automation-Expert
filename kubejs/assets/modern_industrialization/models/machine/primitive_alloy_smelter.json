@@ -1,0 +1,26 @@
+{
+    "default_overlays": {
+        "top": "modern_industrialization:textures/block/casings/primitive_alloy_smelter/overlay_front.png",
+        "top_active": "modern_industrialization:textures/block/casings/primitive_alloy_smelter/overlay_front_active.png",
+        "bottom": "...",
+        "bottom_active": "...",
+        "top_s": "...",
+        "top_s_active": "...",
+        "side": "...",
+        "side_active": "...",
+        "front": "...",
+        "front_active": "...",
+        "left": "...",
+        "left_active": "...",
+        "right": "...",
+        "right_active": "...",
+        "back": "...",
+        "back_active": "...",
+        "output": "...",
+        "item_auto": "...",
+        "fluid_auto": "..."
+    },
+    "tiered_overlays": {
+        "brick_casing": {}
+    }
+}

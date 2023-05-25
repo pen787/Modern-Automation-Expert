@@ -1,0 +1,26 @@
+{
+    "default_overlays": {
+        "top": "modern_industrialization:textures/block/casings/rocket_assembler/overlay_front.png",
+        "top_active": "modern_industrialization:textures/block/casings/rocket_assembler/overlay_front_active.png",
+        "bottom": "...",
+        "bottom_active": "...",
+        "top_s": "modern_industrialization:textures/block/casings/rocket_assembler/overlay_front.png",
+        "top_s_active": "modern_industrialization:textures/block/casings/rocket_assembler/overlay_front_active.png",
+        "side": "...",
+        "side_active": "...",
+        "front": "...",
+        "front_active": "...",
+        "left": "...",
+        "left_active": "...",
+        "right": "...",
+        "right_active": "...",
+        "back": "...",
+        "back_active": "...",
+        "output": "...",
+        "item_auto": "...",
+        "fluid_auto": "..."
+    },
+    "tiered_overlays": {
+        "<casing name>": {}
+    }
+}

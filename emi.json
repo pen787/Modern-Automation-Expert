@@ -1,0 +1,4095 @@
+{
+  "favorites": [
+    {
+      "stack": {
+        "item": "create:mechanical_arm",
+        "amount": 1,
+        "type": "emi:item"
+      }
+    },
+    {
+      "stack": {
+        "item": "modern_industrialization:steel_plate",
+        "amount": 1,
+        "type": "emi:item"
+      }
+    },
+    {
+      "stack": {
+        "item": "create:brass_sheet",
+        "amount": 1,
+        "type": "emi:item"
+      }
+    },
+    {
+      "stack": {
+        "item": "modern_industrialization:analog_circuit",
+        "amount": 1,
+        "type": "emi:item"
+      }
+    },
+    {
+      "stack": {
+        "item": "create:andesite_alloy",
+        "amount": 1,
+        "type": "emi:item"
+      }
+    },
+    {
+      "stack": {
+        "item": "create:brass_casing",
+        "amount": 1,
+        "type": "emi:item"
+      }
+    },
+    {
+      "stack": {
+        "item": "create:precision_mechanism",
+        "amount": 1,
+        "type": "emi:item"
+      }
+    },
+    {
+      "stack": {
+        "item": "modern_industrialization:steel_gear",
+        "amount": 1,
+        "type": "emi:item"
+      }
+    },
+    {
+      "stack": {
+        "item": "modern_industrialization:red_alloy_dust",
+        "amount": 1,
+        "type": "emi:item"
+      }
+    }
+  ],
+  "lookup_history": [
+    {
+      "item": "dml-refabricated:soot_redstone",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:clay_brick",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:brick",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:bricks",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "alloy_forgery:bricks_forge_controller",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "alloy_forgery:stone_bricks_forge_controller",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "alloy_forgery:deepslate_bricks_forge_controller",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:brass_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:tin_gear",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:wrought_iron_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:wrought_iron_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "tag": "ad_astra_platform:steel_ingots",
+      "amount": 1,
+      "type": "emi:item_tag"
+    },
+    {
+      "item": "minecraft:anvil",
+      "amount": 2,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "scannable:scanner",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "kubejs:moon_drill",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:moon_desh_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:desh_ingot",
+      "amount": 4,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:rash_alloy_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:rash_alloy_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:rash_alloy_plate",
+      "amount": 4,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:highly_advanced_machine_casing",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:titanium_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:titanium_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:titanium_dust",
+      "amount": 2,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:calorite_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:oxygen_sensor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:water_pump",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:oxygen_distributor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:oxygen_loader",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:fuel_refinery",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:compressor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:coal_generator",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:desh_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:solar_panel",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:steel_engine",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:charger",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:clay_bucket",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:highly_advanced_item_output_hatch",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:replicator",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_water_pump",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_mixer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_water_pump",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:basic_machine_hull",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:advanced_machine_hull",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:processing_unit_board",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:processing_unit",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:digital_circuit_board",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electronic_circuit_board",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:quantum_circuit_board",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:analog_circuit",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:wax",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:arithmetic_logic_unit",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:memory_management_unit",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:random_access_memory",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:silicon_wafer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:air_intake",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:and_gate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:transistor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:ostumium_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:ostumium_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:ostumium_large_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:iron_large_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:fire_clay_bricks",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "createaddition:connector",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "createaddition:tesla_coil",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "fabric-furnaces:iron_furnace",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "fabric-furnaces:gold_furnace",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "fabric-furnaces:diamond_furnace",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:zinc_block",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:zinc_block",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:deepslate_zinc_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:brass_sheet",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:brass_nugget",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:brass_rod",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:brass_block",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "blockus:viridite",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:drive",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:energy_cell",
+      "amount": 1,
+      "nbt": "{}",
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:pattern_provider",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:crafting_monitor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electronic_circuit",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:crafting_unit",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:256k_crafting_storage",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:printed_calculation_processor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:orange_smart_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:light_gray_covered_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "immersive_weathering:moss_clump",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "blockus:paper_lamp",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:paper",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:brass_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_furnace",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_furnace",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:diamond_crushed_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:diamond_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:invar_rotary_blade",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steam_quarry",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electric_quarry",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:sulfuric_acid",
+      "amount": 1,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:ethanol",
+      "amount": 1,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "modern_industrialization:lead_tiny_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:ethylene",
+      "amount": 1,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "modern_industrialization:aluminum_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:silicon_battery",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:aluminum_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:aluminum_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electrum_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:analog_circuit_board",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:redstone_battery",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:stainless_steel_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:stainless_steel_hot_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:stainless_steel_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:stainless_steel_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:polyethylene",
+      "amount": 1,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "ae2:crank",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:large_quartz_bud",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:certus_quartz_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:silicon",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:controller",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:rose_quartz",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:polished_rose_quartz",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:electron_tube",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:nixie_tube",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "computercraft:computer_advanced",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "computercraft:computer_normal",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:op_amp",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:diode",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "immersive_weathering:cryosol",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "createaddition:seed_oil",
+      "amount": 80000,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "modern_industrialization:rubber_sheet",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:belt_connector",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:inductor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:argon",
+      "amount": 101250,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "modern_industrialization:monocrystalline_silicon",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:large_pump",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:packed_mud",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:mud_bricks",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:ceramic_small_vessel",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:brick_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:fire_starter",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:macuahuitl",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "create:andesite_alloy",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:ceramic_large_vessel",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:andesite",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:red_alloy",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:molten_redstone",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "modern_industrialization:red_alloy_gear",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:red_alloy_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:he_uranium_fuel_rod_depleted",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:invar_large_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:wood_pulp",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:advanced_upgrade",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:ultradense_metal_ball",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:pump",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:piston",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:resistor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:quantum_circuit",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:large_motor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:large_advanced_motor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:advanced_motor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:assembler",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:silicon_p_doped_plate",
+      "amount": 2,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:silicon_n_doped_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:iron_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:annealed_copper_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bauxite_tiny_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bauxite_crushed_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:aluminum_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:aluminum_tiny_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:aluminum_nugget",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:calosisum_gear",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:gold_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:he_uranium_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:brass_rotor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:battery_alloy_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_curved_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:emerald_crushed_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:lv_steam_turbine",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_boiler",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:ev_superconductor_transformer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:ev_hv_transformer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electric_furnace",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electrum_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:copper_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_rotor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:copper_curved_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:copper_bolt",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:copper_rotor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:zinc_rotor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:stainless_steel_blade",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:tin_rotor",
+      "amount": 3,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:advanced_pump",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:rubber_boots",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:motor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:not_gate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:or_gate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:cooling_cell",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_tank",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:clean_stainless_steel_machine_casing",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:large_tank",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:nuclear_reactor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:digital_circuit",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:wrench",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:singularity",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:conveyor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:le_uranium_fuel_rod_quad",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:quantum_machine_casing",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:quantum_machine_hull",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:plasma_turbine",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:circuit_assembler",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:guidebook",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:turbo_fluid_input_hatch",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:ev_storage_unit",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:superconductor_storage_unit",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:plasma_handling_iridium_machine_casing",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:fusion_chamber",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:fusion_reactor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:turbo_machine_hull",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:turbo_machine_casing",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:highly_advanced_machine_hull",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:rubber_helmet",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:chemical_reactor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:centrifuge",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_plated_bricks",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_compressor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:basic_upgrade",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:robot_arm",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:turbo_item_output_hatch",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:mechanical_arm",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:splash_potion",
+      "amount": 1,
+      "nbt": "{Potion:\"minecraft:harming\"}",
+      "type": "emi:item"
+    },
+    {
+      "item": "compact_storage:upgrade_row",
+      "amount": 50,
+      "type": "emi:item"
+    },
+    {
+      "item": "compact_storage:compact_chest_magenta",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "computercraft:disk",
+      "amount": 1,
+      "nbt": "{Color:1118481}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:fluix_pearl",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:wireless_receiver",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2wtlib:wireless_pattern_access_terminal",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "createaddition:diamond_grit_sandpaper",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "createaddition:copper_spool",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:cupronickel_coil",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "createaddition:alternator",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "createaddition:electric_motor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:mozanite_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "tag": "c:mozanite_ores",
+      "amount": 1,
+      "type": "emi:item_tag"
+    },
+    {
+      "item": "modern_industrialization:mozanite_crushed_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:mozanite_dust",
+      "amount": 9,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:neodymium_dust",
+      "amount": 2,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:superconductor_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:superconductor_double_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:wireless_access_point",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:inscriber",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "kubejs:calosisum_drill",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:red_alloy_wire",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:red_alloy_fine_wire",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "computercraft:turtle_advanced",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:qbit",
+      "amount": 2,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:creative_barrel",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:creative_storage_unit",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:creative_tank",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:creative_fluid_tank",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "fabric-furnaces:fabric_furnace",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:tier_1_rocket",
+      "amount": 1,
+      "nbt": "{BotariumData:{}}",
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:tier_3_rocket",
+      "amount": 1,
+      "nbt": "{BotariumData:{}}",
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:rocket_nose_cone",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:engine_fan",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:ostrum_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:ostrum_block",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:nasa_workbench",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:diesel_generator",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:pyrolyse_oven",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:zinc_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "moderndynamics:mv_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "moderndynamics:lv_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "moderndynamics:item_pipe",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "moderndynamics:fluid_pipe",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:acetylene",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "modern_industrialization:energy_p2p_tunnel",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:red_alloy_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:calculation_processor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:red_alloy_bucket",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:formation_core",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:annihilation_core",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:interface",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:cable_interface",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:fluix_crystal",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:fluix_glass_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:spatial_pylon",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:spatial_anchor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:debug_item_gen",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:logic_processor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steam_blast_furnace",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:soldering_alloy",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "modern_industrialization:soldering_alloy_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:crafting_accelerator",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:spatial_io_port",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:energy_acceptor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:vibration_chamber",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:quartz_vibrant_glass",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:fluix_covered_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:black_covered_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:white_glass_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "immersive_weathering:soot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:precision_mechanism",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_gear",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:raw_synthetic_oil",
+      "amount": 9000,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:synthetic_oil",
+      "amount": 9000,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "create:peculiar_bell",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:mechanical_harvester",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "createaddition:capacitor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "createaddition:straw",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "createaddition:cake_base",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:mechanical_mixer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:brass_bolt",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "minecraft:lava",
+      "amount": 1,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "minecraft:flint",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:gravel",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:gold_large_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:gold_curved_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:brass_large_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:copper_backtank",
+      "amount": 1,
+      "nbt": "{Air:900}",
+      "type": "emi:item"
+    },
+    {
+      "item": "create:zinc_nugget",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:engineering_processor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "computercraft:turtle_normal",
+      "amount": 1,
+      "nbt": "{RightUpgrade:\"minecraft:diamond_hoe\"}",
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:desh_block",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:tier_2_rocket",
+      "amount": 1,
+      "nbt": "{BotariumData:{}}",
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:desh_tank",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:oxygen_tank",
+      "amount": 1,
+      "nbt": "{BotariumData:{}}",
+      "type": "emi:item"
+    },
+    {
+      "item": "create:steam_engine",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:steam_whistle",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:brass_casing",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:shadow_steel_casing",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:railway_casing",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:copper_casing",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:refined_radiance_casing",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_machine_casing",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "immersive_weathering:permafrost",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "blockus:sweet_berries_crate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:red_alloy_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:copper_fine_wire",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:annealed_copper_wire",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:le_mox_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:le_mox_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bauxite_block",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:cogwheel",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "cccbridge:target_block",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:raw_zinc",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:chromium_crushed_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:coal_crushed_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:quartz_crushed_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:manganese_crushed_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:lignite_coal_crushed_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:lapis_crushed_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:crushed_nickel_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:crushed_uranium_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:crushed_zinc_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:crushed_iron_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:crushed_gold_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:crushed_copper_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:crushed_platinum_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:crushed_tin_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:crushed_lead_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:zinc_gear",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:zinc_tiny_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:zinc_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:raw_zinc_block",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:raw_ostrum",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:ostrum_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:calorite_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:raw_calorite",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:lightning_rod",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:propeller",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "immersive_weathering:jungle_bark",
+      "amount": 10,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:water_wheel",
+      "amount": 4,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:jungle_slab",
+      "amount": 36,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:jungle_log",
+      "amount": 41,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:shaft",
+      "amount": 24,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "amount": 48,
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:flint_shovel",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:stick",
+      "amount": 2,
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:clay_tool",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:iron_saw",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:smithing_table",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:flint_pickaxe",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:flint_shard",
+      "amount": 59,
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:plant_fiber",
+      "amount": 12,
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:stone_loose_rock",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:lignite_coal_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:redstone_crushed_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:salt_crushed_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "createaddition:zinc_sheet",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "ad_astra:fuel",
+      "amount": 81000,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "ad_astra:fuel_bucket",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:crude_oil",
+      "amount": 81000,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "modern_industrialization:distillery",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:oil_drilling_rig",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:hv_ev_transformer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:chromium_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:kanthal_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:kanthal_hot_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:kanthal_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:kanthal_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:kanthal_wire",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:kanthal_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:kanthal_coil",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:polarizer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electric_cutting_machine",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electric_compressor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electric_wiremill",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:turbo_diesel_generator",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:starter_diesel_generator",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:lv_storage_unit",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:hv_steam_turbine",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electric_water_pump",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electric_packer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:silicon_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:silicon_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:silicon_plate",
+      "amount": 3,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:large_steam_boiler",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:mv_steam_turbine",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:advanced_machine_casing",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_unpacker",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:biodiesel",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:diesel",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:diethyl_ether",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:sodium_hydroxide",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:styrene_butadiene",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "modern_industrialization:steel_wiremill",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electric_mixer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_drill",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:copper_drill",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_drill",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:gold_drill",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:stainless_steel_drill_head",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:titanium_drill",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_drill_head",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:aluminum_drill",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:advanced_large_steam_boiler",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:invar_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:invar_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:invar_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:invar_gear",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electric_blast_furnace",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_fluid_output_hatch",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_fluid_input_hatch",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:nuclear_fluid_hatch",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:hv_energy_output_hatch",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_item_input_hatch",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:invar_double_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_packer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_cutting_machine",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_macerator",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_compressor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 81000,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:light_gray_toolbox",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:beetroot_seeds",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "createaddition:seed_oil_bucket",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "tag": "c:glass_blocks",
+      "amount": 3,
+      "type": "emi:item_tag"
+    },
+    {
+      "item": "modern_industrialization:steel_upgrade",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:synthetic_rubber",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:styrene_butadiene_rubber",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "modern_industrialization:capacitor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_cutting_machine",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:lubricant",
+      "amount": 81,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "modern_industrialization:uncooked_steel_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:item_pipe",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:pink_fluid_pipe",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "tag": "modern_industrialization:item_pipes",
+      "amount": 1,
+      "type": "emi:item_tag"
+    },
+    {
+      "item": "modern_industrialization:black_item_pipe",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:sulfur_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_machine_casing",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_boiler",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:coke_oven",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "kubejs:ostumium_drill",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:forge_hammer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:fire_clay_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:fire_clay_brick",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:deepslate_salt_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:brass_hand",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:coke",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:superconductor_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:bread",
+      "amount": 32,
+      "type": "emi:item"
+    },
+    {
+      "item": "blockus:bread_box",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_gear",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_large_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_block",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_fluid_output_hatch",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_item_output_hatch",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bronze_barrel",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:jungle_planks",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:deepslate_gold_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "blockus:legacy_sapling",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "blockus:legacy_first_grass_block",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:aluminum_rod",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:aluminum_bolt",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:aluminum_rotor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electrolyzer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:aluminum_drill_head",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:weathered_cut_copper",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "moderndynamics:extractor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "moderndynamics:attractor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "moderndynamics:inhibitor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "moderndynamics:filter",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:uu_matter",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "ad_astra:jet_suit",
+      "amount": 1,
+      "nbt": "{BotariumData:{},Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:quantum_barrel",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:quantum_tank",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:quantum_upgrade",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:vinyl_chloride",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:heavy_water_steam",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:heavy_fuel",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:creosote",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:sulfuric_light_fuel",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:styrene",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:tritium",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:toluene",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:sulfuric_naphtha",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "ae2:molecular_assembler",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:helium_plasma",
+      "amount": 40500,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "createaddition:rolling_mill",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:quantum_helmet",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:1k_crafting_storage",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:cell_component_1k",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:item_storage_cell_1k",
+      "amount": 1,
+      "nbt": "{}",
+      "type": "emi:item"
+    },
+    {
+      "item": "computercraft:monitor_advanced",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "computercraft:wireless_modem_advanced",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:creative_motor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "computercraft:computer_command",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra_giselle_addon:gravity_normalizer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra_giselle_addon:fuel_loader",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra_giselle_addon:automation_nasa_workbench",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:ostumium_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "kubejs:ostumium_drill_head",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:mars_ostrum_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "tag": "c:ostrum_ores",
+      "amount": 1,
+      "type": "emi:item_tag"
+    },
+    {
+      "item": "ad_astra:deepslate_desh_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "decorative_blocks:brazier",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "scannable:blank_module",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "scannable:range_module",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "computercraft:pocket_computer_normal",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:red_alloy_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:iridium_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "tag": "c:iridium_ores",
+      "amount": 1,
+      "type": "emi:item_tag"
+    },
+    {
+      "item": "modern_industrialization:raw_iridium",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:furnace",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:silver_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:silver_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "amount": 20,
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:plant_string",
+      "amount": 4,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:acacia_log",
+      "amount": 8,
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:flint_axe",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:acacia_sapling",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:stripped_warped_stem",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:flowering_azalea_leaves",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "tag": "c:iron_rods",
+      "amount": 1,
+      "type": "emi:item_tag"
+    },
+    {
+      "item": "ad_astra:oxygen_gear",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:energizer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:stainless_steel_rotor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:engine_frame",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:fluid_pipe_duct",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:desh_engine",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:tier_1_rover",
+      "amount": 1,
+      "nbt": "{BotariumData:{}}",
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:wheel",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:glowing_calorite_pillar",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:calorite_tank",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:strophar_chest",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:moon_iron_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:earth_globe",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:rocket_fin",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:copper_wire",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:red_alloy_block",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:red_alloy_curved_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:red_alloy_bolt",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:red_alloy_ring",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:red_alloy_nugget",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:red_alloy_tiny_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:red_alloy_rod",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:brown_fluid_pipe",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:annealed_copper_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:copper_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:red_item_pipe",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:crushing_wheel",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:tin_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:annealed_copper_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:mixed_ingot_iridium",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:iridium_plate",
+      "amount": 8,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:chromium_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:chromium_plate",
+      "amount": 4,
+      "type": "emi:item"
+    },
+    {
+      "item": "kubejs:calosisum_drill_head",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:uranium_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:uranium_dust",
+      "amount": 9,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:uranium_235_tiny_dust",
+      "amount": 9,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:uranium_235_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:uranium_235_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:uranium_rod",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:tin_double_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:tungsten_rod",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:raw_tungsten",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:titanium_rod",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:pig_iron_bolt",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:pig_iron_curved_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:pig_iron_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:pig_iron_gear",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:platinum_hot_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:large_steam_turbine",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:pressurizer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:high_pressure_large_steam_boiler",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:cupronickel_wire",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:mv_storage_unit",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:nether_quartz_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:quartz",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:mv_energy_input_hatch",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:calosisum_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:calosisum_ingot",
+      "amount": 2,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:calosisum_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:venus_diamond_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:pig_iron_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:ostumium_curved_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:nickel_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:iron_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:yttrium_dust",
+      "amount": 3,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:mozanite_tiny_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:pig_iron_large_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:cell_component_4k",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:item_storage_cell_4k",
+      "amount": 1,
+      "nbt": "{}",
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:raw_desh",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:stainless_steel_drill",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:platinum_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:raw_platinum",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:platinum_sulfuric_solution",
+      "amount": 81000,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "modern_industrialization:iridium_tiny_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:iridium_nugget",
+      "amount": 9,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:iridium_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:iridium_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:industrial_tnt",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:heatproof_machine_casing",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:iridium_machine_casing_pipe",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:uranium_238_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:uranium_238_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:sulfuric_heavy_fuel",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:sugar_solution",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:propene",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:polyvinyl_chloride",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:purified_platinum_sulfuric_solution",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:raw_biodiesel",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:methane",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:helium_3",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:helium",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:chromium_hydrochloric_solution",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:chlorine",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:hydrochloric_acid",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:cryofluid",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "modern_industrialization:titanium_hot_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "blockus:legacy_explosion_proof_gold_block",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:bauxite_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:ev_energy_input_hatch",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:hv_energy_input_hatch",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:brass_funnel",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:moon_cheese_ore",
+      "amount": 26,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:ruby_tiny_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:salt_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:platinum_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:deepslate_ostrum_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:venus_calorite_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:quantum_link",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:quantum_chestplate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:lv_mv_transformer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_mixer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:ceramic_bucket",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:iron_pickaxe",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:stone_pickaxe",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:wooden_pickaxe",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:oak_slab",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:oak_planks",
+      "amount": 2,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:oak_log",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:stripped_oak_log",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "tag": "notreepunching:saws",
+      "amount": 1,
+      "type": "emi:item_tag"
+    },
+    {
+      "item": "ae2:semi_dark_monitor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:monitor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:ender_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_curved_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_rod",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:blastproof_alloy_curved_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:liquid_air",
+      "amount": 243000,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:oxygen",
+      "amount": 10368,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "ad_astra:iron_rod",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electrum_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electrum_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:antimony_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:annealed_copper_hot_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:copper_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:cupronickel_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:frostproof_machine_casing",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "tag": "c:gold_plates",
+      "amount": 1,
+      "type": "emi:item_tag"
+    },
+    {
+      "item": "create:potato_cannon",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "kubejs:moon_drill_head",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:titanium_drill_head",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:copper_drill_head",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:desh_plating",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:hammer",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:cheese",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "tag": "c:steel_plates",
+      "amount": 1,
+      "type": "emi:item_tag"
+    },
+    {
+      "item": "ad_astra:raw_desh_block",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:distillation_tower",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "computercraft:disk_drive",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "computercraft:printer",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "computercraft:pocket_computer_advanced",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "moderndynamics:hv_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:steam_cracked_heavy_fuel",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "ad_astra:cryo_fuel_bucket",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "ad_astra:oxygen",
+      "amount": 81000,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "ad_astra:oxygen_bucket",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:sulfuric_crude_oil",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:light_fuel",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "ad_astra:space_suit",
+      "amount": 1,
+      "nbt": "{BotariumData:{StoredFluids:[{Amount:81000L,Fluid:\"ad_astra:oxygen\"}]},Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:steel_tank",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:manganese_sulfuric_solution",
+      "amount": 729000,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "minecraft:raw_iron",
+      "amount": 3,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:iron_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:fluix_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:chain",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steel_block",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:4k_crafting_storage",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ae2:wireless_crafting_terminal",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:glass",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:aluminum_block",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:sodium_battery",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:hv_storage_unit",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "blockus:legacy_glowing_obsidian",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:steel_plating",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "tag": "ad_astra_platform:iron_plates",
+      "amount": 1,
+      "type": "emi:item_tag"
+    },
+    {
+      "item": "modern_industrialization:gold_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:copper_block",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:plutonium_battery",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:plutonium_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:plutonium_tiny_dust",
+      "amount": 24,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:le_uranium_fuel_rod_depleted",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:le_uranium_fuel_rod",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:electric_unpacker",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:diesel_mining_drill",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:steam_mining_drill",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:large_advanced_pump",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "ad_astra:oil",
+      "amount": 81000,
+      "type": "emi:fluid"
+    },
+    {
+      "item": "ad_astra:oil_bucket",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:sugar_cane",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "tag": "ad_astra_platform:steel_plates",
+      "amount": 3,
+      "type": "emi:item_tag"
+    },
+    {
+      "item": "modern_industrialization:silver_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:sturdy_sheet",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:iron_tiny_dust",
+      "amount": 9,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:high_pressure_heavy_water_steam",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:high_pressure_steam",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "fluid": "modern_industrialization:steam",
+      "amount": 0,
+      "type": "emi:fluid"
+    },
+    {
+      "tag": "c:copper_plates",
+      "amount": 1,
+      "type": "emi:item_tag"
+    },
+    {
+      "item": "modern_industrialization:coal_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:red_me_wire",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:metal_girder",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:crushed_silver_ore",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:ostrum_fluid_pipe",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "ad_astra:desh_fluid_pipe",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "immersive_weathering:steel_wool",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:crafting_table",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:cupronickel_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:cyan_me_wire",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:white_me_wire",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "immersive_weathering:plate_iron",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:cupronickel_plate",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:iron_sheet",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:annealed_copper_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "modern_industrialization:copper_dust",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:crafter_slot_cover",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:gearbox",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "create:cuckoo_clock",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "notreepunching:flint_knife",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "itemfilters:or",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "tag": "ad_astra_platform:steel_blocks",
+      "amount": 1,
+      "type": "emi:item_tag"
+    },
+    {
+      "tag": "ad_astra_platform:iron_rods",
+      "amount": 1,
+      "type": "emi:item_tag"
+    },
+    {
+      "item": "ad_astra:steel_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "moderndynamics:superconductor_cable",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "fluid": "modern_industrialization:naphtha",
+      "amount": 16200,
+      "type": "emi:fluid"
+    }
+  ],
+  "craft_history": [
+    "create:crafting/kinetics/depot",
+    "create:crafting/kinetics/encased_fan",
+    "create:crafting/kinetics/propeller",
+    "create:crafting/kinetics/gearbox",
+    "create:crafting/kinetics/mechanical_press",
+    "minecraft:iron_block",
+    "notreepunching:sticks_from_planks_with_saw",
+    "minecraft:bucket",
+    "create:crafting/kinetics/water_wheel",
+    "minecraft:jungle_slab",
+    "create:crafting/kinetics/large_cogwheel",
+    "create:crafting/kinetics/shaft",
+    "create:crafting/kinetics/cogwheel",
+    "minecraft:iron_nugget",
+    "minecraft:chest",
+    "notreepunching:jungle_planks_with_saw",
+    "minecraft:clay",
+    "notreepunching:flint_shovel",
+    "notreepunching:clay_tool",
+    "notreepunching:sticks_from_logs_with_saw",
+    "notreepunching:iron_saw",
+    "notreepunching:sticks_from_logs_with_flint_axe",
+    "minecraft:smithing_table",
+    "notreepunching:oak_planks_with_flint_axe",
+    "minecraft:furnace",
+    "minecraft:torch",
+    "notreepunching:acacia_planks_with_flint_axe",
+    "notreepunching:flint_pickaxe",
+    "notreepunching:sticks_from_planks_with_flint_axe",
+    "minecraft:crafting_table",
+    "notreepunching:plant_string",
+    "notreepunching:flint_knife",
+    "notreepunching:flint_axe",
+    "notreepunching:flint_from_gravel",
+    "notreepunching:cobblestone_from_rocks",
+    "modern_industrialization:materials/blast_furnace/steel",
+    "modern_industrialization:assembler_generated/electric_age/circuit/craft/lv_circuit_board",
+    "modern_industrialization:vanilla_recipes/lignite_torch"
+  ],
+  "recipe_defaults": {
+    "added": [
+      "modern_industrialization:oil/chemical_reactor/ethanol_to_ethylene",
+      "modern_industrialization:materials/electrum/craft/cable",
+      "modern_industrialization:electric_age/circuit/craft/lv_circuit_board_asbl",
+      "modern_industrialization:assembler_generated/electric_age/circuit/craft/electronic_circuit_board",
+      "create:milling/gravel",
+      "modern_industrialization:materials/stainless_steel/compressor/main",
+      "create:milling/cobblestone",
+      "modern_industrialization:alloy/mixer/stainless_steel/dust",
+      "modern_industrialization:materials/stainless_steel/blast_furnace/dust",
+      "modern_industrialization:materials/aluminum/blast_furnace/dust",
+      "modern_industrialization:petrochem/polymerization/ethylene_lead",
+      "create:compacting/andesite_from_flint",
+      "modern_industrialization:electric_age/battery/lv_battery_asbl",
+      "modern_industrialization:oil/chemical_reactor/ethylene_to_ethanol",
+      "modern_industrialization:materials/aluminum/compressor/main",
+      "modern_industrialization:materials/aluminum/craft/cable",
+      "modern_industrialization:electric_age/battery/silicon_battery_asbl",
+      "modern_industrialization:materials/stainless_steel/vacuum_freezer/hot_ingot"
+    ],
+    "disabled": [
+      "minecraft:oak_slab"
+    ]
+  }
+}

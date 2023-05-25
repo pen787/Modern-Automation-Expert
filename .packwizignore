@@ -1,0 +1,27 @@
+# .packwizignore follows the same format as .gitignore, and can be used to exclude unwanted files from pack exports
+# See https://git-scm.com/docs/gitignore
+
+# Exclude README
+/README.md
+/LICENSE
+
+logs
+backups
+.fabric
+coremods
+crash-reports
+dashloader-cache
+journeymap
+local
+debug
+data
+localconfigs
+logs
+modTranslations
+patchouli_books
+saves
+server-resource-packs
+shaderpacks
+moddata
+screenshots
+

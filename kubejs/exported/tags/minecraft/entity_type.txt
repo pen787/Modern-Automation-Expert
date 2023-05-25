@@ -1,0 +1,162 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 27, 2023, 6:40:26 PM
+
+#minecraft:axolotl_always_hostiles
+- minecraft:drowned (from Default)
+- minecraft:guardian (from Default)
+- minecraft:elder_guardian (from Default)
+
+#minecraft:freeze_immune_entity_types
+- minecraft:stray (from Default)
+- minecraft:polar_bear (from Default)
+- minecraft:snow_golem (from Default)
+- minecraft:wither (from Default)
+- minecraft:salmon (from Immersive Weathering)
+- minecraft:cod (from Immersive Weathering)
+- minecraft:squid (from Immersive Weathering)
+- minecraft:glow_squid (from Immersive Weathering)
+- minecraft:drowned (from Immersive Weathering)
+- minecraft:wolf (from Immersive Weathering)
+- minecraft:guardian (from Immersive Weathering)
+- minecraft:elder_guardian (from Immersive Weathering)
+
+#ad_astra:entities/lives_without_oxygen
+- ad_astra:lunarian (from Ad Astra)
+- ad_astra:corrupted_lunarian (from Ad Astra)
+- ad_astra:star_crawler (from Ad Astra)
+- ad_astra:martian_raptor (from Ad Astra)
+- ad_astra:pygro (from Ad Astra)
+- ad_astra:zombified_pygro (from Ad Astra)
+- ad_astra:pygro_brute (from Ad Astra)
+- ad_astra:mogler (from Ad Astra)
+- ad_astra:zombified_mogler (from Ad Astra)
+- ad_astra:sulfur_creeper (from Ad Astra)
+- ad_astra:lunarian_wandering_trader (from Ad Astra)
+- minecraft:ender_dragon (from Ad Astra)
+- minecraft:wither (from Ad Astra)
+- minecraft:skeleton (from Ad Astra)
+- minecraft:stray (from Ad Astra)
+- minecraft:armor_stand (from Ad Astra)
+- minecraft:iron_golem (from Ad Astra)
+- minecraft:snow_golem (from Ad Astra)
+- minecraft:magma_cube (from Ad Astra)
+- minecraft:allay (from Ad Astra)
+- minecraft:warden (from Ad Astra)
+
+#ad_astra:entities/fire_immune
+- ad_astra:pygro (from Ad Astra)
+- ad_astra:zombified_pygro (from Ad Astra)
+- ad_astra:pygro_brute (from Ad Astra)
+- ad_astra:mogler (from Ad Astra)
+- ad_astra:zombified_mogler (from Ad Astra)
+- ad_astra:sulfur_creeper (from Ad Astra)
+- ad_astra:lunarian_wandering_trader (from Ad Astra)
+
+#minecraft:impact_projectiles
+- #minecraft:arrows (from Default)
+- minecraft:snowball (from Default)
+- minecraft:fireball (from Default)
+- minecraft:small_fireball (from Default)
+- minecraft:egg (from Default)
+- minecraft:trident (from Default)
+- minecraft:dragon_fireball (from Default)
+- minecraft:wither_skull (from Default)
+- ad_astra:ice_spit (from Ad Astra)
+
+#minecraft:beehive_inhabitors
+- minecraft:bee (from Default)
+
+#c:boats
+- minecraft:boat (from Fabric Convention Tags)
+- minecraft:chest_boat (from Fabric Convention Tags)
+
+#minecraft:skeletons
+- minecraft:skeleton (from Default)
+- minecraft:stray (from Default)
+- minecraft:wither_skeleton (from Default)
+
+#immersive_weathering:tramples_paths
+- minecraft:villager (from Immersive Weathering)
+- minecraft:iron_golem (from Immersive Weathering)
+
+#ftbquests:no_loot_crates
+
+#minecraft:arrows
+- minecraft:arrow (from Default)
+- minecraft:spectral_arrow (from Default)
+
+#minecraft:frog_food
+- minecraft:slime (from Default)
+- minecraft:magma_cube (from Default)
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider (from Default)
+- minecraft:blaze (from Default)
+- minecraft:magma_cube (from Default)
+
+#carryon:entity_blacklist
+- ad_astra:tier_1_rocket (from Ad Astra)
+- ad_astra:tier_2_rocket (from Ad Astra)
+- ad_astra:tier_3_rocket (from Ad Astra)
+- ad_astra:tier_4_rocket (from Ad Astra)
+
+#c:bosses
+- minecraft:ender_dragon (from Fabric Convention Tags)
+- minecraft:wither (from Fabric Convention Tags)
+- minecraft:ender_dragon (from Porting Lib Tags)
+- minecraft:wither (from Porting Lib Tags)
+
+#ftbchunks:entity_interact_whitelist
+- corpse:corpse? (from FTB Chunks)
+
+#minecraft:raiders
+- minecraft:evoker (from Default)
+- minecraft:pillager (from Default)
+- minecraft:ravager (from Default)
+- minecraft:vindicator (from Default)
+- minecraft:illusioner (from Default)
+- minecraft:witch (from Default)
+
+#c:minecarts
+- minecraft:minecart (from Fabric Convention Tags)
+- minecraft:tnt_minecart (from Fabric Convention Tags)
+- minecraft:chest_minecart (from Fabric Convention Tags)
+- minecraft:furnace_minecart (from Fabric Convention Tags)
+- minecraft:command_block_minecart (from Fabric Convention Tags)
+- minecraft:hopper_minecart (from Fabric Convention Tags)
+- minecraft:spawner_minecart (from Fabric Convention Tags)
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit (from Default)
+- minecraft:endermite (from Default)
+- minecraft:silverfish (from Default)
+- minecraft:fox (from Default)
+
+#industrialforegoing:mob_imprisonment_tool_blacklist
+- artifacts:mimic (from Artifacts)
+
+#immersive_weathering:light_freeze_immune
+- #minecraft:freeze_immune_entity_types (from Immersive Weathering)
+- minecraft:fox (from Immersive Weathering)
+- minecraft:rabbit (from Immersive Weathering)
+- minecraft:sheep (from Immersive Weathering)
+- minecraft:goat (from Immersive Weathering)
+- minecraft:stray (from Immersive Weathering)
+- minecraft:polar_bear (from Immersive Weathering)
+- minecraft:salmon (from Immersive Weathering)
+- minecraft:cod (from Immersive Weathering)
+- minecraft:squid (from Immersive Weathering)
+- minecraft:glow_squid (from Immersive Weathering)
+- minecraft:guardian (from Immersive Weathering)
+- minecraft:elder_guardian (from Immersive Weathering)
+- minecraft:drowned (from Immersive Weathering)
+- minecraft:wolf (from Immersive Weathering)
+- minecraft:wither (from Immersive Weathering)
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish (from Default)
+- minecraft:pufferfish (from Default)
+- minecraft:salmon (from Default)
+- minecraft:cod (from Default)
+- minecraft:squid (from Default)
+- minecraft:glow_squid (from Default)
+- minecraft:tadpole (from Default)

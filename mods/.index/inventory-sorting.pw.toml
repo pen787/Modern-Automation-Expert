@@ -1,0 +1,14 @@
+name = "Inventory Sorting"
+filename = "InventorySorter-1.8.10-1.19.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "6ce11087da3555f0f48e18e067384abae3e5acc6"
+
+[update]
+[update.curseforge]
+file-id = 3885990
+project-id = 325471

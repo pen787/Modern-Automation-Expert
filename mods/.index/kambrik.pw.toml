@@ -1,0 +1,14 @@
+name = "Kambrik"
+filename = "Kambrik-4.0-1.19.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "9b0da3c662988e840520b16218d904b992d1a7b7"
+
+[update]
+[update.curseforge]
+file-id = 3937716
+project-id = 455585

@@ -1,0 +1,26 @@
+# Exclude exported CurseForge zip files
+*.zip
+
+# Exclude exported Modrinth modpacks
+*.mrpack
+
+logs
+backups
+.fabric
+coremods
+crash-reports
+dashloader-cache
+journeymap
+local
+debug
+data
+localconfigs
+logs
+modTranslations
+patchouli_books
+saves
+server-resource-packs
+shaderpacks
+moddata
+screenshots
+

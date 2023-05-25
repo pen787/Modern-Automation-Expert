@@ -1,0 +1,55 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "modern_industrialization:book": {
+      "viewedEntries": [
+        "modern_industrialization:introduction/introduction",
+        "modern_industrialization:steam_age/quarry",
+        "modern_industrialization:steam_age/bronze_boiler",
+        "modern_industrialization:electric_age/basic_machines",
+        "modern_industrialization:electric_age/electric_quarry",
+        "modern_industrialization:steam_age/making_bronze",
+        "modern_industrialization:steam_age/pipes",
+        "modern_industrialization:midgame/nuclear_reactor",
+        "modern_industrialization:lategame/replicator",
+        "modern_industrialization:steam_age/tanks",
+        "modern_industrialization:midgame/high_pressure",
+        "modern_industrialization:electric_age/electricity",
+        "modern_industrialization:steam_age/steel_machines",
+        "modern_industrialization:steam_age/steam_machines",
+        "modern_industrialization:steam_age/water_pump",
+        "modern_industrialization:electric_age/config_card",
+        "modern_industrialization:steam_age/forge_hammer",
+        "modern_industrialization:electric_age/oil_processing",
+        "modern_industrialization:electric_age/making_cables",
+        "modern_industrialization:electric_age/large_steam_boiler",
+        "modern_industrialization:lategame/fusion_reactor",
+        "modern_industrialization:electric_age/advanced_machines",
+        "modern_industrialization:electric_age/ebf",
+        "modern_industrialization:midgame/diesel",
+        "modern_industrialization:lategame/quantum_tier",
+        "modern_industrialization:steam_age/coke_oven",
+        "modern_industrialization:midgame/upgrades",
+        "modern_industrialization:steam_age/steel",
+        "modern_industrialization:midgame/stainless_steel",
+        "modern_industrialization:midgame/fluid_transfer",
+        "modern_industrialization:midgame/implosion_compressor",
+        "modern_industrialization:electric_age/jetpack",
+        "modern_industrialization:electric_age/large_tank",
+        "modern_industrialization:lategame/gravichestplate"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "ad_astra:astrodux": {
+      "viewedEntries": [
+        "ad_astra:the_moon/oxygen_distributor",
+        "ad_astra:the_moon/lunarians",
+        "ad_astra:the_moon/mars"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

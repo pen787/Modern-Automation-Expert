@@ -1,0 +1,34 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_3928
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = USED RAM : {"placeholder":"percentram"}% PLAYER NAME : {"placeholder":"playername"} TOTAL MODS : {"placeholder":"totalmods"}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -477
+  width = 652
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 1848bc46-bb25-450d-9ac1-cb7dc070e7451682923708286
+  y = -490
+  alignment = left
+  height = 40
+}
+
