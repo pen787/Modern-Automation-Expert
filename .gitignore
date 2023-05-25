@@ -24,10 +24,11 @@ shaderpacks
 moddata
 screenshots
 mod
-options.txt
-patchouli_data.json
-rhino.local.properties
-usercache.json
+/options.txt
+/patchouli_data.json
+/rhino.local.properties
+/usercache.json
 texturepacks
+/emi.json
 kubejs/exported/*.json
 .vscode
