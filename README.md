@@ -1,6 +1,6 @@
 # Modern-Automation-Expert
 
-This minecraft modpack that incorporate Modern Industrialization, Create, Ad astra, And Etc to make hard and challenge automation.
+This minecraft modpack that incorporate Modern Industrialization, Create, Ad astra, And Etc to make hard and challenge automation, and mean to be fun.
 From the primitive start to electric age and get the creative.
 
 ## How to import the project
