@@ -30,3 +30,4 @@ rhino.local.properties
 usercache.json
 texturepacks
 kubejs/exported/*.json
+.vscode
