@@ -33,3 +33,4 @@ texturepacks
 kubejs/exported/*.json
 .vscode
 irisUpdateInfo.json
+usercache.json
