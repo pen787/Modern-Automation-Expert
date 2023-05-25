@@ -29,3 +29,4 @@ patchouli_data.json
 rhino.local.properties
 usercache.json
 texturepacks
+kubejs/exported/*.json
