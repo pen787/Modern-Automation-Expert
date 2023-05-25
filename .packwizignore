@@ -24,4 +24,12 @@ server-resource-packs
 shaderpacks
 moddata
 screenshots
-
+/options.txt
+/patchouli_data.json
+/rhino.local.properties
+/usercache.json
+texturepacks
+/emi.json
+kubejs/exported/*.json
+.vscode
+irisUpdateInfo.json
