@@ -25,7 +25,6 @@ moddata
 screenshots
 mod
 rhino.local.properties
-usercache.json
 texturepacks
 *.json
 kubejs/exported/*.json
