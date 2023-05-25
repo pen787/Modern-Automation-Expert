@@ -27,6 +27,7 @@ mod
 rhino.local.properties
 texturepacks
 *.json
+*.txt
 kubejs/exported/*.json
 /.vscode
 /modern_industrialization/generated_resources
