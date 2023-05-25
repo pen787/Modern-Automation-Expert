@@ -226,18 +226,52 @@ ServerEvents.recipes((e) => {
         c:'notreepunching:clay_flower_pot',
     })
 
+    //nerf bronze
+    e.shapeless('modern_industrialization:copper_dust',['kubejs:mortar','minecraft:raw_copper'])
+    e.shapeless('modern_industrialization:tin_dust',['kubejs:mortar','modern_industrialization:raw_tin'])
+
+    e.shapeless('2x modern_industrialization:bronze_dust',['modern_industrialization:tin_dust','3x modern_industrialization:copper_dust'])
+
+    // harder iron
     //flux
     e.recipes.modern_industrialization.macerator(2, 100)
         .itemIn('#c:limestone')
         .itemOut("2x modern_industrialization:flux_dust");
     
+    e.remove({type: "minecraft:smelting", output:'minecraft:iron_ingot', input:'modern_industrialization:iron_dust'})
+    e.remove({type: "minecraft:blasting", output:'minecraft:iron_ingot', input:'modern_industrialization:iron_dust'})
+    e.remove({type: "minecraft:smelting", output:'minecraft:iron_ingot', input:'#c:raw_iron_ores'})
+    e.remove({type: "minecraft:blasting", output:'minecraft:iron_ingot', input:'#c:raw_iron_ores'})
     e.recipes.create.milling('2x modern_industrialization:flux_dust', '#c:limestone')
+    e.recipes.create.mixing('modern_industrialization:flux_Iron_dust',['modern_industrialization:flux_dust', 'minecraft:raw_iron'])
+
+    e.recipes.modern_industrialization.blast_furnace(1,200)
+        .itemIn('modern_industrialization:iron_dust')
+        .itemOut('minecraft:iron_ingot');
+
+    e.recipes.modern_industrialization.blast_furnace(1,200)
+        .itemIn('#c:raw_iron_ores')
+        .itemOut('minecraft:iron_ingot');
+
+    e.recipes.modern_industrialization.blast_furnace(1,100)
+        .itemIn('modern_industrialization:flux_Iron_dust')
+        .itemOut('minecraft:iron_ingot');
 
     e.shapeless('modern_industrialization:flux_dust', ['kubejs:mortar','#c:limestone'])
     e.shapeless('modern_industrialization:flux_Iron_dust', ['kubejs:mortar','minecraft:raw_iron','modern_industrialization:flux_dust'])
 
     e.replaceInput({input: 'minecraft:raw_iron', type: "smelting"}, 'minecraft:raw_iron','modern_industrialization:flux_Iron_dust')
     e.replaceInput({input: 'minecraft:raw_iron', type: "blasting"}, 'minecraft:raw_iron','modern_industrialization:flux_Iron_dust')
+
+    //easy input hatch
+    e.shapeless('modern_industrialization:bronze_item_input_hatch',['4x modern_industrialization:bronze_large_plate','minecraft:chest'])
+    e.shapeless('modern_industrialization:bronze_fluid_input_hatch',['4x modern_industrialization:bronze_large_plate','modern_industrialization:bronze_tank'])
+
+    //primitive alloy smelter
+    e.recipes.modern_industrialization.primitive_alloy_smelter(2,200)
+        .itemIn('3x modern_industrialization:copper_dust')
+        .itemIn('modern_industrialization:tin_dust')
+        .itemOut('4x modern_industrialization:bronze_dust');
 
     //test
     // e.forEachRecipe({ type: 'create:crushing', output: '#create:crushed_ores' }, r => {

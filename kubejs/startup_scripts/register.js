@@ -381,7 +381,7 @@ MIMachineEvents.registerMachines((event) => {
         false
     );
 
-    const PASHatch = event.hatchOf("item_input", "item_output");
+    const PASHatch = event.hatchOf("item_input", "item_output","fluid_input");
     const brick_member = event.memberOfBlock("minecraft:bricks");
     const PASShapeBuilder = event.startShape("brick_casing");
     
@@ -401,6 +401,7 @@ MIMachineEvents.registerMachines((event) => {
         PASShapeBuilder.add(1, y, 1, brick_member, event.noHatch());
         PASShapeBuilder.add(0, y, 2, brick_member, event.noHatch());
     }
+    PASShapeBuilder.add(0, 1, 0, brick_member, event.noHatch());
    
 
     // PASShapeBuilder.add(x, -1, z, brick_member, event.noHatch());
