@@ -10,6 +10,8 @@ From the primitive start to electric age and get the creative.
 3. Import Modpack in your laucher
 4. Use a VS Code to Edit Script in Kubejs Folder.
 
+For more Infromation: <https://packwiz.infra.link/tutorials/creating/getting-started/>
+
 ## How to bulid a modpack
 
 1. Install the packwiz

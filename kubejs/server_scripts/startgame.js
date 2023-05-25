@@ -231,7 +231,7 @@ ServerEvents.recipes((e) => {
         .itemIn('#c:limestone')
         .itemOut("2x modern_industrialization:flux_dust");
     
-    e.recipe.create.milling('2x modern_industrialization:flux_dust', '#c:limestone')
+    e.recipes.create.milling('2x modern_industrialization:flux_dust', '#c:limestone')
 
     e.shapeless('modern_industrialization:flux_dust', ['kubejs:mortar','#c:limestone'])
     e.shapeless('modern_industrialization:flux_Iron_dust', ['kubejs:mortar','minecraft:raw_iron','modern_industrialization:flux_dust'])
