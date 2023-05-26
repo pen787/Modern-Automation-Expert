@@ -1,0 +1,14 @@
+name = "No more Infinite Water"
+filename = "finitewater-fabric-4.1-1.19.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "b2971e549e659d436261d789524c8eef28b61b12"
+
+[update]
+[update.curseforge]
+file-id = 4019532
+project-id = 596461

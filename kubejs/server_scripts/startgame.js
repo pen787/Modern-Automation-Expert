@@ -168,7 +168,6 @@ ServerEvents.recipes((e) => {
 
     //rubber
     // e.recipes.create.compacting([Item.of('modern_industrialization:rubber_sheet', 2)], [Fluid.of('createaddition:seed_oil', 80000)])
-    e.recipes.create.filling('modern_industrialization:rubber_sheet', [Fluid.of('createaddition:seed_oil', 80000), 'minecraft:paper'])
 
     //custom "create:belt_connector"
     e.shaped("modern_industrialization:conveyor", [" b ", "mwm", "   "], {
@@ -271,6 +270,18 @@ ServerEvents.recipes((e) => {
     
     //steam
     e.campfireCooking('modern_industrialization:steam_bucket','minecraft:water_bucket')
+
+    //real brass ratio
+    e.remove({type: "create:mixing", output: 'create:brass_ingot'})
+    e.recipes.create.mixing("modern_industrialization:brass_dust", ["modern_industrialization:copper_dust", "modern_industrialization:zinc_dust"])
+    e.recipes.create.mixing('create:brass_ingot', [Item.of("minecraft:copper_ingot") , Item.of("create:zinc_ingot")]).heated()
+
+    //replace a electron tube to capaistor
+    // e.replaceInput({output:'create:mechanical_crafter'}, 'create:electron_tube','modern_industrialization:capacitor')
+    // e.replaceInput({output:'create:deployer'}, 'create:electron_tube','modern_industrialization:capacitor')
+
+    // new recipe bronze machine
+
 
     //test
     // e.forEachRecipe({ type: 'create:crushing', output: '#create:crushed_ores' }, r => {

@@ -1,4 +1,4 @@
-// 1.19.2	2023-05-26T19:53:56.6733592	Machine Models Provider
+// 1.19.2	2023-05-26T23:41:31.1117696	Machine Models Provider
 e1c0f89ea6c3cb96762878ceb739356c0ebc476c assets\modern_industrialization\models\machine\assembler.json
 66369fdb5b6097d341dbf9ebea13aefea813cc76 assets\modern_industrialization\models\machine\ev_storage_unit.json
 c7a92aac28e086df403d70732a7359ff13cb17f2 assets\modern_industrialization\models\machine\lv_mv_transformer.json
@@ -67,6 +67,7 @@ c7a92aac28e086df403d70732a7359ff13cb17f2 assets\modern_industrialization\models\
 93cfa3fddf26095d1b169d993ddb612486efc2b7 assets\modern_industrialization\models\machine\steel_mixer.json
 4bf2722290a9d63021800d2603d708084fe2ee7a assets\modern_industrialization\models\machine\starter_diesel_generator.json
 7cdae4d023520692657e914f121ce1cf08af0e1c assets\modern_industrialization\models\machine\hv_energy_input_hatch.json
+4a0cbf1e460d00ebabfa5b1a99ff08894aa24bde assets\modern_industrialization\models\machine\laser_machine.json
 dd04f2678dac956e07ef90aceb4b9fee5ede3077 assets\modern_industrialization\models\machine\large_diesel_generator.json
 39c54e4fdf855a4edd11d6a4e652772f0086de5d assets\modern_industrialization\models\machine\highly_advanced_item_input_hatch.json
 4f2aa92799446368828dab053f74b7ce2e67e3dc assets\modern_industrialization\models\machine\configurable_chest.json

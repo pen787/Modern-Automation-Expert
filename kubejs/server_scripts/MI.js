@@ -520,7 +520,7 @@ ServerEvents.recipes((e) => {
     e.recipes.modern_industrialization.mixer(2, 100)
         .itemIn("modern_industrialization:zinc_dust")
         .itemIn("modern_industrialization:copper_dust")
-        .itemOut("2x modern_industrialization:brass_dust");
+        .itemOut("modern_industrialization:brass_dust");
 
     //red alloy liquid
     e.recipes.modern_industrialization.blast_furnace(4, 200)
@@ -535,7 +535,20 @@ ServerEvents.recipes((e) => {
         .itemIn('4x modern_industrialization:robot_arm')
         .itemIn('ad_astra:nasa_workbench')
         .itemOut('modern_industrialization:rocket_assembler')
+    
+    // rose_quartz in bronze age
+    e.remove({type:"create:crafting/materials/rose_quartz"})
+    e.recipes.modern_industrialization.mixer(2, 200)
+        .itemIn('minecraft:quartz')
+        .itemIn('8x minecraft:redstone')
+        .itemOut('create:rose_quartz');
 
+    // assembing a 'create:electron_tube'
+    e.recipes.modern_industrialization.assembler(8, 500)
+        .itemIn('modern_industrialization:iron_plate')
+        .itemIn('create:polished_rose_quartz')
+        .fluidIn('modern_industrialization:soldering_alloy', 100)
+        .itemOut('2x create:electron_tube')
 });
 
 ServerEvents.tags("item", (event) => {

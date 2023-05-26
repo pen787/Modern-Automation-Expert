@@ -49,6 +49,13 @@ StartupEvents.registry("item", (event) => {
     //register a tool
     event.create("mortar","sword").displayName("Mortar").tier("flint_tool").attackDamageBaseline(0.5)
 
+    event.create("vacuum_tube").displayName("Vacuum tube")
+    event.create("random_access_memory").displayName("Ram Plate")
+    event.create("central_processing_unit").displayName("CPU Plate")
+
+    event.create("shape.mold.bun").displayName("Vacuum tube Mold").texture("kubejs:item/mold/shape.mold.bun")
+    event.create("shape.mold.pickaxe").displayName("Pickaxe Mold").texture("kubejs:item/mold/shape.mold.pickaxe")
+
     // event.create("file").displayName("File")
 
 });
@@ -254,6 +261,7 @@ MIMachineEvents.registerCasings((event) => {
 
 let CIRCUIT_ASSEMBLER;
 let ROCKET_ASSEMBLER;
+let LASER_MACHINE;
 let PRIMITIVE_ALLOY_SMELTER;
 let ALLOY_SMELTER;
 
@@ -271,6 +279,11 @@ MIMachineEvents.registerRecipeTypes((event) => {
 
     PRIMITIVE_ALLOY_SMELTER = event
         .register("primitive_alloy_smelter")
+        .withItemInputs() // enable item inputs
+        .withItemOutputs(); // enable item outputs
+
+    LASER_MACHINE = event
+        .register("laser_machine")
         .withItemInputs() // enable item inputs
         .withItemOutputs(); // enable item outputs
 
@@ -353,6 +366,43 @@ MIMachineEvents.registerMachines((event) => {
         // front overlay?, top overlay?, side overlay?
         true,
         true,
+        false
+    );
+
+    event.craftingSingleBlock(
+        /* GENERAL PARAMETERS FIRST */
+        // English name, internal name, recipe type (see above),
+        //list of tiers (can be bronze/steel/electric)
+        "Laser Machine",
+        "laser_machine",
+        LASER_MACHINE,
+        ["electric"],
+
+        /* GUI CONFIGURATION */
+        // Background height (or -1 for default value), progress bar, efficiency bar, energy bar
+        186,
+        event.progressBar(105, 45, "circuit"),
+        event.efficiencyBar(48, 86),
+        event.energyBar(14, 34),
+
+        /* SLOT CONFIGURATION */
+        // Number of slots: item inputs, item outputs, fluid inputs, fluid outputs
+        2,
+        1,
+        0,
+        0,
+        // Capacity for fluid slots (unused here)
+        16,
+        // Slot positions: items and fluids.
+        // Explanation: 3x3 grid of item slots starting at position (42, 27),
+        //then 1x3 grid of item slots starting at position (139, 27).
+        (items) => items.addSlots(42, 27, 2, 1).addSlots(139, 27, 1, 1),
+        (fluids) => { },
+
+        /* MODEL CONFIGURATION */
+        // front overlay?, top overlay?, side overlay?
+        true,
+        false,
         false
     );
 
