@@ -71,20 +71,6 @@ ServerEvents.recipes((e) => {
         "modern_industrialization:copper_dust",
         "#c:tin_dusts",
     ]);
-
-    //harder andesite alloy
-    e.smithing(
-        "create:andesite_alloy",
-        "minecraft:andesite",
-        "minecraft:iron_nugget"
-    );
-
-    e.smithing(
-        "create:andesite_alloy",
-        "minecraft:andesite",
-        '#c:zinc_nuggets'
-    );
-
     //harder paper
     e.remove({ output: MC("paper"), type: MC("crafting_shapeless") });
     e.remove({ output: MC("paper"), type: MC("crafting_shaped") });
@@ -272,6 +258,16 @@ ServerEvents.recipes((e) => {
         .itemIn('3x modern_industrialization:copper_dust')
         .itemIn('modern_industrialization:tin_dust')
         .itemOut('4x modern_industrialization:bronze_dust');
+    
+    e.recipes.modern_industrialization.primitive_alloy_smelter(2,200)
+        .itemIn("2x minecraft:andesite")
+        .itemIn("2x minecraft:iron_nugget")
+        .itemOut("2x create:andesite_alloy");
+    
+    e.recipes.modern_industrialization.primitive_alloy_smelter(2,200)
+        .itemIn("2x minecraft:andesite")
+        .itemIn('2x #c:zinc_nuggets')
+        .itemOut("2x create:andesite_alloy");
 
     //test
     // e.forEachRecipe({ type: 'create:crushing', output: '#create:crushed_ores' }, r => {
