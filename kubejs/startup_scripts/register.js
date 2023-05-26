@@ -3,6 +3,17 @@ Platform.mods.kubejs.name = "Modern Automation Expert";
 
 // console.info('Hello, World! (You will only see this line once in console, during startup)')
 
+ItemEvents.toolTierRegistry (event => {
+    event.add('flint_tool', tier => {
+      tier.uses = 128
+      tier.speed = 0.5
+      tier.attackDamageBonus = 0.5
+      tier.level = 1
+      tier.enchantmentValue = 14
+      tier.repairIngredient = 'minecraft:flint'
+    })
+})
+
 StartupEvents.registry("item", (event) => {
     let newDrill = (id, display, color, tooltip) => {
         event
@@ -36,8 +47,9 @@ StartupEvents.registry("item", (event) => {
     newDrill("superdium", "Superdium", "#FF0000", "How it's not break!?");
 
     //register a tool
-    event.create("mortar").displayName("Mortar")
-    event.create("file").displayName("File")
+    event.create("mortar","sword").displayName("Mortar").tier("flint_tool").attackDamageBaseline(0.5)
+
+    // event.create("file").displayName("File")
 
 });
 
@@ -175,8 +187,8 @@ MIMaterialEvents.addMaterials(function (e) {
                 .ore({
                     generate: true, // does the ore generate in the world
                     ore_set: "copper", // texture set, same principle as for blocks (found in "textures/materialsets/ores")
-                    vein_size: 20,
-                    veins_per_chunk: 8,
+                    vein_size: 30,
+                    veins_per_chunk: 12,
                     max_y: 64,
                 })
                 .addExternalPart("ingot", "create:zinc_ingot", "#c:zinc_ingots")
