@@ -1,0 +1,13 @@
+name: auto build
+
+on:
+  pull_request:
+    branches: [ modpack ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-go@v4.0.1
+      - run: go install github.com/packwiz/packwiz@latest
+      - run: packwiz curseforge export
