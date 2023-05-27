@@ -21,6 +21,9 @@ ServerEvents.recipes(event => {
 
 	event.remove({mod : "farmersdelight", output: '#c:tools/knives'})
 
+	//remove all the rolling mill recipe
+	event.remove({mod: 'createaddition', type:"createaddition:rolling", not: {output: 'createaddition:straw'} })
+
 })
 
 ServerEvents.tags('item', event => {

@@ -549,6 +549,30 @@ ServerEvents.recipes((e) => {
         .itemIn('create:polished_rose_quartz')
         .fluidIn('modern_industrialization:soldering_alloy', 100)
         .itemOut('2x create:electron_tube')
+
+    //remove plate because yes
+    let table_Remove_plate = [
+        'modern_industrialization:copper_plate',
+        'modern_industrialization:iron_plate',
+        'ad_astra:calorite_plate',
+        'create:brass_sheet',
+        'modern_industrialization:steel_plate',
+        'modern_industrialization:gold_plate',
+        'ad_astra:ostrum_plate',
+        'createaddition:zinc_sheet',
+        'ad_astra:desh_plate'
+    ]
+
+    table_Remove_plate.forEach(element => {
+        e.remove({type:CE("pressing"), output: element})
+    });
+
+    // unified create making compess using pressing
+    e.forEachRecipe({ type: MI("compressor"), output: /modern_industrialization:(.*)_plate/, not:{output: /modern_industrialization:(.*)_curved_plate/ }}, r => {
+        let ingredients = r.originalRecipeIngredients
+        let output = r.originalRecipeResult
+        e.recipes.create.pressing(output, ingredients)
+    })
 });
 
 ServerEvents.tags("item", (event) => {

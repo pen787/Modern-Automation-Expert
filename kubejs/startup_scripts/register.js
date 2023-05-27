@@ -1,16 +1,16 @@
-// priority: 0
+// priority: 15
 Platform.mods.kubejs.name = "Modern Automation Expert";
 
 // console.info('Hello, World! (You will only see this line once in console, during startup)')
 
-ItemEvents.toolTierRegistry (event => {
+ItemEvents.toolTierRegistry(event => {
     event.add('flint_tool', tier => {
-      tier.uses = 128
-      tier.speed = 0.5
-      tier.attackDamageBonus = 0.5
-      tier.level = 1
-      tier.enchantmentValue = 14
-      tier.repairIngredient = 'minecraft:flint'
+        tier.uses = 128
+        tier.speed = 0.5
+        tier.attackDamageBonus = 0.5
+        tier.level = 1
+        tier.enchantmentValue = 14
+        tier.repairIngredient = 'minecraft:flint'
     })
 })
 
@@ -35,6 +35,10 @@ StartupEvents.registry("item", (event) => {
             .displayName(display + " Drill Head");
     };
 
+    let newPickaxeHead = (id, display_name, color) => {
+        event.create(id + ".pickaxe.head").texture("kubejs:item/tool_head_pickaxe").displayName(display_name).color(0, color)
+    }
+
     event
         .create("incomplete_analog_circuit")
         .texture("kubejs:item/incomplete_analog_circuit")
@@ -47,17 +51,34 @@ StartupEvents.registry("item", (event) => {
     newDrill("superdium", "Superdium", "#FF0000", "How it's not break!?");
 
     //register a tool
-    event.create("mortar","sword").displayName("Mortar").tier("flint_tool").attackDamageBaseline(0.5)
+    event.create("mortar", "sword").displayName("Mortar").tier("flint_tool").attackDamageBaseline(0.5)
 
     event.create("vacuum_tube").displayName("Vacuum tube")
-    event.create("random_access_memory").displayName("Ram Plate")
-    event.create("central_processing_unit").displayName("CPU Plate")
+    event.create("random_access_memory").displayName("Ram Silicon Plate").texture("kubejs:item/silicon/random_access_memory")
+    event.create("central_processing_unit").displayName("CPU Silicon Plate").texture("kubejs:item/silicon/central_processing_unit")
 
+    event.create("plate.qbit").displayName("qbit Silicon Plate").texture("kubejs:item/silicon/plate.qbit")
+
+    event.create("wafer.central_processing_unit").displayName("CPU Wafer").texture("kubejs:item/silicon/plate.qbit")
+    event.create("wafer.qbit_central_processing_unit").displayName("qbit Wafer").texture("kubejs:item/silicon/wafer.qbit_central_processing_unit")
+    event.create("wafer.random_access_memory").displayName("Ram Wafer").texture("kubejs:item/silicon/wafer.random_access_memory")
+
+    event.create("shape.empty").displayName("Empty Mold").texture("kubejs:item/mold/shape.empty")
     event.create("shape.mold.bun").displayName("Vacuum tube Mold").texture("kubejs:item/mold/shape.mold.bun")
     event.create("shape.mold.pickaxe").displayName("Pickaxe Mold").texture("kubejs:item/mold/shape.mold.pickaxe")
 
-    // event.create("file").displayName("File")
+    event.create("blue_len").displayName("Blue len").texture("kubejs:item/lens").color(0, 0x0000ff)
+    event.create("white_len").displayName("White len").texture("kubejs:item/lens").color(0, 0xffffff)
+    
+    event.create("uv_len").displayName("UV len").texture("kubejs:item/lens").color(0, 0xffff00)
 
+    event.create("wooden_form.brick").displayName("Wooden form")
+    event.create("wooden_form.empty").displayName("Emty Wooden form")
+
+    event.create("component.glass.tube").displayName("Glass tube")
+
+    //pickaxe head
+    newPickaxeHead("iron", "Iron Pickaxe Head", 0x474749)
 });
 
 StartupEvents.registry("block", (event) => { })
@@ -291,7 +312,7 @@ MIMachineEvents.registerRecipeTypes((event) => {
         .register("alloy_smelter")
         .withItemInputs()
         .withItemOutputs();
-    
+
 });
 
 MIMachineEvents.registerMachines((event) => {
@@ -413,7 +434,7 @@ MIMachineEvents.registerMachines((event) => {
         "Alloy Smelter",
         "alloy_smelter",
         ALLOY_SMELTER,
-        ["bronze","steel","electric"],
+        ["bronze", "steel", "electric"],
 
         /* GUI CONFIGURATION */
         // Background height (or -1 for default value), progress bar, efficiency bar, energy bar
@@ -443,10 +464,10 @@ MIMachineEvents.registerMachines((event) => {
         false
     );
 
-    const PASHatch = event.hatchOf("item_input", "item_output","fluid_input");
+    const PASHatch = event.hatchOf("item_input", "item_output", "fluid_input");
     const brick_member = event.memberOfBlock("minecraft:bricks");
     const PASShapeBuilder = event.startShape("brick_casing");
-    
+
     //this shit give me a mental breakdown
     PASShapeBuilder.add(-1, -1, 0, brick_member, PASHatch);
     PASShapeBuilder.add(-1, -1, 1, brick_member, PASHatch);
@@ -464,7 +485,7 @@ MIMachineEvents.registerMachines((event) => {
         PASShapeBuilder.add(0, y, 2, brick_member, event.noHatch());
     }
     PASShapeBuilder.add(0, 1, 0, brick_member, event.noHatch());
-   
+
 
     // PASShapeBuilder.add(x, -1, z, brick_member, event.noHatch());
 

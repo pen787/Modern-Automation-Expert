@@ -17,3 +17,6 @@ For more Infromation: <https://packwiz.infra.link/tutorials/creating/getting-sta
 1. Install the packwiz
 2. Open Terminal and Run the command : ```packwiz curseforge export```
 3. Import Modpack in your laucher
+
+## Credit
+Texture : Zerrens
