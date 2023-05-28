@@ -520,7 +520,7 @@ ServerEvents.recipes((e) => {
     e.recipes.modern_industrialization.mixer(2, 100)
         .itemIn("modern_industrialization:zinc_dust")
         .itemIn("modern_industrialization:copper_dust")
-        .itemOut("modern_industrialization:brass_dust");
+        .itemOut("2x modern_industrialization:brass_dust");
 
     //red alloy liquid
     e.recipes.modern_industrialization.blast_furnace(4, 200)

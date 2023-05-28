@@ -271,10 +271,8 @@ ServerEvents.recipes((e) => {
     //steam
     e.campfireCooking('modern_industrialization:steam_bucket', 'minecraft:water_bucket')
 
-    //real brass ratio
-    e.remove({ type: "create:mixing", output: 'create:brass_ingot' })
+    // add brass mixing with dust
     e.recipes.create.mixing("2x modern_industrialization:brass_dust", ["modern_industrialization:copper_dust", "modern_industrialization:zinc_dust"])
-    e.recipes.create.mixing('2x create:brass_ingot', [Item.of("minecraft:copper_ingot"), Item.of("create:zinc_ingot")]).heated()
 
     //replace a electron tube to 'kubejs:vacuum_tube'
     e.replaceInput({ output: 'create:mechanical_crafter' }, 'create:electron_tube', 'kubejs:vacuum_tube')

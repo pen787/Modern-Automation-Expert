@@ -284,6 +284,8 @@ let CIRCUIT_ASSEMBLER;
 let ROCKET_ASSEMBLER;
 let LASER_MACHINE;
 let PRIMITIVE_ALLOY_SMELTER;
+let FORGE_HAMMER_MACHINE;
+let BLENDER_MACHINE;
 let ALLOY_SMELTER;
 
 MIMachineEvents.registerRecipeTypes((event) => {
@@ -313,6 +315,15 @@ MIMachineEvents.registerRecipeTypes((event) => {
         .withItemInputs()
         .withItemOutputs();
 
+    FORGE_HAMMER_MACHINE = event
+        .register("forge_hammer_machine")
+        .withItemInputs()
+        .withItemOutputs();
+    
+    BLENDER_MACHINE = event
+        .register("blender_machine")
+        .withItemInputs()
+        .withItemOutputs();
 });
 
 MIMachineEvents.registerMachines((event) => {
@@ -439,7 +450,7 @@ MIMachineEvents.registerMachines((event) => {
         /* GUI CONFIGURATION */
         // Background height (or -1 for default value), progress bar, efficiency bar, energy bar
         186,
-        event.progressBar(105, 45, "circuit"),
+        event.progressBar(105, 45, "arrow"),
         event.efficiencyBar(48, 86),
         event.energyBar(14, 34),
 
@@ -455,6 +466,80 @@ MIMachineEvents.registerMachines((event) => {
         // Explanation: 3x3 grid of item slots starting at position (42, 27),
         //then 1x3 grid of item slots starting at position (139, 27).
         (items) => items.addSlots(42, 27, 3, 2).addSlots(139, 27, 1, 2),
+        (fluids) => { },
+
+        /* MODEL CONFIGURATION */
+        // front overlay?, top overlay?, side overlay?
+        true,
+        false,
+        false
+    );
+
+    event.craftingSingleBlock(
+        /* GENERAL PARAMETERS FIRST */
+        // English name, internal name, recipe type (see above),
+        //list of tiers (can be bronze/steel/electric)
+        "Forge Hammer",
+        "forge_hammer_machine",
+        FORGE_HAMMER_MACHINE,
+        ["bronze", "steel", "electric"],
+
+        /* GUI CONFIGURATION */
+        // Background height (or -1 for default value), progress bar, efficiency bar, energy bar
+        186,
+        event.progressBar(105, 45, "arrow"),
+        event.efficiencyBar(48, 86),
+        event.energyBar(14, 34),
+
+        /* SLOT CONFIGURATION */
+        // Number of slots: item inputs, item outputs, fluid inputs, fluid outputs
+        1,
+        3,
+        0,
+        0,
+        // Capacity for fluid slots (unused here)
+        16,
+        // Slot positions: items and fluids.
+        // Explanation: 3x3 grid of item slots starting at position (42, 27),
+        //then 1x3 grid of item slots starting at position (139, 27).
+        (items) => items.addSlots(42, 40, 1, 1).addSlots(139, 27, 1, 3),
+        (fluids) => { },
+
+        /* MODEL CONFIGURATION */
+        // front overlay?, top overlay?, side overlay?
+        true,
+        false,
+        false
+    );
+
+    event.craftingSingleBlock(
+        /* GENERAL PARAMETERS FIRST */
+        // English name, internal name, recipe type (see above),
+        //list of tiers (can be bronze/steel/electric)
+        "Bender Machine",
+        "bender_machine",
+        BLENDER_MACHINE,
+        ["electric"],
+
+        /* GUI CONFIGURATION */
+        // Background height (or -1 for default value), progress bar, efficiency bar, energy bar
+        186,
+        event.progressBar(105, 45, "arrow"),
+        event.efficiencyBar(48, 86),
+        event.energyBar(14, 34),
+
+        /* SLOT CONFIGURATION */
+        // Number of slots: item inputs, item outputs, fluid inputs, fluid outputs
+        1,
+        1,
+        0,
+        0,
+        // Capacity for fluid slots (unused here)
+        16,
+        // Slot positions: items and fluids.
+        // Explanation: 3x3 grid of item slots starting at position (42, 27),
+        //then 1x3 grid of item slots starting at position (139, 27).
+        (items) => items.addSlots(42, 40, 1, 1).addSlots(139, 40, 1, 1),
         (fluids) => { },
 
         /* MODEL CONFIGURATION */
