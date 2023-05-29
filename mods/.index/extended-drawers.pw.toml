@@ -1,0 +1,14 @@
+name = "Extended Drawers"
+filename = "ExtendedDrawers-1.4.0+mc.1.19.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "2a8a0ca9c69a2e119f89b284104773b718f1ba7b"
+
+[update]
+[update.curseforge]
+file-id = 4540954
+project-id = 616602

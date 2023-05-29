@@ -60,7 +60,7 @@ StartupEvents.registry("item", (event) => {
     event.create("plate.qbit").displayName("qbit Silicon Plate").texture("kubejs:item/silicon/plate.qbit")
 
     event.create("wafer.central_processing_unit").displayName("CPU Wafer").texture("kubejs:item/silicon/plate.qbit")
-    event.create("wafer.qbit_central_processing_unit").displayName("qbit Wafer").texture("kubejs:item/silicon/wafer.qbit_central_processing_unit")
+    event.create("wafer.qbit_central_processing_unit").displayName("qbit Wafer").texture("kubejs:item/silicon/wafer.central_processing_unit")
     event.create("wafer.random_access_memory").displayName("Ram Wafer").texture("kubejs:item/silicon/wafer.random_access_memory")
 
     event.create("shape.empty").displayName("Empty Mold").texture("kubejs:item/mold/shape.empty")
@@ -502,7 +502,7 @@ MIMachineEvents.registerMachines((event) => {
         // Slot positions: items and fluids.
         // Explanation: 3x3 grid of item slots starting at position (42, 27),
         //then 1x3 grid of item slots starting at position (139, 27).
-        (items) => items.addSlots(42, 40, 1, 1).addSlots(139, 27, 1, 3),
+        (items) => items.addSlots(42, 45, 1, 1).addSlots(139, 30, 1, 3),
         (fluids) => { },
 
         /* MODEL CONFIGURATION */
@@ -539,7 +539,7 @@ MIMachineEvents.registerMachines((event) => {
         // Slot positions: items and fluids.
         // Explanation: 3x3 grid of item slots starting at position (42, 27),
         //then 1x3 grid of item slots starting at position (139, 27).
-        (items) => items.addSlots(42, 40, 1, 1).addSlots(139, 40, 1, 1),
+        (items) => items.addSlots(42, 45, 1, 1).addSlots(139, 45, 1, 1),
         (fluids) => { },
 
         /* MODEL CONFIGURATION */

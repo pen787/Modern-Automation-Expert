@@ -15,6 +15,8 @@ let MI_FLUID = (amount, fluidname) => {
 };
 
 ServerEvents.recipes((e) => {
+    const event = e;
+
     let custom_quarry_drill = (input, outputs, energy_use, duration) => {
         e.custom({
             type: "modern_industrialization:quarry",
@@ -573,6 +575,74 @@ ServerEvents.recipes((e) => {
         let output = r.originalRecipeResult
         e.recipes.create.pressing(output, ingredients)
     })
+
+    // bender machine
+    e.forEachRecipe({ type: MI("compressor"), output: /modern_industrialization:(.*)_plate/}, r => {
+        let ingredients = r.originalRecipeIngredients
+        let output = r.originalRecipeResult
+        // console.info(ingredients.join(', '))
+        // console.info(output)
+        e.recipes.modern_industrialization.blenderMachine(8, 50)
+            .itemIn(ingredients)
+            .itemOut(output)
+    })
+
+    // forge machine
+    e.forEachRecipe({ type: MI("macerator"), output: /modern_industrialization:(.*)_crushed/}, r => {
+        let ingredients = r.originalRecipeIngredients
+        let output = r.originalRecipeResult
+        
+        e.remove({type: MI("macerator"), input: ingredients, output: output})
+        e.recipes.modern_industrialization.forge_hammer_machine(2, 100)
+            .itemIn(ingredients)
+            .itemOut(output)
+    })
+
+    //recipe for bender machine and forge machine
+    e.shaped('modern_industrialization:bender_machine',[
+        "MCM",
+        "PHP",
+        "ACA",
+    ], {
+        M: 'modern_industrialization:motor',
+        P: 'modern_industrialization:piston',
+        A: 'modern_industrialization:analog_circuit',
+        H: 'modern_industrialization:basic_machine_hull',
+        C: 'modern_industrialization:tin_cable',
+    })
+
+    //electric forge machine
+    e.shaped('modern_industrialization:electric_forge_hammer_machine',[
+        "PMP",
+        "CHC",
+        "ACA",
+    ], {
+        M: 'modern_industrialization:motor',
+        P: 'modern_industrialization:piston',
+        A: 'modern_industrialization:analog_circuit',
+        H: 'modern_industrialization:basic_machine_hull',
+        C: 'modern_industrialization:tin_cable',
+    })
+
+    //bronze forge machine
+    e.shaped('modern_industrialization:bronze_forge_hammer_machine',[
+        "GFG",
+        "PHP",
+        "CCC",
+    ], {
+       G: 'modern_industrialization:copper_gear',
+       C: '#modern_industrialization:fluid_pipes',
+       P: 'create:mechanical_press',
+       F: 'modern_industrialization:forge_hammer',
+       H: 'modern_industrialization:bronze_machine_casing',
+    })
+
+    //steel forge machine
+    e.smithing(
+        'modern_industrialization:steel_forge_hammer_machine',  // arg 1: output
+        'modern_industrialization:bronze_forge_hammer_machine', // arg 2: the item to be upgraded
+        'modern_industrialization:steel_upgrade'   // arg 3: the upgrade item
+    )
 });
 
 ServerEvents.tags("item", (event) => {
