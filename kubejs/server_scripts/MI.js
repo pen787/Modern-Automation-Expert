@@ -447,13 +447,23 @@ ServerEvents.recipes((e) => {
             MI_ITEM(1, "modern_industrialization:digital_circuit_board"),
         ],
         [
-            MI_ITEM(2, "modern_industrialization:digital_circuit"),
-            MI_ITEM_CHANCE(1, "modern_industrialization:digital_circuit", 0.2),
+            MI_ITEM(1, "modern_industrialization:digital_circuit"),
         ],
         [MI_FLUID(50, "modern_industrialization:soldering_alloy")],
         300,
-        32
+        16
     );
+
+    e.recipes.modern_industrialization.clean_circuit_processing_assembler(32, 500)
+        .itemIn("modern_industrialization:or_gate")
+        .itemIn('modern_industrialization:and_gate')
+        .itemIn("2x modern_industrialization:not_gate")
+        .itemIn("4x modern_industrialization:electronic_circuit")
+        .itemIn("modern_industrialization:digital_circuit_board")
+        .fluidIn('modern_industrialization:soldering_alloy', 100)
+        .fluidIn('modern_industrialization:red_alloy', 100)
+        .itemOut("modern_industrialization:digital_circuit")
+        .itemOut("modern_industrialization:digital_circuit", 0.15)
 
     //harder 'modern_industrialization:processing_unit'
     e.remove({

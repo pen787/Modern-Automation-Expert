@@ -69,7 +69,7 @@ StartupEvents.registry("item", (event) => {
 
     event.create("blue_len").displayName("Blue len").texture("kubejs:item/lens").color(0, 0x0000ff)
     event.create("white_len").displayName("White len").texture("kubejs:item/lens").color(0, 0xffffff)
-    
+
     event.create("uv_len").displayName("UV len").texture("kubejs:item/lens").color(0, 0xffff00)
 
     event.create("wooden_form.brick").displayName("Wooden form")
@@ -287,6 +287,7 @@ let PRIMITIVE_ALLOY_SMELTER;
 let FORGE_HAMMER_MACHINE;
 let BLENDER_MACHINE;
 let ALLOY_SMELTER;
+let PROCESSING_CLEAN_CIRCUIT_ASSEMBLER;
 
 MIMachineEvents.registerRecipeTypes((event) => {
     CIRCUIT_ASSEMBLER = event
@@ -319,10 +320,15 @@ MIMachineEvents.registerRecipeTypes((event) => {
         .register("forge_hammer_machine")
         .withItemInputs()
         .withItemOutputs();
-    
+
     BLENDER_MACHINE = event
         .register("blender_machine")
         .withItemInputs()
+        .withItemOutputs();
+
+    PROCESSING_CLEAN_CIRCUIT_ASSEMBLER = event.register("clean_circuit_processing_assembler")
+        .withItemInputs()
+        .withFluidInputs()
         .withItemOutputs();
 });
 
@@ -547,6 +553,48 @@ MIMachineEvents.registerMachines((event) => {
         true,
         false,
         false
+    );
+
+    const CCPAHatch = event.hatchOf("item_input", "item_output", "fluid_input", "energy_input");
+    const cssmc = event.memberOfBlock('modern_industrialization:clean_stainless_steel_machine_casing');
+    const tmh = event.memberOfBlock('modern_industrialization:turbo_machine_hull');
+    const CCCAShapeBuilder = event.startShape('clean_stainless_steel_machine_casing');
+
+    for (let x = -1; x <= 1; x++) {
+        for (let z = 0; z <= 3; z++) {
+            CCCAShapeBuilder.add(x,-1,z,tmh, CCPAHatch)
+        }
+    }
+
+    CCCAShapeBuilder.add(-1, 0, 0, cssmc, event.noHatch());
+    CCCAShapeBuilder.add(-1, 0, 1, cssmc, event.noHatch());
+    CCCAShapeBuilder.add(-1, 0, 2, cssmc, event.noHatch());
+    CCCAShapeBuilder.add(-1, 0, 3, cssmc, event.noHatch());
+    CCCAShapeBuilder.add(0, 0, 3, cssmc, event.noHatch());
+    CCCAShapeBuilder.add(1, 0, 0, cssmc, event.noHatch());
+    CCCAShapeBuilder.add(1, 0, 1, cssmc, event.noHatch());
+    CCCAShapeBuilder.add(1, 0, 2, cssmc, event.noHatch());
+    CCCAShapeBuilder.add(1, 0, 3, cssmc, event.noHatch());
+
+    for (let x = -1; x <= 1; x++) {
+        for (let z = 0; z <= 3; z++) {
+            CCCAShapeBuilder.add(x,1,z,cssmc, event.noHatch())
+        }
+    }
+
+    event.simpleElectricCraftingMultiBlock(
+        /* GENERAL PARAMETERS */
+        // English name, internal name, recipe type, multiblock shape
+        "Clean Circuit Processing Assembler", "clean_circuit_processing_assembler", PROCESSING_CLEAN_CIRCUIT_ASSEMBLER, CCCAShapeBuilder.build(),
+        /* REI DISPLAY CONFIGURATION */
+        // REI progress bar
+        event.progressBar(77, 33, "arrow"),
+        // REI item inputs, item outputs, fluid inputs, fluid outputs
+        itemInputs => itemInputs.addSlots(25, 35,  3, 3), itemOutputs => itemOutputs.addSlot(102, 35),
+        fluidInputs => {fluidInputs.addSlot(36, 90),fluidInputs.addSlot(56, 90)}, fluidOutputs => {},
+        /* MODEL CONFIGUATION */
+        // casing of the controller, overlay folder, front overlay?, top overlay?, side overlay?
+        "clean_stainless_steel_machine_casing", "clean_circuit_processing_assembler", true, false, false,
     );
 
     const PASHatch = event.hatchOf("item_input", "item_output", "fluid_input");
