@@ -469,22 +469,16 @@ ServerEvents.recipes((e) => {
     e.remove({
         id: "modern_industrialization:assembler_generated/electric_age/circuit/craft/processing_unit",
     });
-    circuit_assembler(
-        [
-            MI_ITEM(1, "modern_industrialization:arithmetic_logic_unit"),
-            MI_ITEM(1, "modern_industrialization:processing_unit_board"),
-            MI_ITEM(1, "modern_industrialization:memory_management_unit"),
-            MI_ITEM(2, "modern_industrialization:random_access_memory"),
-            MI_ITEM(4, "modern_industrialization:digital_circuit"),
-        ],
-        [
-            MI_ITEM(1, "modern_industrialization:processing_unit"),
-            MI_ITEM_CHANCE(1, "modern_industrialization:processing_unit", 0.05),
-        ],
-        [MI_FLUID(50, "modern_industrialization:soldering_alloy")],
-        500,
-        40
-    );
+    e.recipes.modern_industrialization.clean_circuit_processing_assembler(40, 500)
+        .itemIn("modern_industrialization:arithmetic_logic_unit")
+        .itemIn("modern_industrialization:processing_unit_board")
+        .itemIn("modern_industrialization:memory_management_unit")
+        .itemIn("2x modern_industrialization:random_access_memory")
+        .itemIn("4x modern_industrialization:digital_circuit")
+        .fluidIn('modern_industrialization:soldering_alloy', 100)
+        .fluidIn('modern_industrialization:red_alloy', 100)
+        .itemOut( "modern_industrialization:processing_unit")
+        .itemOut("modern_industrialization:processing_unit", 0.05)
 
     //harder 'modern_industrialization:quantum_circuit'
     e.remove({

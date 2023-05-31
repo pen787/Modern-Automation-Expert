@@ -39,6 +39,11 @@ StartupEvents.registry("item", (event) => {
         event.create(id + ".pickaxe.head").texture("kubejs:item/tool_head_pickaxe").displayName(display_name).color(0, color)
     }
 
+    let newwafer = (id, dp) => {
+        event.create("wafer."+id).displayName(dp+" Wafer").texture("kubejs:item/silicon/wafer."+id)
+        event.create("plate."+id).displayName(dp+" Silicon Plate").texture("kubejs:item/silicon/plate."+id)
+    }
+
     event
         .create("incomplete_analog_circuit")
         .texture("kubejs:item/incomplete_analog_circuit")
@@ -54,13 +59,15 @@ StartupEvents.registry("item", (event) => {
     event.create("mortar", "sword").displayName("Mortar").tier("flint_tool").attackDamageBaseline(0.5)
 
     event.create("vacuum_tube").displayName("Vacuum tube")
+    event.create("quantumeye_len").displayName("Quantum Eye Len")
     event.create("random_access_memory").displayName("Ram Silicon Plate").texture("kubejs:item/silicon/random_access_memory")
     event.create("central_processing_unit").displayName("CPU Silicon Plate").texture("kubejs:item/silicon/central_processing_unit")
-
+    newwafer("controll_memory_chip", "Controll Memory Chip")
+    newwafer("integrated_logic_circuit", "Integrated Logic Chip")
     event.create("plate.qbit").displayName("qbit Silicon Plate").texture("kubejs:item/silicon/plate.qbit")
 
-    event.create("wafer.central_processing_unit").displayName("CPU Wafer").texture("kubejs:item/silicon/plate.qbit")
-    event.create("wafer.qbit_central_processing_unit").displayName("qbit Wafer").texture("kubejs:item/silicon/wafer.central_processing_unit")
+    event.create("wafer.central_processing_unit").displayName("CPU Wafer").texture("kubejs:item/silicon/wafer.central_processing_unit")
+    event.create("wafer.qbit_central_processing_unit").displayName("qbit Wafer").texture("kubejs:item/silicon/wafer.qbit_central_processing_unit")
     event.create("wafer.random_access_memory").displayName("Ram Wafer").texture("kubejs:item/silicon/wafer.random_access_memory")
 
     event.create("shape.empty").displayName("Empty Mold").texture("kubejs:item/mold/shape.empty")
@@ -71,6 +78,7 @@ StartupEvents.registry("item", (event) => {
     event.create("white_len").displayName("White len").texture("kubejs:item/lens").color(0, 0xffffff)
 
     event.create("uv_len").displayName("UV len").texture("kubejs:item/lens").color(0, 0xffff00)
+    event.create("red_len").displayName("Red len").texture("kubejs:item/lens").color(0, 0xff0000)
 
     event.create("wooden_form.brick").displayName("Wooden form")
     event.create("wooden_form.empty").displayName("Emty Wooden form")
@@ -590,7 +598,7 @@ MIMachineEvents.registerMachines((event) => {
         // REI progress bar
         event.progressBar(77, 33, "arrow"),
         // REI item inputs, item outputs, fluid inputs, fluid outputs
-        itemInputs => itemInputs.addSlots(25, 35,  3, 3), itemOutputs => itemOutputs.addSlot(102, 35),
+        itemInputs => itemInputs.addSlots(25, 35,  3, 3), itemOutputs => {itemOutputs.addSlot(102, 32),itemOutputs.addSlot(102, 55),itemOutputs.addSlot(102, 75)},
         fluidInputs => {fluidInputs.addSlot(36, 90),fluidInputs.addSlot(56, 90)}, fluidOutputs => {},
         /* MODEL CONFIGUATION */
         // casing of the controller, overlay folder, front overlay?, top overlay?, side overlay?
