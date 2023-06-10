@@ -24,6 +24,7 @@ shaderpacks
 moddata
 screenshots
 mod
+.mixin.out
 rhino.local.properties
 texturepacks
 *.json

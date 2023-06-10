@@ -1,4 +1,4 @@
-// 1.19.2	2023-05-31T22:38:18.1343519	Machine Models Provider
+// 1.19.2	2023-06-10T12:39:55.1091544	Machine Models Provider
 e1c0f89ea6c3cb96762878ceb739356c0ebc476c assets\modern_industrialization\models\machine\assembler.json
 66369fdb5b6097d341dbf9ebea13aefea813cc76 assets\modern_industrialization\models\machine\ev_storage_unit.json
 c7a92aac28e086df403d70732a7359ff13cb17f2 assets\modern_industrialization\models\machine\lv_mv_transformer.json
@@ -56,6 +56,7 @@ c7a92aac28e086df403d70732a7359ff13cb17f2 assets\modern_industrialization\models\
 77fd8af89573752d65f3685d262af41acd70454b assets\modern_industrialization\models\machine\primitive_alloy_smelter.json
 66369fdb5b6097d341dbf9ebea13aefea813cc76 assets\modern_industrialization\models\machine\hv_storage_unit.json
 66369fdb5b6097d341dbf9ebea13aefea813cc76 assets\modern_industrialization\models\machine\mv_storage_unit.json
+7293629611ac94f099a02f97cff3f8d8613ad551 assets\modern_industrialization\models\machine\large_tank_hatch.json
 201c804bfc76ac6fa47b194ba6540dba77ae1e93 assets\modern_industrialization\models\machine\centrifuge.json
 66369fdb5b6097d341dbf9ebea13aefea813cc76 assets\modern_industrialization\models\machine\lv_storage_unit.json
 c7a92aac28e086df403d70732a7359ff13cb17f2 assets\modern_industrialization\models\machine\ev_superconductor_transformer.json

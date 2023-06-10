@@ -1,4 +1,4 @@
-// 1.19.2	2023-05-31T22:38:18.1373717	Block Loot Tables
+// 1.19.2	2023-06-10T12:39:55.0304489	Block Loot Tables
 0ded96ea0634eb14bae7d35609a6afe818da5412 data\modern_industrialization\loot_tables\blocks\raw_antimony_block.json
 aded282e345cacec0c1143c39addf50cc7ca41e0 data\modern_industrialization\loot_tables\blocks\mv_lv_transformer.json
 e723e1b5f047f6e5fdb495ed5da0c02c81b83337 data\modern_industrialization\loot_tables\blocks\electric_blast_furnace.json
@@ -61,6 +61,7 @@ a2138f0b8d2e97e7d56535668734b88004377c58 data\modern_industrialization\loot_tabl
 b0a1877cb37f47a2bdf4bf446ffe690a62f944fb data\modern_industrialization\loot_tables\blocks\steel_compressor.json
 145aded3e633ab00393294843d5864812ffd823d data\modern_industrialization\loot_tables\blocks\lv_mv_transformer.json
 83edf6b6afde35a719ccc800322026da4eb22c48 data\modern_industrialization\loot_tables\blocks\titanium_ore.json
+b15249f89859ed2c9c7f5a418fa2d691e4512a4c data\modern_industrialization\loot_tables\blocks\large_tank_hatch.json
 a59734fd3436165e0736eeba1651e8d90f8356fc data\modern_industrialization\loot_tables\blocks\implosion_compressor.json
 56f8bd55ead7a9f4de4ec49a779e25a113ffbf58 data\modern_industrialization\loot_tables\blocks\lead_block.json
 4b7c2372e716ea86580bb9204b48eb95a8655982 data\modern_industrialization\loot_tables\blocks\raw_nickel_block.json

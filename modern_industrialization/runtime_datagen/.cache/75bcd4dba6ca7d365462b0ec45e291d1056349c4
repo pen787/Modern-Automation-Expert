@@ -1,7 +1,7 @@
-// 1.19.2	2023-05-31T22:38:18.1675659	Tags for minecraft:block
+// 1.19.2	2023-06-10T12:39:55.0104634	Tags for minecraft:block
 f469cea25ffc57683eab6ea264c9c92c7d5572b9 data\c\tags\blocks\quartz_ores.json
-062991635545118350f8a3efcfea0f60577b0572 data\minecraft\tags\blocks\needs_stone_tool.json
+0183029b0d7ed157e70ade5f3718545f05082ee6 data\minecraft\tags\blocks\needs_stone_tool.json
 9d96f7763adfa1e17f16cbfcb1e7ef1f982b5704 data\c\tags\blocks\ores.json
 a539de012ace42efa62ffc653f9aa4fc53897335 data\carrier\tags\blocks\blacklist.json
-fe99066fcdb5d2507512571e4a6a1f2aaaf6d656 data\minecraft\tags\blocks\mineable\pickaxe.json
+9571f81932f099c176ce4a483d70b69c47073994 data\minecraft\tags\blocks\mineable\pickaxe.json
 ca58ee52a71ae69946b4752ed12838db4298d6ad data\c\tags\blocks\movement_restricted.json

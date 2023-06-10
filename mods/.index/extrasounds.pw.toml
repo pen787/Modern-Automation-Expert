@@ -1,0 +1,14 @@
+name = "ExtraSounds"
+filename = "extrasounds-2.3.1+1.19.2-1.19.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "c43ac9ffe58cbf59b90eeb4be1a6aad40ebbfbfd"
+
+[update]
+[update.curseforge]
+file-id = 3957405
+project-id = 478890

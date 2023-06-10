@@ -59,26 +59,26 @@ StartupEvents.registry("item", (event) => {
     event.create("mortar", "sword").displayName("Mortar").tier("flint_tool").attackDamageBaseline(0.5)
 
     event.create("vacuum_tube").displayName("Vacuum tube")
-    event.create("quantumeye_len").displayName("Quantum Eye Len")
-    event.create("random_access_memory").displayName("Ram Silicon Plate").texture("kubejs:item/silicon/random_access_memory")
-    event.create("central_processing_unit").displayName("CPU Silicon Plate").texture("kubejs:item/silicon/central_processing_unit")
+
+    //wafer and silicon plate
+    newwafer("central_processing_unit", "CPU")
     newwafer("controll_memory_chip", "Controll Memory Chip")
     newwafer("integrated_logic_circuit", "Integrated Logic Chip")
-    event.create("plate.qbit").displayName("qbit Silicon Plate").texture("kubejs:item/silicon/plate.qbit")
-
-    event.create("wafer.central_processing_unit").displayName("CPU Wafer").texture("kubejs:item/silicon/wafer.central_processing_unit")
-    event.create("wafer.qbit_central_processing_unit").displayName("qbit Wafer").texture("kubejs:item/silicon/wafer.qbit_central_processing_unit")
-    event.create("wafer.random_access_memory").displayName("Ram Wafer").texture("kubejs:item/silicon/wafer.random_access_memory")
-
+    newwafer("qbit","qbit")
+    newwafer("random_access_memory","Ram")
+    
+    //mold
     event.create("shape.empty").displayName("Empty Mold").texture("kubejs:item/mold/shape.empty")
     event.create("shape.mold.bun").displayName("Vacuum tube Mold").texture("kubejs:item/mold/shape.mold.bun")
     event.create("shape.mold.pickaxe").displayName("Pickaxe Mold").texture("kubejs:item/mold/shape.mold.pickaxe")
 
+    //lens
     event.create("blue_len").displayName("Blue len").texture("kubejs:item/lens").color(0, 0x0000ff)
     event.create("white_len").displayName("White len").texture("kubejs:item/lens").color(0, 0xffffff)
-
     event.create("uv_len").displayName("UV len").texture("kubejs:item/lens").color(0, 0xffff00)
     event.create("red_len").displayName("Red len").texture("kubejs:item/lens").color(0, 0xff0000)
+    event.create("quantumeye_len").displayName("Quantum Eye Len")
+
 
     event.create("wooden_form.brick").displayName("Wooden form")
     event.create("wooden_form.empty").displayName("Emty Wooden form")
@@ -200,6 +200,22 @@ MIMaterialEvents.addMaterials(function (e) {
         )
             .defaultRecipes()
             .forgeHammerRecipes();
+    });
+
+    e.createMaterial("Dark Steel", "dark_steel", 0x111111, (b) => {
+        b.addParts(
+            "nugget",
+            "ingot",
+            "dust",
+            "rod",
+            "gear",
+            "ring",
+            "plate",
+            "bolt",
+            "large_plate",
+            "curved_plate"
+        )
+            .defaultRecipes()
     });
 
     e.createMaterial(

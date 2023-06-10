@@ -17,6 +17,8 @@ let MI_FLUID = (amount, fluidname) => {
 ServerEvents.recipes((e) => {
     const event = e;
 
+    const electric_tier = { LV: 32, MV: 128, HV: 512, }
+
     let custom_quarry_drill = (input, outputs, energy_use, duration) => {
         e.custom({
             type: "modern_industrialization:quarry",
@@ -437,7 +439,30 @@ ServerEvents.recipes((e) => {
         16
     );
 
+    //other
+    circuit_assembler(
+        [
+            MI_ITEM_CHANCE(3, "modern_industrialization:copper_wire"),
+            MI_ITEM(3, 'kubejs:plate.integrated_logic_circuit'),
+            MI_ITEM(2, "modern_industrialization:diode"),
+            MI_ITEM(2, "modern_industrialization:transistor"),
+            MI_ITEM(1, "modern_industrialization:electronic_circuit_board"),
+        ],
+        [
+            MI_ITEM(2, "modern_industrialization:electronic_circuit"),
+            MI_ITEM_CHANCE(
+                1,
+                "modern_industrialization:electronic_circuit",
+                0.3
+            ),
+        ],
+        [MI_FLUID(50, "modern_industrialization:soldering_alloy")],
+        150,
+        16
+    );
+
     //harder Digital circuit
+    e.remove({ output: 'modern_industrialization:digital_circuit', type: MI("assembler") })
     circuit_assembler(
         [
             MI_ITEM(1, "modern_industrialization:or_gate"),
@@ -451,10 +476,10 @@ ServerEvents.recipes((e) => {
         ],
         [MI_FLUID(50, "modern_industrialization:soldering_alloy")],
         300,
-        16
+        32
     );
 
-    e.recipes.modern_industrialization.clean_circuit_processing_assembler(32, 500)
+    e.recipes.modern_industrialization.clean_circuit_processing_assembler(40, 500)
         .itemIn("modern_industrialization:or_gate")
         .itemIn('modern_industrialization:and_gate')
         .itemIn("2x modern_industrialization:not_gate")
@@ -469,7 +494,7 @@ ServerEvents.recipes((e) => {
     e.remove({
         id: "modern_industrialization:assembler_generated/electric_age/circuit/craft/processing_unit",
     });
-    e.recipes.modern_industrialization.clean_circuit_processing_assembler(40, 500)
+    e.recipes.modern_industrialization.clean_circuit_processing_assembler(64, 750)
         .itemIn("modern_industrialization:arithmetic_logic_unit")
         .itemIn("modern_industrialization:processing_unit_board")
         .itemIn("modern_industrialization:memory_management_unit")
@@ -477,7 +502,7 @@ ServerEvents.recipes((e) => {
         .itemIn("4x modern_industrialization:digital_circuit")
         .fluidIn('modern_industrialization:soldering_alloy', 100)
         .fluidIn('modern_industrialization:red_alloy', 100)
-        .itemOut( "modern_industrialization:processing_unit")
+        .itemOut("modern_industrialization:processing_unit")
         .itemOut("modern_industrialization:processing_unit", 0.05)
 
     //harder 'modern_industrialization:quantum_circuit'
@@ -485,21 +510,14 @@ ServerEvents.recipes((e) => {
         type: MI("assembler"),
         output: "modern_industrialization:quantum_circuit",
     });
-    circuit_assembler(
-        [
-            MI_ITEM(1, "modern_industrialization:quantum_circuit_board"),
-            MI_ITEM(2, "modern_industrialization:cooling_cell"),
-            MI_ITEM(2, "modern_industrialization:qbit"),
-            MI_ITEM(4, "modern_industrialization:processing_unit"),
-        ],
-        [
-            MI_ITEM(1, "modern_industrialization:quantum_circuit"),
-            MI_ITEM_CHANCE(1, "modern_industrialization:quantum_circuit", 0.05),
-        ],
-        [MI_FLUID(50, "modern_industrialization:soldering_alloy")],
-        500,
-        40
-    );
+    e.recipes.modern_industrialization.clean_circuit_processing_assembler(128, 1000)
+        .itemIn("modern_industrialization:quantum_circuit_board")
+        .itemIn("2x modern_industrialization:cooling_cell")
+        .itemIn("2x modern_industrialization:qbit")
+        .itemIn("4x modern_industrialization:processing_unit")
+        .fluidIn('modern_industrialization:tritium', 150)
+        .fluidIn('modern_industrialization:cryofluid', 150)
+        .itemOut("modern_industrialization:quantum_circuit")
 
     //ad astra
     //// engine fan replacement and engine frame
@@ -541,9 +559,9 @@ ServerEvents.recipes((e) => {
         .itemIn('4x modern_industrialization:robot_arm')
         .itemIn('ad_astra:nasa_workbench')
         .itemOut('modern_industrialization:rocket_assembler')
-    
+
     // rose_quartz in bronze age
-    e.remove({type:"create:crafting/materials/rose_quartz"})
+    e.remove({ type: "create:crafting/materials/rose_quartz" })
     e.recipes.modern_industrialization.mixer(2, 200)
         .itemIn('minecraft:quartz')
         .itemIn('8x minecraft:redstone')
@@ -570,18 +588,18 @@ ServerEvents.recipes((e) => {
     ]
 
     table_Remove_plate.forEach(element => {
-        e.remove({type:CE("pressing"), output: element})
+        e.remove({ type: CE("pressing"), output: element })
     });
 
     // unified create making compess using pressing
-    e.forEachRecipe({ type: MI("compressor"), output: /modern_industrialization:(.*)_plate/, not:{output: /modern_industrialization:(.*)_curved_plate/ }}, r => {
+    e.forEachRecipe({ type: MI("compressor"), output: /modern_industrialization:(.*)_plate/, not: { output: /modern_industrialization:(.*)_curved_plate/ } }, r => {
         let ingredients = r.originalRecipeIngredients
         let output = r.originalRecipeResult
         e.recipes.create.pressing(output, ingredients)
     })
 
     // bender machine
-    e.forEachRecipe({ type: MI("compressor"), output: /modern_industrialization:(.*)_plate/}, r => {
+    e.forEachRecipe({ type: MI("compressor"), output: /modern_industrialization:(.*)_plate/ }, r => {
         let ingredients = r.originalRecipeIngredients
         let output = r.originalRecipeResult
         // console.info(ingredients.join(', '))
@@ -591,19 +609,29 @@ ServerEvents.recipes((e) => {
             .itemOut(output)
     })
 
-    // forge machine
-    e.forEachRecipe({ type: MI("macerator"), output: /modern_industrialization:(.*)_crushed/}, r => {
+    e.forEachRecipe({ type: MI("compressor"), output: /modern_industrialization:(.*)_ring/ }, r => {
         let ingredients = r.originalRecipeIngredients
         let output = r.originalRecipeResult
-        
-        e.remove({type: MI("macerator"), input: ingredients, output: output})
+        // console.info(ingredients.join(', '))
+        // console.info(output)
+        e.recipes.modern_industrialization.blenderMachine(8, 75)
+            .itemIn(ingredients)
+            .itemOut(output)
+    })
+
+    // forge machine
+    e.forEachRecipe({ type: MI("macerator"), output: /modern_industrialization:(.*)_crushed/ }, r => {
+        let ingredients = r.originalRecipeIngredients
+        let output = r.originalRecipeResult
+
+        e.remove({ type: MI("macerator"), input: ingredients, output: output })
         e.recipes.modern_industrialization.forge_hammer_machine(2, 100)
             .itemIn(ingredients)
             .itemOut(output)
     })
 
     //recipe for bender machine and forge machine
-    e.shaped('modern_industrialization:bender_machine',[
+    e.shaped('modern_industrialization:bender_machine', [
         "MCM",
         "PHP",
         "ACA",
@@ -616,7 +644,7 @@ ServerEvents.recipes((e) => {
     })
 
     //electric forge machine
-    e.shaped('modern_industrialization:electric_forge_hammer_machine',[
+    e.shaped('modern_industrialization:electric_forge_hammer_machine', [
         "PMP",
         "CHC",
         "ACA",
@@ -629,16 +657,16 @@ ServerEvents.recipes((e) => {
     })
 
     //bronze forge machine
-    e.shaped('modern_industrialization:bronze_forge_hammer_machine',[
+    e.shaped('modern_industrialization:bronze_forge_hammer_machine', [
         "GFG",
         "PHP",
         "CCC",
     ], {
-       G: 'modern_industrialization:copper_gear',
-       C: '#modern_industrialization:fluid_pipes',
-       P: 'create:mechanical_press',
-       F: 'modern_industrialization:forge_hammer',
-       H: 'modern_industrialization:bronze_machine_casing',
+        G: 'modern_industrialization:copper_gear',
+        C: '#modern_industrialization:fluid_pipes',
+        P: 'create:mechanical_press',
+        F: 'modern_industrialization:forge_hammer',
+        H: 'modern_industrialization:bronze_machine_casing',
     })
 
     //steel forge machine
@@ -647,6 +675,102 @@ ServerEvents.recipes((e) => {
         'modern_industrialization:bronze_forge_hammer_machine', // arg 2: the item to be upgraded
         'modern_industrialization:steel_upgrade'   // arg 3: the upgrade item
     )
+
+
+    //electric laser machine
+    e.shaped('modern_industrialization:laser_machine', [
+        "MGM",
+        "CHC",
+        "ACA",
+    ], {
+        G: 'kubejs:component.glass.tube',
+        M: 'modern_industrialization:motor',
+        A: 'modern_industrialization:electronic_circuit',
+        H: 'modern_industrialization:advanced_machine_hull',
+        C: 'modern_industrialization:tin_cable',
+    })
+
+    // make a lens
+    //// white
+    e.recipes.modern_industrialization.cutting_machine(8, 500)
+        .itemIn('minecraft:glass_pane')
+        .fluidIn('modern_industrialization:lubricant', 200)
+        .itemOut('2x kubejs:white_len')
+
+    const lens_color = [
+        ['kubejs:red_len', 'minecraft:red_dye'],
+        ['kubejs:blue_len', 'minecraft:blue_dye'],
+        ['kubejs:uv_len', 'minecraft:yellow_dye'],
+        ['kubejs:white_len', 'minecraft:white_dye'],
+    ]
+
+    lens_color.forEach(element => {
+        e.recipes.modern_industrialization.chemical_reactor(8, 100)
+            .itemIn('#modern_industrialization:lens')
+            .itemIn(element[1])
+            .itemOut(element[0])
+    });
+
+    //quantum eye
+    e.recipes.modern_industrialization.chemical_reactor(8, 500)
+            .itemIn('minecraft:ender_eye')
+            .itemIn('kubejs:white_len')
+            .fluidIn('modern_industrialization:tritium', 150)
+            .itemOut('kubejs:quantumeye_len', 0.95)
+
+    // convert wafer to that wafer lol
+    const lens_for_wafer = [
+        { len: 'kubejs:white_len', wafer: 'kubejs:wafer.integrated_logic_circuit', plate: 'kubejs:plate.integrated_logic_circuit', eu: 40 },
+        { len: 'kubejs:uv_len', wafer: 'kubejs:wafer.random_access_memory', plate: 'kubejs:plate.random_access_memory', eu: 40 },
+        { len: 'kubejs:red_len', wafer: 'kubejs:wafer.controll_memory_chip', plate: 'kubejs:plate.controll_memory_chip', eu: 40 },
+        { len: 'kubejs:blue_len', wafer: 'kubejs:wafer.central_processing_unit', plate: 'kubejs:plate.central_processing_unit', eu: 40 },
+        { len: 'kubejs:quantumeye_len', wafer: 'kubejs:wafer.qbit', plate: 'kubejs:plate.qbit', eu: 64 },
+    ]
+
+    lens_for_wafer.forEach(element => {
+        e.recipes.modern_industrialization.laser_machine(element.eu, 500)
+            .itemIn('modern_industrialization:silicon_wafer')
+            .itemIn(element.len, 0)
+            .itemOut(element.wafer)
+
+        e.recipes.modern_industrialization.cutting_machine(8, 250)
+            .itemIn(element.wafer)
+            .fluidIn('modern_industrialization:lubricant', 100)
+            .itemOut('4x ' + element.plate)
+    });
+
+    //place circuit component using plate circuit silicion thing
+    //// ram plate
+    e.replaceInput({ output: 'modern_industrialization:random_access_memory' }, 'modern_industrialization:silicon_wafer', '4x kubejs:plate.random_access_memory')
+
+    //// memory management unit 
+    e.replaceInput({ output: 'modern_industrialization:memory_management_unit' }, 'modern_industrialization:silicon_wafer', '2x kubejs:plate.controll_memory_chip')
+    
+    //qbit thing
+    e.replaceInput({ output: 'modern_industrialization:qbit' }, '#c:glass_panes', '2x kubejs:plate.qbit')
+
+    event.custom({
+        "type": "modern_industrialization:assembler",
+        "duration": 300,
+        "eu": 8,
+        "item_inputs": [
+            {
+                "amount": 1,
+                "tag": "c:diamond_plates"
+            },
+            {
+                "amount": 1,
+                "item": 'kubejs:plate.central_processing_unit'
+            }
+        ],
+        "item_outputs": [
+            {
+                "amount": 1,
+                "item": "modern_industrialization:arithmetic_logic_unit"
+            },
+            MI_ITEM_CHANCE(1,"modern_industrialization:arithmetic_logic_unit",0.25)
+        ]
+    })
 });
 
 ServerEvents.tags("item", (event) => {
@@ -656,4 +780,7 @@ ServerEvents.tags("item", (event) => {
     noclone.forEach((element) => {
         event.get("modern_industrialization:replicator_blacklist").add(element);
     });
+
+    event.get("modern_industrialization:lens").add(/kubejs:(.*)_len/)
+    event.get("modern_industrialization:lens").remove('kubejs:quantumeye_len')
 });
