@@ -23,7 +23,13 @@ ServerEvents.recipes(event => {
 
 	//remove all the rolling mill recipe
 	event.remove({mod: 'createaddition', type:"createaddition:rolling", not: {output: 'createaddition:straw'} })
+	
+	//remove the techreborn recipe for futher progression
+	event.remove({mod: "techreborn"})
+	// event.remove({output: 'techreborn:refined_iron_ingot'})
 
+	//replace all electron tube with a vacum tube
+	event.replaceInput({mod: "create"}, 'create:electron_tube', 'kubejs:vacuum_tube')
 })
 
 ServerEvents.tags('item', event => {

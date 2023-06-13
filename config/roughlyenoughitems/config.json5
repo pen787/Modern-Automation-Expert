@@ -5,7 +5,14 @@
 			"{id:\"ftbquests:quests\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbquests:item/book\",\"x\":610,\"click\":\"ftbquests:open_gui\",\"required_server_mods\":[\"ftbquests\"],\"custom_text\":true}',type:\"ftblibrary:sidebar_button\"}",
 			"{id:\"ftbchunks:chunks\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/map\",\"x\":310,\"click\":\"ftbchunks:open_gui\"}',type:\"ftblibrary:sidebar_button\"}",
 			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:gamemode\"}",
-			"{data:{amount:81000L,id:\"modern_industrialization:tritium\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}"
+			"{data:{Count:1b,id:\"create:mechanical_press\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"create:mechanical_saw\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"create:millstone\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"create:mechanical_mixer\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"create:mechanical_pump\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"modern_industrialization:forge_hammer\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"minecraft:diamond\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"modern_industrialization:bronze_cutting_machine\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		"hiddenFavorites": [],
 		"displayHistory": [],

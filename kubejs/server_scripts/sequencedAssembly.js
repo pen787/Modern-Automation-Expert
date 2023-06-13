@@ -17,7 +17,7 @@ ServerEvents.recipes(e => {
 		Item.of('modern_industrialization:analog_circuit_board').withChance(1.0),
 		'modern_industrialization:inductor',
 		'3x modern_industrialization:red_alloy_wire',
-		'1x create:electron_tube',
+		'kubejs:vacuum_tube',
 		'2x modern_industrialization:resistor',
 		'2x modern_industrialization:capacitor',
 	],

@@ -274,10 +274,6 @@ ServerEvents.recipes((e) => {
     // add brass mixing with dust
     e.recipes.create.mixing("2x modern_industrialization:brass_dust", ["modern_industrialization:copper_dust", "modern_industrialization:zinc_dust"])
 
-    //replace a electron tube to 'kubejs:vacuum_tube'
-    e.replaceInput({ output: 'create:mechanical_crafter' }, 'create:electron_tube', 'kubejs:vacuum_tube')
-    e.replaceInput({ output: 'create:deployer' }, 'create:electron_tube', 'kubejs:vacuum_tube')
-
     //recipe for 'kubejs:vacuum_tube'
     e.shaped('kubejs:vacuum_tube',
         [

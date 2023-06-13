@@ -1,0 +1,14 @@
+name = "Yet Another Cobblestone Generator"
+filename = "yacg-2023.5.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "f32f640ce867025305f31a24b80545f3b343e956"
+
+[update]
+[update.curseforge]
+file-id = 4516295
+project-id = 857059

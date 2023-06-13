@@ -17,8 +17,6 @@ let MI_FLUID = (amount, fluidname) => {
 ServerEvents.recipes((e) => {
     const event = e;
 
-    const electric_tier = { LV: 32, MV: 128, HV: 512, }
-
     let custom_quarry_drill = (input, outputs, energy_use, duration) => {
         e.custom({
             type: "modern_industrialization:quarry",
@@ -427,7 +425,7 @@ ServerEvents.recipes((e) => {
             MI_ITEM(1, "modern_industrialization:electronic_circuit_board"),
         ],
         [
-            MI_ITEM(2, "modern_industrialization:electronic_circuit"),
+            MI_ITEM(1, "modern_industrialization:electronic_circuit"),
             MI_ITEM_CHANCE(
                 1,
                 "modern_industrialization:electronic_circuit",
@@ -685,7 +683,7 @@ ServerEvents.recipes((e) => {
     ], {
         G: 'kubejs:component.glass.tube',
         M: 'modern_industrialization:motor',
-        A: 'modern_industrialization:electronic_circuit',
+        A: 'modern_industrialization:digital_circuit',
         H: 'modern_industrialization:advanced_machine_hull',
         C: 'modern_industrialization:tin_cable',
     })

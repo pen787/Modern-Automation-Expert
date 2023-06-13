@@ -486,7 +486,7 @@ MIMachineEvents.registerMachines((event) => {
 
         /* SLOT CONFIGURATION */
         // Number of slots: item inputs, item outputs, fluid inputs, fluid outputs
-        6,
+        3,
         2,
         0,
         0,
@@ -495,7 +495,7 @@ MIMachineEvents.registerMachines((event) => {
         // Slot positions: items and fluids.
         // Explanation: 3x3 grid of item slots starting at position (42, 27),
         //then 1x3 grid of item slots starting at position (139, 27).
-        (items) => items.addSlots(42, 27, 3, 2).addSlots(139, 27, 1, 2),
+        (items) => items.addSlots(42, 27, 3, 1).addSlots(139, 27, 1, 2),
         (fluids) => { },
 
         /* MODEL CONFIGURATION */
