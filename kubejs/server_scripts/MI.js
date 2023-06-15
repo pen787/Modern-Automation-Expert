@@ -17,6 +17,14 @@ let MI_FLUID = (amount, fluidname) => {
 ServerEvents.recipes((e) => {
     const event = e;
 
+    let createaddition_rolling_mill = (input, output) => {
+        e.custom({
+            "type": "createaddition:rolling",
+            "input": input,
+            "result": output
+        })
+    }
+
     let custom_quarry_drill = (input, outputs, energy_use, duration) => {
         e.custom({
             type: "modern_industrialization:quarry",
@@ -628,6 +636,32 @@ ServerEvents.recipes((e) => {
             .itemOut(output)
     })
 
+    // rolling machine
+    e.forEachRecipe({ type: MI("compressor"), output: /modern_industrialization:(.*)_curved_plate/ }, r => {
+        let ingredients = r.originalRecipeIngredients
+        let output = r.originalRecipeResult
+
+        createaddition_rolling_mill(ingredients,output)
+    })
+
+    e.forEachRecipe({type: MI("cutting_machine"), output: /modern_industrialization:(.*)_rod/ }, r => {
+        let ingredients = r.originalRecipeIngredients
+        let output = r.originalRecipeResult
+
+        createaddition_rolling_mill(ingredients,output)
+    })
+
+    //create cutting machine
+    e.forEachRecipe({type: MI("cutting_machine"), output: /modern_industrialization:(.*)_bolt/ }, r => {
+        let ingredients = r.originalRecipeIngredients
+        let output = r.originalRecipeResult
+
+        e.recipes.create.cutting(output,ingredients).processingTime(300)
+    })
+
+    // the gear seuencedassembly in "sequencedAssembly"
+
+
     //recipe for bender machine and forge machine
     e.shaped('modern_industrialization:bender_machine', [
         "MCM",
@@ -711,10 +745,10 @@ ServerEvents.recipes((e) => {
 
     //quantum eye
     e.recipes.modern_industrialization.chemical_reactor(8, 500)
-            .itemIn('minecraft:ender_eye')
-            .itemIn('kubejs:white_len')
-            .fluidIn('modern_industrialization:tritium', 150)
-            .itemOut('kubejs:quantumeye_len', 0.95)
+        .itemIn('minecraft:ender_eye')
+        .itemIn('kubejs:white_len')
+        .fluidIn('modern_industrialization:tritium', 150)
+        .itemOut('kubejs:quantumeye_len', 0.95)
 
     // convert wafer to that wafer lol
     const lens_for_wafer = [
@@ -737,13 +771,24 @@ ServerEvents.recipes((e) => {
             .itemOut('4x ' + element.plate)
     });
 
+    //steel spring
+    e.recipes.modern_industrialization.blenderMachine(8, 100)
+        .itemIn('modern_industrialization:steel_rod')
+        .itemOut('2x modern_industrialization:steel_spring')
+    
+    e.recipes.modern_industrialization.forge_hammer(20,0)
+        .itemIn('modern_industrialization:steel_rod')
+        .itemOut('modern_industrialization:steel_spring')
+
+    createaddition_rolling_mill({item: 'modern_industrialization:steel_rod'}, {item: 'modern_industrialization:steel_spring'})
+
     //place circuit component using plate circuit silicion thing
     //// ram plate
     e.replaceInput({ output: 'modern_industrialization:random_access_memory' }, 'modern_industrialization:silicon_wafer', '4x kubejs:plate.random_access_memory')
 
     //// memory management unit 
     e.replaceInput({ output: 'modern_industrialization:memory_management_unit' }, 'modern_industrialization:silicon_wafer', '2x kubejs:plate.controll_memory_chip')
-    
+
     //qbit thing
     e.replaceInput({ output: 'modern_industrialization:qbit' }, '#c:glass_panes', '2x kubejs:plate.qbit')
 
@@ -766,9 +811,12 @@ ServerEvents.recipes((e) => {
                 "amount": 1,
                 "item": "modern_industrialization:arithmetic_logic_unit"
             },
-            MI_ITEM_CHANCE(1,"modern_industrialization:arithmetic_logic_unit",0.25)
+            MI_ITEM_CHANCE(1, "modern_industrialization:arithmetic_logic_unit", 0.25)
         ]
     })
+
+    //replace wire in piston with spring
+    event.replaceInput({output:'modern_industrialization:piston'}, 'modern_industrialization:tin_cable', 'modern_industrialization:steel_spring')
 });
 
 ServerEvents.tags("item", (event) => {

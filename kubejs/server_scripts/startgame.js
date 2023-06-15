@@ -284,9 +284,25 @@ ServerEvents.recipes((e) => {
         {
             B: 'modern_industrialization:iron_bolt',
             G: 'kubejs:component.glass.tube',
-            W: 'modern_industrialization:red_alloy_wire',
+            W: 'modern_industrialization:red_alloy_fine_wire',
         }
     )
+
+    e.shaped('kubejs:vacuum_tube',
+        [
+            "   ",
+            "BGB",
+            "WWW",
+        ],
+        {
+            B: 'modern_industrialization:iron_bolt',
+            G: 'kubejs:component.glass.tube',
+            W: 'modern_industrialization:red_alloy_curved_plate',
+        }
+    )
+
+    //recipe for redalloy
+    e.shapeless('6x modern_industrialization:red_alloy_dust', ['modern_industrialization:copper_dust','minecraft:redstone','minecraft:redstone','minecraft:redstone','minecraft:redstone','minecraft:redstone'])
 
     e.recipes.modern_industrialization.assembler(8, 100)
         .itemIn('kubejs:component.glass.tube')

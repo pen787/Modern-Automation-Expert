@@ -1,4 +1,4 @@
-// 1.19.2	2023-06-13T20:02:44.6623368	Machine Textures Provider
+// 1.19.2	2023-06-15T20:15:26.9646564	Machine Textures Provider
 ae39cf5f32113a9476ca44f31c959bea27517c98 assets\modern_industrialization\textures\fluid\caprolactam_still.png.mcmeta
 4465b172c08a7902fd3eb92527ad06cc53e40e52 assets\modern_industrialization\textures\block\bronze_tank.png
 ae39cf5f32113a9476ca44f31c959bea27517c98 assets\modern_industrialization\textures\fluid\liquid_air_still.png.mcmeta
@@ -112,6 +112,7 @@ b9de0974d13c20a10f68c679718c24e9b7263af4 assets\modern_industrialization\texture
 562065c8f78a50af8722aa6c44153f41db6a77e4 assets\modern_industrialization\textures\item\copper_ring.png
 ae39cf5f32113a9476ca44f31c959bea27517c98 assets\modern_industrialization\textures\fluid\steam_cracked_light_fuel_still.png.mcmeta
 3a755f8209a0d81f49b36fd1fa27d8682173680c assets\modern_industrialization\textures\item\uranium_238_dust.png
+3b3bd7db3aae53f0e0d25681400256c76a1bf4bf assets\modern_industrialization\textures\item\steel_spring.png
 4bb3090bfc0fe495c4029699ab631d02a8300246 assets\modern_industrialization\textures\block\uranium_ore.png
 d2bc73172795f641cff086b0f6d135b430074621 assets\modern_industrialization\textures\block\raw_uranium_block.png
 649f1756a994feb459491f3b5ae4dece69ba15f0 assets\modern_industrialization\textures\block\bauxite_block.png

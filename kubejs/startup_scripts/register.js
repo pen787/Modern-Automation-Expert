@@ -298,6 +298,15 @@ MIMaterialEvents.addMaterials(function (e) {
             .defaultRecipes()
             .forgeHammerRecipes();
     });
+
+    e.createMaterial("PE", "pe_plastic", 0xFFFFFF, (b) => {
+        b.addParts(
+            "dust",
+            "plate",
+            "curved_plate",
+        )
+            .defaultRecipes()
+    });
 });
 
 MIMachineEvents.registerCasings((event) => {
@@ -666,3 +675,12 @@ MIMachineEvents.registerMachines((event) => {
 
 
 });
+
+MIMaterialEvents.modifyMaterial("steel", event => {
+    event.builder
+        // .customRegularPart("Small Gear", "gear_small")
+        .customRegularPart("Spring", "spring")
+        // .customRegularPart("Screw", "screw")
+        // .customRegularPart("Long Stick", "stick_long")
+        // .customRegularPart("Small Spring", "spring_small")
+})

@@ -602,7 +602,7 @@ hash = "494142de1c7ae469480dd968e13ae2d040a87d9b397ca195415df5ba54385a26"
 
 [[files]]
 file = "config/roughlyenoughitems/config.json5"
-hash = "5d081849aeb0865b40232088776437622a6085f0f8c9e3ebdc40e9abec30159f"
+hash = "703ff19b924dec059b462a63cd111b08ce8e0aa9e106a1c3b708f3d381ee4070"
 
 [[files]]
 file = "config/roughlyenoughitems/hints.json"
@@ -610,11 +610,11 @@ hash = "bf0c8c3eb83fec1e3fab1f1acaab84a359361ac87e1d7ca676722464757b2c5d"
 
 [[files]]
 file = "config/roughlyenoughitems/pinyin.properties"
-hash = "856978afccff39091ad0797a845a3195809e772fed66b114599498f09aef2295"
+hash = "0cc271cd4455f86355b43df488237ec60cbfb92c78fb859a81a482af462ac8ca"
 
 [[files]]
 file = "config/roughlyenoughitems/pinyin_double.properties"
-hash = "9d46b30191c05291bba65ef320349f8f2506125a17c6396884d1cd0eccddba9c"
+hash = "9cd41a586b8677cb2780c606d3e25a450da463e77d9254905c9dd956c4fe1e38"
 
 [[files]]
 file = "config/rrp.properties"
@@ -1190,11 +1190,11 @@ hash = "399a67a94938ae641c4c37dc9e768cb56fd54e38fdd47aca7a52e22022f25a6d"
 
 [[files]]
 file = "kubejs/probe/cache/javaClasses.json"
-hash = "3e9e104d8074744cf60979b968f1b1517e8f74c628e9ae4d8bec94ff2d7841e6"
+hash = "055186775b1ae4625372a4ad6f5a8d79a9617a41878787cfa6dbf53f12f2514f"
 
 [[files]]
 file = "kubejs/probe/cache/mergedClasses.json"
-hash = "fa6989180e907a8bbbd98053fa9c6ec9e98776b72d72ebc9496eebb6caa33729"
+hash = "4f43fcd906f0d914f4186afaefca3e482657b1a367f44b6909bb7b0082be5ba6"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ad_astra/aeronos_cap.png"
@@ -1534,7 +1534,7 @@ hash = "020b657b9650f3fa4cdd6f09b749f573e4f611946d3f300b71fe379ae62e6d95"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ad_astra/earth_globe.png"
-hash = "82be82aa5e84a2134f4a155a076a5ab97c9f2c6d6c635dddc5978964e25e2d80"
+hash = "45b1e4a0bf30b4b547cd47b0dbdb83f586b8a3b38c926f434e27506519655cb2"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ad_astra/energizer.png"
@@ -1646,7 +1646,7 @@ hash = "f2f187544f2228e8293df5fdcde536bc6f47ce0011208794568801debb6dbd1d"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ad_astra/glacio_globe.png"
-hash = "18d2b2b21a9453f40b4a31d540bb94b8ebd75482bb72e4653559abef765a34b8"
+hash = "e4af2e9eac4630a45c481a8b9448563758d22f07013faf877ca877661bc27906"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ad_astra/glacio_ice_shard_ore.png"
@@ -1834,7 +1834,7 @@ hash = "a53057089d5a004cfa466970d13c8ab776f61da84f475071cb2b6e6b9f63ef42"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ad_astra/mars_globe.png"
-hash = "49b89ebdff77aba48a4acc25a3b4359616b5f836b3f2f46b61c94fd6b7411e0d"
+hash = "e83d97bad090d5bd7ae760cb44e758bb3899fe19b5d1eed1528f05f403f7cd15"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ad_astra/mars_ice_shard_ore.png"
@@ -1902,7 +1902,7 @@ hash = "4b72e6fdc85fb42dcc9ef35723cd1edad5a64503880fc9731587a4b1f0e6473b"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ad_astra/mercury_globe.png"
-hash = "a9e4e3007ab306bcaaadd129a2dbda09d42b88c3f758a0a5795c53655e584f96"
+hash = "4762b12253f895d2c7afca343525c8a691e6dd4d59199309a6038808c5158528"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ad_astra/mercury_iron_ore.png"
@@ -1966,7 +1966,7 @@ hash = "51fd0a6f46be88120639233ace493f46ba31b11c1fd3b7ef87ad08155564f849"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ad_astra/moon_globe.png"
-hash = "f685436fbf9fabad2f28e115c174b0301f557f4eceb96909171f1a3f22e54122"
+hash = "b5bf5b722f06aaa35b042db4e8116241c46aa7bcbe91e85d6ece6ffee8a2323c"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ad_astra/moon_ice_shard_ore.png"
@@ -2482,7 +2482,7 @@ hash = "24b244c250d1c953fca52621d785df6a0b6d390725cf2601e6c9955db828021f"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ad_astra/venus_globe.png"
-hash = "01e56d3264bce1a0a6524a3f367cf18848b17740c4150bd68701750c45c17af5"
+hash = "9d648c482b31d62e2bd7e3121e48be79bc160451a1b418e45a263248135bf5be"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ad_astra/venus_gold_ore.png"
@@ -2842,7 +2842,7 @@ hash = "ba6a1e37b23e3b229d89c98b8312dafaf5bc8f3beff02cfa015d9404e9f9eff5"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ae2/color_applicator.png"
-hash = "2dedb552361a068a983e8c84a15fefa795ce7b039345078c47dd14c8e8a5f283"
+hash = "ca1935e1c3499976ca5dab00584842184cd672ab146b053cd74abaf59c6f2824"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ae2/condenser.png"
@@ -3070,7 +3070,7 @@ hash = "895f0e3eeae418d08bab7d1483e4c2b42c059158092292b4bf010772749e6d0e"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ae2/fluix_axe.png"
-hash = "f081e49ba4a8ee3f3677542c1c82362702b22bf0b6a15961c410587553760535"
+hash = "2adf037b6335463e51326833be2a39c3065b05e74afce519552e1deadbf757a0"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ae2/fluix_block.png"
@@ -3098,7 +3098,7 @@ hash = "fddb3cc12ce3658955133e6348917b53dd0d17be7e47bdbd1c77e46ba81fa895"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ae2/fluix_hoe.png"
-hash = "61846cb045009afbe1a8763d84689be8957c430d6795863ee86306d5a3f089a8"
+hash = "302cfa2e2095a7e26e4bd68c53bab87a0a63e4f6150ec50d236ff349a999f3e1"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ae2/fluix_pearl.png"
@@ -3106,11 +3106,11 @@ hash = "66a3938501da39a4d02711080b1c4c879e2022566091b200093b3871f318c597"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ae2/fluix_pickaxe.png"
-hash = "41e7d94be27e36a7cea0ff921e3a391dffe6e3723b3f99be9356d4bd7d0aa885"
+hash = "eecb0b0074b844f9a284c4de2c6ac0bf40943b92deb12ca323ca4fe90306707f"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ae2/fluix_shovel.png"
-hash = "8ec11aa44c69690245b4830feba1f26dc32a91285b5be7ae7680b3da56cfc642"
+hash = "a3484debc0517fa974e6bcf70bb3bd130e5c87887185b6a12699a9c599f693e4"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ae2/fluix_slab.png"
@@ -3130,7 +3130,7 @@ hash = "1756b216420642e0bef863fa3568c5995285269e2a999e319da0bb8912464e73"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ae2/fluix_sword.png"
-hash = "31ca17135ef069afa88324deee3b6b2e1ac93acb17528fdfdb5409c57b1b9d84"
+hash = "f5a47218fd623e55cbf22406de68f2abf760079ed08e2959ef4f53c9e974a3ef"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ae2/fluix_wall.png"
@@ -3482,7 +3482,7 @@ hash = "98de539ec37153ffbdcc60e0009721bd30dcfb3dfdbc679400e3ffa555f9302e"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ae2/meteorite_compass.png"
-hash = "4041753a0761d4d1e02e5db53a72d55a3bd9187d2040e60b74bfb7e2e94fb7c7"
+hash = "43efc116c3c681c954f5e056dd89d758f6e3cbb9b52bcca0a66a5eaa3812259f"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ae2/molecular_assembler.png"
@@ -5622,11 +5622,11 @@ hash = "5dac92deb9e15abe2b254611453314d87ed40262ccaa184b39acd7fb370fd3f2"
 
 [[files]]
 file = "kubejs/probe/cache/rich/blockus/chiseled_lava_bricks.png"
-hash = "4e961b4c696537710fc291d4b1e5480f1a0cc4332df539e6c2bcdbb5cb53b792"
+hash = "25512acedf45c2b123a8f00568afc4ea333f5a8f90bcbf2702c5af0e82d16120"
 
 [[files]]
 file = "kubejs/probe/cache/rich/blockus/chiseled_lava_polished_blackstone.png"
-hash = "4b7d37251425e9effcf3ede01648ddf940503f4715123a5c794763480dbd9541"
+hash = "b98ee1dd0e4e3d50c8af5ac95b34e5f33ea7b66968a479fb8657a3b030133399"
 
 [[files]]
 file = "kubejs/probe/cache/rich/blockus/chiseled_light_blue_concrete.png"
@@ -5654,7 +5654,7 @@ hash = "604d384d19734c6c33bd4e6726b0beb2cc6cb808a47575ebefa65e102194de71"
 
 [[files]]
 file = "kubejs/probe/cache/rich/blockus/chiseled_magma_bricks.png"
-hash = "1027d2a06905367187b865872b1a10bcc838137305ae1b6ced918bc69bce36b1"
+hash = "228ede0108d12f57a3d5b6547ddec2c1bdb495e59483340deb04dc9a0e8d9153"
 
 [[files]]
 file = "kubejs/probe/cache/rich/blockus/chiseled_marble.png"
@@ -5722,7 +5722,7 @@ hash = "020c3fa401df15c40ac982c78b5552936892a996c5440655fee91c2e49fdd458"
 
 [[files]]
 file = "kubejs/probe/cache/rich/blockus/chiseled_water_bricks.png"
-hash = "dd0d240dc93fde10204b2a2a21e908cb6e6cf934a81ebb4fe862a06eb1f8ad00"
+hash = "aed55a35445616bdbbef9d09b06f912be31e5e31ce69ca02f70d8945d32005d0"
 
 [[files]]
 file = "kubejs/probe/cache/rich/blockus/chiseled_white_concrete.png"
@@ -5830,7 +5830,7 @@ hash = "77f0268c0feea04f13347744ad7b4b8dae461d1fe6c74826703af41afbc1faf6"
 
 [[files]]
 file = "kubejs/probe/cache/rich/blockus/crimson_small_stems.png"
-hash = "952204515a269461f621104b69db356b2d13375eb1ebc43546f208a5a1541425"
+hash = "47db10e752b6361827288f8663126bd1f88aaf9f38a1977c4b85d46a6d5a0920"
 
 [[files]]
 file = "kubejs/probe/cache/rich/blockus/crimson_timber_frame.png"
@@ -7406,7 +7406,7 @@ hash = "0c3626e312edc0c8b73806227cf841b35ca66e62db097f7fac678a9c8c61f959"
 
 [[files]]
 file = "kubejs/probe/cache/rich/blockus/nether_stars_block.png"
-hash = "2cd6df9eeabd59d46e04ab631eec01f37605826b142f3eb8fc6aa3da26337dc6"
+hash = "a3846fddd904ed6aaa1402ff7330f3ac98eb420a865aa48aa967ae31305b18ca"
 
 [[files]]
 file = "kubejs/probe/cache/rich/blockus/nether_tile_slab.png"
@@ -12086,7 +12086,7 @@ hash = "83b681accbbf2d439a2aaae74ff7038a143576f6be40c0b2fdc977aba3cbbea4"
 
 [[files]]
 file = "kubejs/probe/cache/rich/chisel/log_bordered_crimson_planks.png"
-hash = "a3224b3524ebb5b2c88a38c200d6f0a536022c8c15466849eb1e42a7c1320e21"
+hash = "848a63c427f4b957a985201e45703dc3ca0de3d51f15761512f92117a1d68b6e"
 
 [[files]]
 file = "kubejs/probe/cache/rich/chisel/log_bordered_dark_oak_planks.png"
@@ -14918,7 +14918,7 @@ hash = "3ef1a562feebdf39077b2964bfb7290029bf04f084581aa73d2ff7f7157182bb"
 
 [[files]]
 file = "kubejs/probe/cache/rich/computercraft/computer_advanced.png"
-hash = "19cfe38602c01a745fc233573dc4232ff64ed417e591d78ba0dc80a8acbd42f5"
+hash = "19dc068cf0c4eb78ea4493d3a6dfb6a82fe912f4434eaae94d54f6a297b45720"
 
 [[files]]
 file = "kubejs/probe/cache/rich/computercraft/computer_command.png"
@@ -14926,7 +14926,7 @@ hash = "18f603e3fbd210c672411355ffabb61db5b1ad20c781c81090e2dec6bf6071c9"
 
 [[files]]
 file = "kubejs/probe/cache/rich/computercraft/computer_normal.png"
-hash = "7685ccf7149f72005b7c347a24d55ed10fc3fbb7893e7551363147f425695673"
+hash = "b8a76b10b6536332f84103b06dc87df706291ea3df080833ce7b619400a203db"
 
 [[files]]
 file = "kubejs/probe/cache/rich/computercraft/disk.png"
@@ -15315,6 +15315,10 @@ hash = "2c1d3e7ec2f4e33b2cb652fa470d67ccaec71b17471926b012315b8f4a0d8b43"
 [[files]]
 file = "kubejs/probe/cache/rich/create/crushed_platinum_ore.png"
 hash = "e2c3a4f6e6bc2ee1d392f53f3c19cfe8725c8e7d6853af9c331b6fad5296042f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/create/crushed_silver_ore.png"
+hash = "1a69bcabb558923a6fd920dfc221e75342ee679ae3e59900918938007854e56a"
 
 [[files]]
 file = "kubejs/probe/cache/rich/create/crushed_tin_ore.png"
@@ -15870,7 +15874,7 @@ hash = "4e3c30deb454e10da216699184c915df28349d57cdc4bda3380583bf45c992de"
 
 [[files]]
 file = "kubejs/probe/cache/rich/create/experience_nugget.png"
-hash = "f1e3553071dd36e969af1fd989b9744a52993d3ad56730268a8ead87f55ab146"
+hash = "120090b6e030241c3cd80dccb0c85780400ec45cd248f1bedf6da99ab6a0c2de"
 
 [[files]]
 file = "kubejs/probe/cache/rich/create/exposed_copper_shingle_slab.png"
@@ -15898,7 +15902,7 @@ hash = "5d94db51429a900b953a8b9a2938aa0a67e57eb70f39490b78f87b715dac5bb3"
 
 [[files]]
 file = "kubejs/probe/cache/rich/create/extendo_grip.png"
-hash = "dd33c736b3690734effa6311dbd7b78c899fa157b3f379ed983f9d979ffc877e"
+hash = "9f6516499dd67cb3bc7866b303bbd745e4426e15979af057b05569d5cfea95d5"
 
 [[files]]
 file = "kubejs/probe/cache/rich/create/filter.png"
@@ -15994,11 +15998,11 @@ hash = "bbace07c2cfe82c43319bd60411b88db7ec4400c68b5712ee8ccca2b08e1ccaa"
 
 [[files]]
 file = "kubejs/probe/cache/rich/create/handheld_worldshaper.png"
-hash = "f09053bb9099d4063a98dd6104fc6a71bd6f2c89f608385b9fc7913202d0a013"
+hash = "2e5e5603f728475260cbe8455e462c9ed0ae122f22597004d1842075fdd6da12"
 
 [[files]]
 file = "kubejs/probe/cache/rich/create/haunted_bell.png"
-hash = "9c9ff1a0775e00b268b92d9132f7749e60245f2d9e1411e9a6f0186025a1d1fa"
+hash = "60c33069a2576653efe38925fbe882929a3e8563e040dfb0a13f9906a938cf8c"
 
 [[files]]
 file = "kubejs/probe/cache/rich/create/honey_bucket.png"
@@ -16206,7 +16210,7 @@ hash = "ebc3054fda8eef1bee6eba2dd3e00ef0e1b9d77fac66dc79344f0230cd431467"
 
 [[files]]
 file = "kubejs/probe/cache/rich/create/mechanical_saw.png"
-hash = "a747c09cd3ab647f0301e87f08b92f593417275ca3a3cdc7d6c3aef34c3a0cf9"
+hash = "c8a56ff7cf2c66b4420e24eddc1f725e803f44dcca6e989a8f453ffb15578ce5"
 
 [[files]]
 file = "kubejs/probe/cache/rich/create/metal_bracket.png"
@@ -16554,7 +16558,7 @@ hash = "debe4bb7ca940c9e8901a575dd600c9a73b4211c14e56bf00ae92c0529b2da52"
 
 [[files]]
 file = "kubejs/probe/cache/rich/create/potato_cannon.png"
-hash = "2c40cf6c36964cef7b2782444056e742acdce783a3495d2ceabaf0586a9dc4f0"
+hash = "6b11510f2d1ec744c5a33424da6bf94029103c93c1e8cffcfbcc7f463acb90f3"
 
 [[files]]
 file = "kubejs/probe/cache/rich/create/powdered_obsidian.png"
@@ -17066,7 +17070,7 @@ hash = "6b95cd5070907230ca652714f3800bc9098a51ddf5382a0e0189e45d62d8950f"
 
 [[files]]
 file = "kubejs/probe/cache/rich/create/wand_of_symmetry.png"
-hash = "fde4d40646884b79ce6253290a64e4823d1329be9400239f26cc7f7e2e940d6c"
+hash = "2ff041a8a753dad50113ed337dec2468f0072d04d5f1f4e2ebec413c736d0712"
 
 [[files]]
 file = "kubejs/probe/cache/rich/create/warped_window.png"
@@ -17238,7 +17242,7 @@ hash = "26bbfd77751fe72eacfa385211b81bf31171ab1543263a9190701869743c4fea"
 
 [[files]]
 file = "kubejs/probe/cache/rich/create/wrench.png"
-hash = "fec0abc84b72b64c3bf96bab53965622b9c12a5c898d4bcb89e65afa9703337e"
+hash = "037932f67fe5ab7ae3a6b54c5a3bf1792df2e24edadc8a5c3967b9ae7b61558d"
 
 [[files]]
 file = "kubejs/probe/cache/rich/create/yellow_seat.png"
@@ -17650,7 +17654,7 @@ hash = "17e7ace7f77ec639f53656d7f5cbcaf65cac1f928afc18d0ec7bc702f9ae0304"
 
 [[files]]
 file = "kubejs/probe/cache/rich/dml-refabricated/loot_fabricator.png"
-hash = "4367311eb7c35743a3e43a7cb3cfc257839196b443e0a944cdee0dbf37cc3e43"
+hash = "ca851e4e79842aefb1b2360c5bed6fbfc4cfd7ab4e4c58448baf94e6ade328fe"
 
 [[files]]
 file = "kubejs/probe/cache/rich/dml-refabricated/machine_casing.png"
@@ -17674,39 +17678,39 @@ hash = "1d0efe0565d71931690fd3c29ac22396139ada1c6676700ec655c68a31092301"
 
 [[files]]
 file = "kubejs/probe/cache/rich/dml-refabricated/pristine_matter_end.png"
-hash = "050fb48793cfc60733cc5358f77318bc3646cf8a016d32dfebe99f414a0bd6f5"
+hash = "d331b6642ec1339ce5f7287d6a3f6072634fbd5f91581717b7b411957c47acb1"
 
 [[files]]
 file = "kubejs/probe/cache/rich/dml-refabricated/pristine_matter_ghost.png"
-hash = "7c5461c68f59dcd5b1209ddd65a8920b22a43df7db974e6be0798923d96b5121"
+hash = "cda3f0c9e8df122be7a25324288c4236db6c34fb079db9a3c9af46150f71ddb6"
 
 [[files]]
 file = "kubejs/probe/cache/rich/dml-refabricated/pristine_matter_illager.png"
-hash = "d2c55cf73f0f5b0905e424d45f1e6672165538ca7911b0992a9b31cbd216a742"
+hash = "6cbbfc8910f84d8920c39bf7651227346f5d02880efc4be8b64af42802b7c671"
 
 [[files]]
 file = "kubejs/probe/cache/rich/dml-refabricated/pristine_matter_nether.png"
-hash = "4290367ba0e6c46743d8d0d2359cdbf1bccfa949554ed347bd067e780f10d4e9"
+hash = "e1074fe9c42861f5308ac28190a72a3d1928f104bd13eb981143852c79d156e5"
 
 [[files]]
 file = "kubejs/probe/cache/rich/dml-refabricated/pristine_matter_ocean.png"
-hash = "6cbfdaa5fab4e4b178d2704531b2f0782f0031c8f34a999d0e368f662b86835d"
+hash = "2b98e44191503ffb1f69ff48698ead6e8f39275a0d91f754636e630023f52a45"
 
 [[files]]
 file = "kubejs/probe/cache/rich/dml-refabricated/pristine_matter_overworld.png"
-hash = "0c0b447d9e090b0301a991c1df38caabe0916a2418ddd24ef6f3d3691a1adf92"
+hash = "dc678c6818d99d988a4f449a7b76fd7312e7d1c6715b1acf626484fbb1f5b0ae"
 
 [[files]]
 file = "kubejs/probe/cache/rich/dml-refabricated/pristine_matter_skeleton.png"
-hash = "882be077fe58d0d7998c27856529d86fc77ad654286a00bff2349f6796143e60"
+hash = "800800d7cdc5febff089c52f286f608dc97354ab768aa6e5b02556dc26dac025"
 
 [[files]]
 file = "kubejs/probe/cache/rich/dml-refabricated/pristine_matter_slimy.png"
-hash = "84d1bf0c461a0296ff9593c6822c65e274cad4a54805ee253742201490a9408b"
+hash = "da3173769c83187dc093c1d5685de6c0d0c260671dccf2f8322ede61cd48f245"
 
 [[files]]
 file = "kubejs/probe/cache/rich/dml-refabricated/pristine_matter_zombie.png"
-hash = "eceaafedca109346c12b2752cc920547769fb84b4cb1006af98d4ee64b91655e"
+hash = "a05c8d538ca7a92c154d322c1ae0534e6019e72284a4e74be31ced369114de9c"
 
 [[files]]
 file = "kubejs/probe/cache/rich/dml-refabricated/simulation_chamber.png"
@@ -18594,7 +18598,7 @@ hash = "18c3fdf07d902efa4d87cdcbfbb209c9156023e6ba205ff20d89a320c94d6d6c"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ftbquests/barrier.png"
-hash = "132b0c9e7ab15df98bb3222f7d3d9835a64c5dc3dd8cf7bb15949dd5fb2488f1"
+hash = "cb8d6cd4cc3cdbbbdecd37965f8bb3238c25326e35a5b78b946e91228285a0d0"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ftbquests/book.png"
@@ -18634,7 +18638,7 @@ hash = "1b4b54cb183a3c295c6cfc6243d578c70e1bcf6d237fb210c4a077ae02c82a08"
 
 [[files]]
 file = "kubejs/probe/cache/rich/ftbquests/stage_barrier.png"
-hash = "132b0c9e7ab15df98bb3222f7d3d9835a64c5dc3dd8cf7bb15949dd5fb2488f1"
+hash = "cb8d6cd4cc3cdbbbdecd37965f8bb3238c25326e35a5b78b946e91228285a0d0"
 
 [[files]]
 file = "kubejs/probe/cache/rich/immersive_weathering/acacia_bark.png"
@@ -18894,7 +18898,7 @@ hash = "64aa42487a72065b7c92498202c61a47cc6f257b1cf850b47824ef5196e4c1e9"
 
 [[files]]
 file = "kubejs/probe/cache/rich/immersive_weathering/enchanted_golden_moss_clump.png"
-hash = "87781d778a38cd6b580c895cf1d100adebfa8e9e811f442e67f0a337827a6092"
+hash = "ecea94f3297bc151d8a09a623e9b5b95bd109d038d7d25b749acab8b9e685502"
 
 [[files]]
 file = "kubejs/probe/cache/rich/immersive_weathering/end_stone_brick.png"
@@ -19293,6 +19297,14 @@ file = "kubejs/probe/cache/rich/immersive_weathering/tallow.png"
 hash = "daa3e171b41ed63e42e5fa0c80a890bf1068c8a211412983c14947999a7e2ab8"
 
 [[files]]
+file = "kubejs/probe/cache/rich/immersive_weathering/techreborn_rubber_bark.png"
+hash = "1a6fb621fdc34a01a25236e46043c999ad6ecd5d4db0e405542a967433d7901a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/immersive_weathering/techreborn_rubber_leaf_pile.png"
+hash = "04110b1f7e5edd1855cf9af806693b5ee5809694fe5196511ab178cc9a655044"
+
+[[files]]
 file = "kubejs/probe/cache/rich/immersive_weathering/thin_ice.png"
 hash = "a344e2fccd143d00705c5f46061284889d05f1a241e55b27a268815a399eb0c8"
 
@@ -19605,6 +19617,10 @@ file = "kubejs/probe/cache/rich/kubejs/ostumium_drill_head.png"
 hash = "640348f7346fdc7a5ab59c6214167819b41d9bc21f0a1b1f83a3ff1025ac860a"
 
 [[files]]
+file = "kubejs/probe/cache/rich/kubejs/plate.central_processing_unit.png"
+hash = "8ac06005359313d594a87f765c7a7992e0811311171ce39511a3e949baec48b5"
+
+[[files]]
 file = "kubejs/probe/cache/rich/kubejs/plate.controll_memory_chip.png"
 hash = "ab05adffcbf0e59edb56cb49dc9466bee5acf65fb9ee5298ac8e66ae11b1379d"
 
@@ -19615,6 +19631,10 @@ hash = "c6dd030c45db58fb01f492649d96020800b80e8ebc5e3196f3de8b983b9e1845"
 [[files]]
 file = "kubejs/probe/cache/rich/kubejs/plate.qbit.png"
 hash = "fb8b69016a9e074789277eddec0580bd31dd6de3b653e2918e5389d4c28044a1"
+
+[[files]]
+file = "kubejs/probe/cache/rich/kubejs/plate.random_access_memory.png"
+hash = "d1599d53f0629d2dff07ed80c8dacb32d7d8556b521dab3f119e177bad8600d7"
 
 [[files]]
 file = "kubejs/probe/cache/rich/kubejs/quantumeye_len.png"
@@ -19667,6 +19687,10 @@ hash = "c756828aa7f1a6f0ab623d464a6e6d401cd4f5cb498fe6fb2acdf32a25ede1b4"
 [[files]]
 file = "kubejs/probe/cache/rich/kubejs/wafer.integrated_logic_circuit.png"
 hash = "4a44b9030c9012d93a2140e91a2707f9f889f96963a95c3b55d270ee36f047ac"
+
+[[files]]
+file = "kubejs/probe/cache/rich/kubejs/wafer.qbit.png"
+hash = "1a8949b85aa943a681903538fb8cd487436013d0791ef33a0e70ef8cf1a3ad20"
 
 [[files]]
 file = "kubejs/probe/cache/rich/kubejs/wafer.qbit_central_processing_unit.png"
@@ -19722,7 +19746,7 @@ hash = "0083943079654e0eabf575ca323c964bbb1a6e5207b617bbe4e8b41206b83de2"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/acacia_planks.png"
-hash = "71ccbdb5cfe93c2f121d6d79210e9d5bbcf78196fb309413bac89782e1eef596"
+hash = "d1708f367fb2f39f5b3cb4a79ea9c8a4ebdf60b625f59979344536ad04d3016e"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/acacia_pressure_plate.png"
@@ -19782,7 +19806,7 @@ hash = "dad6f568721c9f6a877d649e0dd83668b48ac110a8a3105d0fff0284288f3962"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/andesite.png"
-hash = "fb8f4bf528e1cdc2bf760dd40268f1e7a8501144fcdd3186e5c6784afa52a7e8"
+hash = "cf9665f441e2da0cb38f802a890dfad05e231cfa6ca4f596f0328d2a81be4241"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/andesite_slab.png"
@@ -19930,7 +19954,7 @@ hash = "327f90e8af2be62613b437bd8654f746f609bf5d52aba6e1f56308438361fb20"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/birch_planks.png"
-hash = "277d3b7212dcbdf5ee9eacd974d22ca68e095240c975cf81f1147a3f9cc164cf"
+hash = "d9101fcf1393ac13a0927926d536e8bbfa6d04ee39e1f5e005d2868b63a72c53"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/birch_pressure_plate.png"
@@ -20262,7 +20286,7 @@ hash = "e45f623be1d8ead223392d580ca040af1315a7f8aae08acbbf274eb48c86b0db"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/calcite.png"
-hash = "2e88d0944a0b1c43f54db3a5d066a913dab867a33682da3f5ded5f711f9731ce"
+hash = "d7bb127216bfd17706b0b2d5f2bbfb4417248196c03ab792e20b68db648483bd"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/campfire.png"
@@ -20410,11 +20434,11 @@ hash = "0bf4e297f4ef11dfa893f1956f75c670e22dc3ebb9a8d217743ad6fbc8784ef1"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/coarse_dirt.png"
-hash = "b4874c3b7ba71ec7cf7b2bc331c2638b0bad286e9db5271e9b8345326a208974"
+hash = "2d6aaec30d59869df64ddcb4c8b6743912f841a038fbe8a49ad7979f2a9dbba9"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/cobbled_deepslate.png"
-hash = "11edee547cfa63686542f3fa8054141d28316aed89fccf8ecd28504061b4f1fe"
+hash = "b006795e3c7169223821b88fc7fde21c45e7a36b1a1aeb25e04e851bb7efc782"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/cobbled_deepslate_slab.png"
@@ -20430,7 +20454,7 @@ hash = "58d4e848bc8c8d33b8b75fcdda395f4924bc6f26df17c92e395e04563ca9888a"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/cobblestone.png"
-hash = "861d7c5e89eb6580ed550b06bfaf283bf44402ae9941f8bfba1e3ef89922ab28"
+hash = "d5fd1d595a6a705d25becb3f9106ff2280c9890952c2618b9d9e0c382cc17bc6"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/cobblestone_slab.png"
@@ -20590,15 +20614,15 @@ hash = "c8e006e1d44fd40749f6292b2b59ed65d7af38c18882e1872ea474f1152b000d"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/crimson_hyphae.png"
-hash = "9ba50c2c082ba8195c321478a71057e423ad69cfbe4338509af19b8b18dfa2ae"
+hash = "18a1d4e06c55f700169af60db541f2b59f3b14eadbeae1ed4d130903f48463d1"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/crimson_nylium.png"
-hash = "77e718f2ebab9cbd305ec534787c42ea1bf3d4184f353268ec965e1fb52dbf0e"
+hash = "1f75790d757260d8d8d4cf3b58c06c814430a6ab6c4a0e17bfc09cad171203f4"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/crimson_planks.png"
-hash = "74b75156631ba3b978583b9e3392a6fb8d8a857037d378a400034f9a34682e33"
+hash = "5ff77581a390f7721a6c5b1f36c037296aec09a96b4453019def7d97cd32db82"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/crimson_pressure_plate.png"
@@ -20622,7 +20646,7 @@ hash = "fb28fe2dc3d2cf9c87bb43ac5f49dea1c803520e784568976fc2928acc30da49"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/crimson_stem.png"
-hash = "812d6138065962d1e1858fd25d795bd5a2d6f2016dca85adebe4805a1c3889f7"
+hash = "642502823ce5fcf8082231c3e54099cc86c4127cfd2a24460e3620ed518ef00a"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/crimson_trapdoor.png"
@@ -20758,7 +20782,7 @@ hash = "9e46b0cc4a79cf4b7549155e2178456409c3994dd398410be2773b13c8e00314"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/dark_oak_planks.png"
-hash = "09d9c6172a345af8e1dc7a46cf8649c29fb253e651c7146366d43ede661cf26b"
+hash = "6122181f8088f1156db312588a52b85b02245786719358aa9f9d6936967dcec9"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/dark_oak_pressure_plate.png"
@@ -20870,7 +20894,7 @@ hash = "14daadbb3066c0340ca88b87865d2e7d8839874b74a5f59c86bc22aabdc958c5"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/deepslate.png"
-hash = "fc26718abdd167d4cceb1b819a6735b07d6064f63874289350dd359145c08ea7"
+hash = "faeeec61230d231e6498618d17bef5fb2aa1f75556404a3c9992c3f8eea295cb"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/deepslate_brick_slab.png"
@@ -20994,7 +21018,7 @@ hash = "857e82e3422a598733250dd57c76db8e3438cdde99220abfb6cdde8f5c6e71df"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/diorite.png"
-hash = "e9b0d5857760512b2bd02b884bca62c9a0be7e46ab79fd3108894aabbd01e55d"
+hash = "74d5d06c01eaa904cfa21520403387562233056ebd9fa52581d5a84b6cf97c99"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/diorite_slab.png"
@@ -21010,7 +21034,7 @@ hash = "1529e78601ba81cd1a2be0a2fb97f2b718575421649f9de6ba34ab339fceaf03"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/dirt.png"
-hash = "984f7ec56a819079be923bfdc825cf10d17eab64daad759c6e4357bbb7184cd2"
+hash = "cc31a97c723ae82ad72cea996b0b89768d205aed7adead923019324b8eaf1c8f"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/dirt_path.png"
@@ -21050,7 +21074,7 @@ hash = "2c1a2b955f597401215ee1bef5371c45919a0d74b8451b7ab4af325437e6b2ea"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/dripstone_block.png"
-hash = "5429fc1848f91211b2fb4ed8ab1945ad1acc190676a168e4871224c065173954"
+hash = "9853c576f070a061156d79ca7e6c19d68676abb9c49717c2c7a2c89d1d73eec4"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/dropper.png"
@@ -21090,11 +21114,11 @@ hash = "9166fe2a0202fd7f9d27c55f21984604446d14dfd417768036d1d1e89f84af46"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/enchanted_book.png"
-hash = "950bcb3a2d6e420fcdbaaa2a8139b00221b13279afa393e16ffac848600b28b6"
+hash = "4358f765396027871da154a66ffa4fd9eac4f495e7438153c4f7e54e96c1b9b9"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/enchanted_golden_apple.png"
-hash = "e505f3054bb02dd4f6ec2a897bd6a2a6c727d7d4eb692d88d97f472f96a36000"
+hash = "205c4825cd37d3539a7c515d870e8e979a67b4482fae77d91003240a4a1cc7eb"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/enchanting_table.png"
@@ -21102,7 +21126,7 @@ hash = "dced8390d2ce9dbd6bd5103ac38880d76b753c574f6a438296b487cef019c2d8"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/end_crystal.png"
-hash = "6d8609eefdd99324d1fbd78568bef6c92a31972ed1a06f4b369a454268624609"
+hash = "b0c21797f1f5fd3896bb739fbd548d0ca1d9512c3087fdd98998e5ef8afedfd8"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/end_portal_frame.png"
@@ -21158,7 +21182,7 @@ hash = "0f820bc09d4b27fa2e8f840116bcd0bfa08b07253db4d1e1de4bafc5b3acf05e"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/experience_bottle.png"
-hash = "06f17134996987efc97c4dbf7bdadee48bcff36b5615f9d3269b56b7ac6c9733"
+hash = "7c4046480262e457e0865880db7c4154c8456b7779d097a4ebc48cc02f39211b"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/exposed_copper.png"
@@ -21402,7 +21426,7 @@ hash = "e340e0467c115209cc0dd6aa8bbe3377240ceb435e74bf05207336b290156225"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/granite.png"
-hash = "0528567be6f32ee4cbab5ad9a3b8d80df3b37dd9cf9bb2da275f47f738d4c2f5"
+hash = "0e5289120d3a3f9ea2c1c195d980418d8bddc1fba84752654186b62ba596cf85"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/granite_slab.png"
@@ -21422,7 +21446,7 @@ hash = "3262875bfdc6298dae87fa1786ef2495f1e303637a737e4157c4e1bc908c319f"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/grass_block.png"
-hash = "5405a6e93b23fabae717d8b609d8bb4ca58821ec8eb23d59f9867dacb0849d72"
+hash = "1e0bed51a68c1cbd2dd7b0951f2fc0f591a4e80e42cb4103371d62e8eff1e728"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/gravel.png"
@@ -21758,7 +21782,7 @@ hash = "2551866e9cd6d46ed6fe251a9a98e6dc8f16575c7a7c9c343403249b16639034"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/jungle_planks.png"
-hash = "9a37383de55b57d86e0048e91b8f556607c2329d74c290496182dda01672b94c"
+hash = "e10104e1f48db5fe0d3e9641bc70c9c0d3f1665a2de5cb13e3549b07faad655d"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/jungle_pressure_plate.png"
@@ -22038,7 +22062,7 @@ hash = "966ee538c776879bdbad98391e752f1a4fb6bb1120314a5af49b35387e50d980"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/lingering_potion.png"
-hash = "f659036d8e3f12961d6b339dd27a9f7cd8951ebfddf045841feddfa636e2d61b"
+hash = "7c168552de734eed9948226db63df4e87a4948f77dec2ba7f7402ab38c7d34cf"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/llama_spawn_egg.png"
@@ -22150,7 +22174,7 @@ hash = "ed1dd7b2964846afee2ca118ccbd52a04ded3cabc6a31e5f70c57b98bc883e72"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/mangrove_planks.png"
-hash = "903666190c982745fecb2cb8cb61bb2076153078cd75f576c305f7841b3571eb"
+hash = "79bcac9188076e02dde511f42bef42e6d5734d03de9265362061b6c428bfb2a0"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/mangrove_pressure_plate.png"
@@ -22262,7 +22286,7 @@ hash = "26f4aff593eb62350f36b20071855a9bdcca637314b2f1f850fc6157a6f3510f"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/mud.png"
-hash = "d5a87d0d7104789731bfd6dab45ca4aa604fd736983cd6e6357bfae52ef6bcef"
+hash = "7b30e1ff01516fa1ddd7b41f53470c1546368ee1cbfa3c524ca612e0eadee63a"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/mud_brick_slab.png"
@@ -22410,7 +22434,7 @@ hash = "7687c1aa9b372549ce9e96b86f9c97c44e9116bce6a43b18789fce95231c6be4"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/nether_star.png"
-hash = "bff35907de8d568f7ebb6310c60969a9816320a7a4488e5d2fce7450dedd2eba"
+hash = "d098a0b6987e1fd746c3c7464ea6cf47a3829bb059457dbc2a03ad3ba126c2f7"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/nether_wart.png"
@@ -22510,7 +22534,7 @@ hash = "6e8de522824965cdcf078192d3a21f4c55f6a4361dd672115398a58be17b4c3c"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/oak_planks.png"
-hash = "109171139673bcb3b6b9fc1f9acf8a318cc58368832942a9c261f9357ec7daa6"
+hash = "bcb74c034d2fe0f63317d9b334034f28989ea7adc28e20eaa3e77c7cf0260784"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/oak_pressure_plate.png"
@@ -22762,7 +22786,7 @@ hash = "b40c705a0f67c99a7713f9ff06d6ad6e49f554b672d0549de3787e3ac983dd64"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/podzol.png"
-hash = "129e8bdc92a677d8639c2bdcef2d0389fde248e55e924d4df596388630180e9a"
+hash = "44bd7dacf1066529074b3bba493c2373439c2354c19720e1693a029186204a8c"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/pointed_dripstone.png"
@@ -22778,7 +22802,7 @@ hash = "3803fefc5482aceb939362cab2d337961477a86fffa5b37b3c297b10e701297d"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/polished_andesite.png"
-hash = "c1fbe3d95790864734e4a9482cb8e377f382775302ae8547a4094aeb2a0acf52"
+hash = "58e4b6d33f07573a3181ebe4a2ff18c3e9a4baa2d133846f8fe3437e8d34d845"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/polished_andesite_slab.png"
@@ -22834,7 +22858,7 @@ hash = "a510ff62c633ee21dcefc281064614b9c1b08c4c878d8accfd443766032f26e4"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/polished_deepslate.png"
-hash = "6e651e8f58fbb9b12bf9db3c67c3b5d6e567549f6c2240675a21d6676b388503"
+hash = "5787cb3229adff0553eb104d653f01d176f747e07a0dcbf7c994f27217e149ca"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/polished_deepslate_slab.png"
@@ -22850,7 +22874,7 @@ hash = "0d3266ceb7ffb34e9dd09dc20351a9d06b5bf2dd74c98c622901fc8c848268ac"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/polished_diorite.png"
-hash = "6f18060e02113e680699f683f10772abef5bffccd1548708237f503fad7dd921"
+hash = "e2b96eebb33916c9733e35bc9b98b8ec97107780fade3c09cf0aa9f45a82762d"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/polished_diorite_slab.png"
@@ -22862,7 +22886,7 @@ hash = "150bd6e159e82d120789d15648c7d207908425bb00da27e25c63c4c72151fb24"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/polished_granite.png"
-hash = "0a16482ee3d8e75cd7b58319fe38303965293ecbf580fe71123c4ac6a02dd85a"
+hash = "2986ff09fdabdc205f937a64b3ca77fde95e85e36ce52466ffbe623f81884994"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/polished_granite_slab.png"
@@ -22890,7 +22914,7 @@ hash = "0109fe1afeb2e25c6043b67ca8384ed337d3082141487cf8901793da5595c1fc"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/potion.png"
-hash = "9a72c4f1a6b5886357de676b8ebbb663f9d2375b453148241ef4353eef1066b8"
+hash = "5b685c7c7a0c2379a6fcaadb2eff6cda556f7b2b55e8b626af863a50eb849833"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/powder_snow_bucket.png"
@@ -22902,7 +22926,7 @@ hash = "03ec5474f1fe9b443abaf9aa6f25d83680f2ac22bf33586d7312fdd81b547514"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/prismarine.png"
-hash = "d3e50136019e7cd02e1d6e777b1746f80353dc3357db584b320c6a09c1fe2ef7"
+hash = "74fdcf5c8a2e7e2fa18294335376b2852570d4f3d44226ec9e17ba7167874223"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/prismarine_brick_slab.png"
@@ -22926,15 +22950,15 @@ hash = "60bf6ef53e96d0a97a30cd6bf7d0b6934b435078c1ce4b363af3daf314a1f437"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/prismarine_slab.png"
-hash = "3ab4a744aca2ec592aca5e8e9ca7fab5ca8579570e9b341e528e3c907336ff35"
+hash = "863c932a0d9fd58e0af1bdc7b63bcf58a1c50adcc8051b5104ca20be0bf150f1"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/prismarine_stairs.png"
-hash = "e1af16d539188097647461207a4e158d9b70fdcec6dfe4c8ccb80825b2ad9b4d"
+hash = "cff3b1ca0a423a2f563553201070b86e5a7ba764298322e44a03688837bba137"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/prismarine_wall.png"
-hash = "889ab5357717d15afe2f137d7518bdf1eb5621ac87d6abb6b5796c4afb8623a0"
+hash = "15c6f796076a9cdf9fecf29f56a53e2c78c521dabffdddfb2ce448cc77a18da9"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/pufferfish.png"
@@ -23242,7 +23266,7 @@ hash = "3482f4d58a3b9a9e2582ca641c730f2db44b0cd43c13ad39ba3487ec0e58052b"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/rooted_dirt.png"
-hash = "5121fd678fefa7385dc5304c1b399aa4021895c679b809e1c145dcc42f1275e4"
+hash = "03a9c1d6e1a34a521d93bb67d847fd71ae933c24750fc6cbd0d845a68aac4ad2"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/rose_bush.png"
@@ -23294,7 +23318,7 @@ hash = "e5f4e0ad3a873e73495087c6abb5abd24b1555ceb91f4ffa80a34cb854e12646"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/sculk.png"
-hash = "6973c286b0f64cddabc22fab38713ba2d0e4cafd23aa8b2d03be81503c06af11"
+hash = "f06a04da79b27ca23c946dfa53f98f2dfcdeb6ab8d9b42323cc1d499ed411e36"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/sculk_catalyst.png"
@@ -23302,15 +23326,15 @@ hash = "52d860ccd889d30faa599565f4e72e203dedef255ace9cee2226b66e17a56fc9"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/sculk_sensor.png"
-hash = "c8156e85deeb751f91da9e5d66715ca60a8fe231baf216670f0c4fd350167d55"
+hash = "52e11bf2ec2e8785e00069fe0b0bef4bb206c85345fdc4f3513371927b948e65"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/sculk_shrieker.png"
-hash = "6a16a8d95cc116b570675b70c1820070302c447e698f01221b2be76c2d52df8f"
+hash = "304ff83f36ca01dcb0090b6b6a9301bb2e41632e895d0eaa0f8c3ec440590b0a"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/sculk_vein.png"
-hash = "0a69de3af58cc68cf1f6af518aee263219faa1afc13f9afd2c3197e07fd2a7ff"
+hash = "eb1cce8886aad57d7235dabd98ddf5985519cae3ab2252353468e7df67a8b1b1"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/scute.png"
@@ -23318,7 +23342,7 @@ hash = "840ae8404754a64be0dd6135eb9b5c0b847011a4240039d329dfb94b491a8069"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/sea_lantern.png"
-hash = "8befdec4400c2bc3d3071103a706a1a1299e98ff26cb50c32621b48031eadbd8"
+hash = "9ed594956613e61e4356407d8cbca6ba8a6994e453cae0d03c3387e3a61bb3b5"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/sea_pickle.png"
@@ -23498,7 +23522,7 @@ hash = "4b988089027610963cd5d27bd2747af9bee10b127b8442b6659dcf0f261eadf2"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/splash_potion.png"
-hash = "950ed401c16ae69412ecb43162a74c51bf3929a0d660adc2e798b56dfd03f04d"
+hash = "89630b7c6ae2688bd9d43d8e4c065a1900e5589afa1a39cbe19b4e840d07036a"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/sponge.png"
@@ -23542,7 +23566,7 @@ hash = "3b97ce27ab599510680e275b1e66dde9a3398bf8ce1e797d4d07aa3adcd755c3"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/spruce_planks.png"
-hash = "34f368ca86eb13980cc7cbaecc0a0eec1652587cbd6792b9507beb8c1242faaf"
+hash = "fa3fc72775ca1e637df492d7990db6d595881eb99e2dd42e097e196c1005a291"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/spruce_pressure_plate.png"
@@ -23590,7 +23614,7 @@ hash = "66b8414cc08878bdcbcd71b97a3bd13ee5607bf819ba967cc0c7fae3faa2ca8a"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/stone.png"
-hash = "9f93f5cff0636a667e7f784ef792960fe878c8b2a7313de6ace08da5577c3e23"
+hash = "ea7579a0e45ef3f6b93cd21dfe90c43d0f02f0e279b40e006f25928638f2afcc"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/stone_axe.png"
@@ -23646,7 +23670,7 @@ hash = "3911901e107520bfe7425bcaad2dad3ace339af7a37b356034e28d8951f4e8ce"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/stonecutter.png"
-hash = "d8f57d1ec5f5790ca4c442a745b6774ff8c80e08420419849d6b93c7444f9a3a"
+hash = "c2bfea2a2f99de7bec6258ee50089fbd10ea9008471e8d2623baa911cf1f5b78"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/stray_spawn_egg.png"
@@ -23834,7 +23858,7 @@ hash = "22541d34d545209b211bc71d7b26245c1ef368c87342654b43241b8648e2a909"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/tuff.png"
-hash = "f67c029d1fa8d23d093f7a98176c5a5d35f5bd11914fb09c232054d67dba8705"
+hash = "3188bf2643cf237106734c4c3a695fec9f541cee5b8cbea1db3d5b52b99a35cc"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/turtle_egg.png"
@@ -23906,15 +23930,15 @@ hash = "f4e9d5fa9bad1b9a127155055c7f1c41fbc4f963700459f88e58c497f968a5b9"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/warped_hyphae.png"
-hash = "973062247372ab38fed21e1f875123f4f3c3fcb81177a4527fa4344a2bd846db"
+hash = "563ca191fac83ce17af384ecd10c4055dd001f1b9019099cf11903f8462f8f68"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/warped_nylium.png"
-hash = "31aade793f6d3dd097733de402e2a3bf1cbacaccc0a3a8d2e99852b4cf356db7"
+hash = "ac2af64a64b50abf1f62a7f20485eae73c3df1b64591e73de824bc8b3f123c67"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/warped_planks.png"
-hash = "cf5c4ecab97f984b9974208ecb9f9c490af074f9a3929adab35f5185996d7b6a"
+hash = "720c100568f2a7cfd385267050fa3557660796222b4dde3fa492866535356882"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/warped_pressure_plate.png"
@@ -23938,7 +23962,7 @@ hash = "1dd99e3dd60c75ed50ad6d21dce7b9049fda903520eafa1604a254f1cb63507d"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/warped_stem.png"
-hash = "3b13da40066fc626c81bcece39808bcd4ea35bbb9f7fa5945f7a8d1f340b5321"
+hash = "e5be7c89b60a815c438c7d6a0f1f1343df2e4dedb911dd17fef7119013320557"
 
 [[files]]
 file = "kubejs/probe/cache/rich/minecraft/warped_trapdoor.png"
@@ -25169,6 +25193,46 @@ file = "kubejs/probe/cache/rich/modern_industrialization/cyan_me_wire.png"
 hash = "a8d9c5b932d6587fb134748c01035b0464ebf90d1bd036fdfebd32084cd3e8fd"
 
 [[files]]
+file = "kubejs/probe/cache/rich/modern_industrialization/dark_steel_bolt.png"
+hash = "be7617bd978267d87910a5255f11aad101f7aea21d52ae6bcb7c847082a271aa"
+
+[[files]]
+file = "kubejs/probe/cache/rich/modern_industrialization/dark_steel_curved_plate.png"
+hash = "c2c24176732b0f363d4e9f2ec7cd9edca9aa46ad817ec4b6d649327ebf010b27"
+
+[[files]]
+file = "kubejs/probe/cache/rich/modern_industrialization/dark_steel_dust.png"
+hash = "b548a441a73cc3a7415f09d4ce3edf82c5153e187086e9901ba1b8285af23957"
+
+[[files]]
+file = "kubejs/probe/cache/rich/modern_industrialization/dark_steel_gear.png"
+hash = "3435037c9ea81573d46dc73ea2c628b11696c3d829d3fdc0a29e55e296a03ae6"
+
+[[files]]
+file = "kubejs/probe/cache/rich/modern_industrialization/dark_steel_ingot.png"
+hash = "938c42db9cd140504b4a1619bf454255f6f5c9f934c16910433cd719dca148f9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/modern_industrialization/dark_steel_large_plate.png"
+hash = "98712255b5115811ba2fabc62e778fe28bc9735e685b65106d8a444ef903720f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/modern_industrialization/dark_steel_nugget.png"
+hash = "9c5db3ce19324b415de4a60d5cdd6bf537abfca43bdef7510a2c0d0a5b6e94c8"
+
+[[files]]
+file = "kubejs/probe/cache/rich/modern_industrialization/dark_steel_plate.png"
+hash = "9163590f22957d6fdf140de0f5bb7ef80f17ef858f9b212e5c6e5d904c2aea8b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/modern_industrialization/dark_steel_ring.png"
+hash = "a15471d32b301b19cf22b266e76bb53f756c5c120bc0518c658569fad35918a0"
+
+[[files]]
+file = "kubejs/probe/cache/rich/modern_industrialization/dark_steel_rod.png"
+hash = "57056a576d250e27ab82be628cae95b11d6feb2571876eccc225f18064dff8c8"
+
+[[files]]
 file = "kubejs/probe/cache/rich/modern_industrialization/deepslate_antimony_ore.png"
 hash = "2930a6a5ed0708341921a479f7dabf9c2f6b209dfcb7e465ae78395cbb1ec16f"
 
@@ -25470,7 +25534,7 @@ hash = "2f4aee9ba6e50528635ed6e83b414d02ac36ec9034f5edefd62d9b01054c8f14"
 
 [[files]]
 file = "kubejs/probe/cache/rich/modern_industrialization/forge_hammer.png"
-hash = "976a9589aa7cf78096892b628a0eebb87366a8deeeb760ddf059f3bfaea3544d"
+hash = "d0c4e0e2cb42dbbbf53484665ecc7e01b58ffbb3db4c3f1043132b3881a59395"
 
 [[files]]
 file = "kubejs/probe/cache/rich/modern_industrialization/frostproof_machine_casing.png"
@@ -27138,7 +27202,7 @@ hash = "bc2d6824aa63111d85d854627354f69ec5fea72109a6f4bebcda4aa1dfc19c32"
 
 [[files]]
 file = "kubejs/probe/cache/rich/modern_industrialization/singularity.png"
-hash = "16397b1d6671433f19ce0854e1dcda5e2a751fc22e4fa6b9786f466056df87c3"
+hash = "e3362b7f4e49d8b28b6102d1f30cf140dc60f659da78f21f4dfc48de54c0ea19"
 
 [[files]]
 file = "kubejs/probe/cache/rich/modern_industrialization/small_heat_exchanger.png"
@@ -27738,7 +27802,7 @@ hash = "a31e26b88c5a7c709738ba3c7b4ed02578998bcaec117282d71665708efc5f89"
 
 [[files]]
 file = "kubejs/probe/cache/rich/modern_industrialization/trash_can.png"
-hash = "f1a968f681d37441cff3aca1fdf951c0679c1f2f5153a6e1d8f8ea4695126093"
+hash = "1564ce060d645fbd60f48db278d00d1d195c3776b2cae68c9e30028734acfd74"
 
 [[files]]
 file = "kubejs/probe/cache/rich/modern_industrialization/tritium_bucket.png"
@@ -28357,6 +28421,2554 @@ file = "kubejs/probe/cache/rich/scannable/scanner.png"
 hash = "c089c4155c13b6d4d2492137e761fa2f84d88826b04a9128e1a1749be1a6ba65"
 
 [[files]]
+file = "kubejs/probe/cache/rich/techreborn/adjustable_su.png"
+hash = "6d3d2a6aa08c7b6eecbb71a4227d82e037c9c4d6cc0cad930b057784235fe9ff"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/advanced_alloy_ingot.png"
+hash = "0c7114e99e9588841f8405d9ba7ab08cbca59f4144d45fa656eab16fd5d30bec"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/advanced_alloy_plate.png"
+hash = "37adb1292617ca6f65c87fbf9fd8175746dd0a10750ad01b5e4fdcbc29f2155a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/advanced_alloy_storage_block.png"
+hash = "e5088dbb8f39bcd838d87ed6ee986b0a8760aa0c9201592e8226e1846cb14d94"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/advanced_alloy_storage_block_slab.png"
+hash = "9cf952663cd269eeee07e2cd32f0f5892f4c5a9b2ad96be41d408a428aba6e74"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/advanced_alloy_storage_block_stairs.png"
+hash = "462353c044bf1bda70dab2452f8344fb9bf5808a4d1be65f780159819f2f1461"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/advanced_alloy_storage_block_wall.png"
+hash = "2cf04f8162ad30b3fd681940d2784cb27ea3f00d2bacf137011822baa5ecca88"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/advanced_chainsaw.png"
+hash = "eb8f7dd69e88a0658b4bbaf168b662caf8eb688ea483bd275422350aa9b51fab"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/advanced_circuit.png"
+hash = "d1ac36488fae6c4d3d9889f1e4ab3ba1be28073205844015e1495d44ad2be36a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/advanced_drill.png"
+hash = "5fd51bca56207f90217457fc1e4248dab691d33b215ba21244c96f8ea29a8ae7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/advanced_jackhammer.png"
+hash = "42d7fa2ac63dab2aefc72a63f247ee1976ef784df0868a6cbfb3fce5d99a10b6"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/advanced_machine_casing.png"
+hash = "a23075c689c6563887f0561d2b03c76d423027a81d645666b93b4f36016a82fe"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/advanced_machine_frame.png"
+hash = "3a474a7b8ab27b51b13942879a1692047b015f02bb7884c680c968f5201e6c94"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/advanced_solar_panel.png"
+hash = "04d25666a41852242042e09251849ec47f337242d3c6525b1d094241f0618b14"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/advanced_storage_unit.png"
+hash = "d730866fb576b6c9d9b3d4fa6fdc1b65eb26ae037b0f1d2e8272d3473e8a3152"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/advanced_tank_unit.png"
+hash = "d0b34e8f14c9586955ef1282b2d44e8cca01bfce291c68592dc7539abedbc26f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/advanced_unit_upgrader.png"
+hash = "5755c12aa28709307d0153c2e9953c881b4a1a9021628509bcdaaa7008477233"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/alarm.png"
+hash = "9bf5076131767c9f2737bc0a13fa03155ca4c7669d288cf7b6db37810fd1b7c1"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/alloy_smelter.png"
+hash = "0a0bd82e514abc8809782e0b50cb87717ea085fc64999ef7d9c8ea3b0d6ce9d8"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/almandine_dust.png"
+hash = "eeb93c9d84e69c5c0ac4fdd1f6b01631505fe06f06ce95f79156319090ca0eab"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/almandine_small_dust.png"
+hash = "14dff1a8071c3d5932eddf1691be0ba8065528c37128bc1d4f03c818389c6efb"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/aluminum_dust.png"
+hash = "492b2376e3a1d5277fd3625b68b2cf1ec906c0dff927f3bf1b98a717e1af2efb"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/aluminum_ingot.png"
+hash = "6a74f582ba346653afb912632d846a950fc50c51993ce14732fc9f4e829a41ff"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/aluminum_nugget.png"
+hash = "934889073d1681aa6a2c2a4251d63b60ccdaf2b39abb07d1ffcecaa8d4462b2d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/aluminum_plate.png"
+hash = "eb8f8cc7dc8b81c2fa8894017db779ed93df06ae78624e566e463a0b2eb8ff7e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/aluminum_storage_block.png"
+hash = "ab26c3bf5d4b5971b4da8c2b53b8780d31af64ac8c34f6990af815d6683a1fd5"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/aluminum_storage_block_slab.png"
+hash = "e7ac30f9dc702132a72191b7e0697cc450f3697248aad23b67561119ea0120f7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/aluminum_storage_block_stairs.png"
+hash = "4820b31db629acf4f279a5039d3229a45f8cb40f6be88766b1203b990c09ffcc"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/aluminum_storage_block_wall.png"
+hash = "65bf14f4ed6b13997b4b5b3a280e6a1afc8f43a754b1c4d0778a68fdb3e8228f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/amethyst_dust.png"
+hash = "eca3489f22c6005791d6fb9aa926e3eb7ddf987664d2bdb084d33ef36e258226"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/andesite_dust.png"
+hash = "5ee907f907b987272dc6a8d7ed2cb89b8accf71dab7c027bd983102e742d8c9a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/andesite_small_dust.png"
+hash = "a2364a738f07285ad5e70bbf9f312e5e940e55caa5b6a93cdbd4d06015e55866"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/andradite_dust.png"
+hash = "602513eaed9fc6ff1bc7c28b5ac888fce6a7dde4ecc6cec7a588a6af0c7dac7e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/andradite_small_dust.png"
+hash = "b695135f3e94c10fb65cd7e4786cae68438698507d0971a4e7f67744b763de5a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ashes_dust.png"
+hash = "d2feb24d22284b2e0057e39260cd20ce5c1d22d63bf0b8588104ec8e719bbb96"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ashes_small_dust.png"
+hash = "48e5288ad527facc8d2c865bcfd51f55010a1fd6c3ee9743cf6ae0f20b96abde"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/assembly_machine.png"
+hash = "1a145846d468ccc412bf2d5af9aff708a32c7fb569913d6d7cbd03b567ac35dd"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/auto_crafting_table.png"
+hash = "162dad493593e7db3f15078ff6b64cf3d63c41b60949d6b592497f9f521853e1"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/basalt_dust.png"
+hash = "448843ff9526cd349e8adb00881a90031590dc42198f4725a5a0e9689b867e4c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/basalt_small_dust.png"
+hash = "485c670691c08364f26170599906c9b66050690e39a9284b8c0fb5589ece3b0f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/basic_chainsaw.png"
+hash = "bab89093e647fbca809d3fcff876f4a8a3f48398ba23870013a90c03d5fdf704"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/basic_display.png"
+hash = "bf91ee51c17356b677066fd8a308c7e00d6eafe4454fa740e326738edb2fcfd7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/basic_drill.png"
+hash = "eafa651c2f27ed9665a9ed903b0ff6a4f3c10394918732fc4632523aa9bda34c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/basic_jackhammer.png"
+hash = "fcbae01540c6d3e67c6b7885f706168683448db2c24bdec61f53605a17bbf22c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/basic_machine_casing.png"
+hash = "fec2fa9139bb94de4970948d1aecbfcd4bd91adb04ee9a79dfe053c716ffea0c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/basic_machine_frame.png"
+hash = "93613827f924fd8c14e6096d7207c0833dadee45a91ad6e740c1fbb30afbe97f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/basic_solar_panel.png"
+hash = "38ca0af19e1a0ed5a4e2a8331148ef997ef56af369036d261143b85ee60804f4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/basic_storage_unit.png"
+hash = "722989040201ba63200d113f8bf10860a4705f478ce9080bc53f2597d5c8fe38"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/basic_tank_unit.png"
+hash = "2b7cc35c6659f09e58c58b84c4e64b63e1844c1354ef5cfaf66257c1d04edf0d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/basic_unit_upgrader.png"
+hash = "628a74711591d10cbc9cddcd5889221ff7bad3b76f72fcd2ad83e9b011cb39ed"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bauxite_dust.png"
+hash = "be71111a54368e5bb8267d85a85fec6357bcadf9904e58527103d33032cda75f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bauxite_ore.png"
+hash = "4202dd488f5dcce5188a23d56d8ff618bf05116d496c719cfc5244e96ce6bc04"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bauxite_small_dust.png"
+hash = "88fcb97e536924430454e264de748cbde08cad6d3c328316c633d41c547da08b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/beryllium_bucket.png"
+hash = "d22ed45b37f60d7adb1f94c599c3a54c9538c580bbb55bde8b8023e26e0e6d1f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/biofuel_bucket.png"
+hash = "b3654fe1726a59d835818a5c99acad5eb2d9e619ec489d01d34d2889dc75a084"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/block_breaker.png"
+hash = "790b5ada93a307fca000ffff26b8b788c09a63cecb635dda7ceaea725f3414b3"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/block_placer.png"
+hash = "21efee530a4e55307589730a20941578d5a1fb249bac46bab6d94d86dc65d3fa"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/brass_dust.png"
+hash = "d0d155911b1fc74a8b159f8071f611c441552beeed06768551a30b449319ae62"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/brass_ingot.png"
+hash = "0414390f94c047dff04ae75ffa0cabd4c678ea1663dc80eebc3a1a07eff5f2c4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/brass_nugget.png"
+hash = "51eb348821c689761c648bb36b47f79af69d56daf11f9328c7c88f9e3d404c67"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/brass_plate.png"
+hash = "2155c0e82cd8813f55c595a9ebe7ab19a5709a51b1b3307da952c8009ff0dd2e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/brass_storage_block.png"
+hash = "2b6b58d2e2426b4f9aa98cb5acbd1ceae915102d8e65c1965a124ca2a58879a6"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/brass_storage_block_slab.png"
+hash = "2c0f8991f6df286befb3b72ba76c743cb97c71a4bcecfa9406c11d681da329b7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/brass_storage_block_stairs.png"
+hash = "8a41730bc00880a5f2ae248a7189014f493181469a5eca74ae4e36205bc1acca"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/brass_storage_block_wall.png"
+hash = "f1b1574fab673eecf8464b6f4b984701b525cba56da6c365b441dc91f8824b03"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_axe.png"
+hash = "1a8d26f821892a72dd8215a70567047ea4ab46b4eb0a8a70c3aec2670d90210a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_boots.png"
+hash = "4ad4536619349961c4a9b6074299ef043996332a47d9efcb06769bf0772e3d8b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_chestplate.png"
+hash = "5c8ee69495024f523f8cc4388ccdd3b6fa5488ed3f60e6b4e65043c3ba024dcb"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_dust.png"
+hash = "8be03d6238765146c722e376cfe27f411216b50258e8eac9dca7bbf952eb3dda"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_helmet.png"
+hash = "e32f9f029cce629be98b9979c002d3c9044d3cb3f174e1cdbf085f9dc0878fe5"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_hoe.png"
+hash = "18ffc6c0f2bf5dae3bf9812b4b69239eb21a10a2355b017bd83ef4babe292dc7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_ingot.png"
+hash = "1e86700572a7e4f5f560aa387fd8d4ab75750615da60fbf02f1d2701153e3d94"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_leggings.png"
+hash = "29bec00398621636c98e5886001199c64999c658570e7b25383f9d1b9cee9e7b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_nugget.png"
+hash = "077fce3b98245d9ff9c6e25c23cf0cbb3ad12ead86a93699420bdcc6c80cb8f2"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_pickaxe.png"
+hash = "fbb78c8ea340784cc26b8941fc3856d1e9b5717ad1ccf0f563c3e60bb64b52df"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_plate.png"
+hash = "8ffd5903f9a638f88e776bb0d6440a0d8b5d402a4dbf8c57338e5229f5c3dfc4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_spade.png"
+hash = "e32c53b9e0a4e698ef114854f65062b3447f0230a8b52a202f188e35697e24c9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_storage_block.png"
+hash = "b8a62ca187e77a8c79990ca63f0a8b84214bc8147688ab6b2b529d0586bd8d33"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_storage_block_slab.png"
+hash = "1ea136a0070d50a9fa06eb74da993f6f91f295ccebc8dfa1c289910b25483c12"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_storage_block_stairs.png"
+hash = "ab6bad43f0641bcc32a5082307a4181d6582107d659b6e24522b214a0fa3756b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_storage_block_wall.png"
+hash = "b3f384470a13d3ee36ee0dc0f49bfb6a261715badd883744d008367b19442e5e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/bronze_sword.png"
+hash = "72e52f2aaa167cd57a217ee519870625fc9b018f4e70f298a9bed0df71f13746"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/calcite_dust.png"
+hash = "62f6c97635ccff820cc3b3bf4779f1733310219ab481ef744ac28e7bdfa21e7f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/calcite_small_dust.png"
+hash = "f71b35a6e2509da33f4d27b7af881ce962f1b8432fc0ca97de9c6ecd4545556e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/calcium_bucket.png"
+hash = "91f87b6b3166b9c440596b38169d2892fb19c5afed2bde5bb05247a97291a1b7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/calcium_carbonate_bucket.png"
+hash = "aaad7c431bf865989a153b2263a7ae6eae8408ad0933a9bedb169ca3b129f3a5"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/carbon_bucket.png"
+hash = "86e1078330250212fad43c5f63b6a671d0f94a94e2b0f127d7372b9a2c18d99b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/carbon_fiber.png"
+hash = "b611d66a94a2c73c75754f83400ac776e79dadf7cd740240fbcaa8f9942af7b1"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/carbon_fiber_bucket.png"
+hash = "295123b82e36d483dad7bcbff60130fe1c49e0b104af5e1523f7d4ee74cd3063"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/carbon_mesh.png"
+hash = "739383e60cf3bfa2a8b0f9483782cc0108a966f75c9bf8f6d0e4eaeb2c834603"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/carbon_plate.png"
+hash = "9fa473169ae061bfc39fb57e2c50714c90ea8b53e6158d252548c5f9af4355cb"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/cell.png"
+hash = "3bd444a7eb1fed9b5b30a139f4e3fca3c64ba5b2ceefaac3af98635fb9f9c726"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/charcoal_dust.png"
+hash = "4a184370c592975ab2b32f376b209b298dec791eff40d15fa22b50f623c6bae7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/charcoal_small_dust.png"
+hash = "99ba3976543699d425565bca6a8a49068513cf694e81bb6cd7423ef865cab42d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/charge_o_mat.png"
+hash = "1be9e5ede67313ca4c900330dd2ff6d9fbf9734b9fcb0f170e60d3b3129688e4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/chemical_reactor.png"
+hash = "e0ba9690291659834134f6c8e511bc13eaa63d321f143101b5d16ee9b1f905eb"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/chlorite_bucket.png"
+hash = "1ef937f708c0754436663271742ec6e9bff215b2c422f49ed4293963ca104806"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/chrome_dust.png"
+hash = "e92ae3df2b1ffd65501478b699350f723e5d7db1c34807a54aabecda90b3ef2c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/chrome_ingot.png"
+hash = "573ed373b3396e1c1bb7725624ab0cf67d58422c062b410defaafd40e7ba556d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/chrome_nugget.png"
+hash = "0ec756c36875a81e049d4f1d5a35cf85076de603c7cc2936e7c7d64059aea6e8"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/chrome_plate.png"
+hash = "47a8c491ca1017452ac3d65d703778b8c178f8a2ced61adaceb7d9db70549d01"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/chrome_small_dust.png"
+hash = "97dfa58954fd298c57d426afaafc60d5f60a3d31666be80771bac1cc42c35e0d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/chrome_storage_block.png"
+hash = "e5ef8ef3addcdbc330f83a070be651aadc1bab4682fc8a98394c1a266393a3df"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/chrome_storage_block_slab.png"
+hash = "4824ea16e2e74260359a04e682543ba6de7397ccfe5fef71af0d6cb7c0dee55a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/chrome_storage_block_stairs.png"
+hash = "c92efdb4be27d5769dac08a442cc598a93f5565a182ce5f45a25ee087a1669e1"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/chrome_storage_block_wall.png"
+hash = "5c0d4eabeef1e944596f2059c650eb8b9d2a58f2c610b519d233981a60ee2e13"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/chunk_loader.png"
+hash = "312156f02f615e7ac472868616aa47b3f6607093ca24ceafa5dda8103c05f5df"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/cinnabar_dust.png"
+hash = "c77cef5973421f9dd0ee426d8ce7cc672400253f0ec87a12d1ff72879885bf05"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/cinnabar_ore.png"
+hash = "3bafc1d3189a008b5c99459765938a24db30890d4e2b1af81e5b559f6814dbb0"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/cinnabar_small_dust.png"
+hash = "0008cf1bf57b0d25594a6c07fb33cbc1c11e5e727e9f37a515664008f15028be"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/clay_dust.png"
+hash = "ada7387ed85606e68339657c271679478077723fcd2c216a71d35f734f024808"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/clay_small_dust.png"
+hash = "c3ba5e4344bf11feb9efa97537a7e0e70fe196eb8bdc3f552a658d3f51b5ac27"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/cloaking_device.png"
+hash = "5deeea6797de00f08d7d01b91237846a4d598fee59a6e9d05c2faddf6a002a20"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/coal_dust.png"
+hash = "4399b37278cfe2544292a026fcd5eeb5f907f6eceeb097b2a5d12bca2c2cc9ae"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/coal_plate.png"
+hash = "a57ec463418a105c14fb1b85168a8129da4ee6e7ee538d01bb1cdbea15f1856c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/coal_small_dust.png"
+hash = "f1f3fd56ee5370fffdc8cacc30d0d1ae3f8135455a3dd28670e5ca691d50726b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/compressed_air_bucket.png"
+hash = "34cb58159af38e7f1f005ad0029783d048e1a04ccc5613ab0f13e2e55b5b8e4f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/compressed_plantball.png"
+hash = "ce56b788bcf6ccef4de223bacb03e4dcd8e0e9dc07330ee34a6b676542dec062"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/compressor.png"
+hash = "2a77d66e76e97a23be394e83ad9f5209ff24f843f909d483a0e265e29e62fcb7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/computer_cube.png"
+hash = "ae1764b3d3287d5c5cce00da1cfaf40ca2448351efbefbb7222aa46f315d25a2"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/copper_cable.png"
+hash = "fee2b08796a263c9377b864aceeb2c9ffcdcdf2f8c268b99661b696983c7d1ad"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/copper_nugget.png"
+hash = "e2c532c4f3fb5a24a099c03207d4f21f13d34f4a20aa116e4d41c9953e3a8b68"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/copper_plate.png"
+hash = "d1070e0f55216126e59dac9e09ca0b53cfdc8648f14d5b98092ddfb7cfb32d3a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/copper_wall.png"
+hash = "f1dd793ef214f0e98dd0fe79b95cd73d822bf2057173f558e7f93da9d5061dcb"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/creative_solar_panel.png"
+hash = "c3b95d4c0ccb1b6a7953882668daa0f8a26be731b2544ad0208de32a14b18c2a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/creative_storage_unit.png"
+hash = "2ab12b7daa294c791d691ee2600f1ad26e9479a275616979d64d8b3a709f6da4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/creative_tank_unit.png"
+hash = "975211631f0aa56060d5bb8eba926abeadae10a7eee50d55f55ff2f8a6b91e56"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/crude_storage_unit.png"
+hash = "ae50ebb59c05ab6bdf9c127927eca10c39e6af311fff70e2d42cbb9d668b82af"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/crude_unit_upgrader.png"
+hash = "05f9506df6cebc9364abecd05eaaad2f2f3f8a8494b25c934bf04552712eef53"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/cupronickel_heating_coil.png"
+hash = "66b72e95f4cbe41a2929512d626b8e951db0b387e1ee511a87349f41b52ac034"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/dark_ashes_dust.png"
+hash = "8a6fd3176825418790b668233fcab367350897db4541361b70b776febae83923"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/dark_ashes_small_dust.png"
+hash = "ed5421d6de1a8cba7503ffd2a522756c17df54c73193d23aa7e9a9f06eebb7e6"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/data_storage_chip.png"
+hash = "63e1fb9e19e3302e2405dfa0ef04ee7e9197a36310c4969370f48ce9634643b8"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/data_storage_core.png"
+hash = "414aabed008fcf4a13622583033ac85e43823fe29495916ed4d3890448444384"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/debug_tool.png"
+hash = "620868db1c22bd173220980b74d28654896d3151ddb424247019dbd857b72d7e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/deepslate_bauxite_ore.png"
+hash = "351132bbeca08f3ad97a2593ed99196fb5eb7725ad8baff6f3033d013ea65816"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/deepslate_galena_ore.png"
+hash = "a9fc9f5d31bb6945edd7a83bc17b54b47db07b91eb962dda05063ade62d1eb21"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/deepslate_iridium_ore.png"
+hash = "7b15819c97a13c6858f14212def7d5139f8ac80710ab3a4db57fb998316e4b42"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/deepslate_lead_ore.png"
+hash = "82249056848bf1c7800a96052283f59ae79c987a5efeff15fcc8a92dce28ef6b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/deepslate_peridot_ore.png"
+hash = "9136fed82eb5f670f0bcf91a2056388e768571d56c102c9b4a1936a60945df56"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/deepslate_ruby_ore.png"
+hash = "e84855ebf58d0eed5b19a7268bbb88ae56610b1f9efb258bae56fb3b8f18e519"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/deepslate_sapphire_ore.png"
+hash = "0b5870edbb037c04262e0b07763256443b9c48b11dba90bb592c07e562d923e0"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/deepslate_sheldonite_ore.png"
+hash = "477295bf0acdcdaa0f90d455fd4e548150c707b7adf2d49c73c6a05d19a77119"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/deepslate_silver_ore.png"
+hash = "2f58deb2b43b75b603b3a7c961b649bd1f7b8336312dcea169cb66ff445fe41a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/deepslate_sodalite_ore.png"
+hash = "b1a3dcc9c2644efec3333f91aa9297673a74b44905b34f82aa7d5443a9f4b6a3"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/deepslate_tin_ore.png"
+hash = "6b6e343df2ea54c71025aaeafa8ff1b4150a23a0f01b7eb9ee25de36d0b98d34"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/deepslate_tungsten_ore.png"
+hash = "f9ab659c9bd8f247cf7052efce95e37dc23e2b154ba1c84dc7fc11db66543979"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/deuterium_bucket.png"
+hash = "06b88e5d60410368839f5c3e0c30b5c7d73d76ffb4d144fd0c0efb9394745350"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/diamond_dust.png"
+hash = "fd1339e592a61408c2092ef1654f374324961b58f9bd21787f44f05c73c9a961"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/diamond_grinding_head.png"
+hash = "37ad57cce75bf6e1b3924a29759ba7e2c56fdb4830635ee3419dfa2538e94a5a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/diamond_nugget.png"
+hash = "e4f8cb288a4af7464ebc36e3589e044c46bc9b4ce5caad96c7f156a4af1a539a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/diamond_plate.png"
+hash = "fc7073f3c2fbdc6514c5f822de047e9a57bb2e8380a3a0f0122a02b0e86e1ad9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/diamond_saw_blade.png"
+hash = "d7260a5ab73cf97ca2d551a6450996a62a595be6f764c05817cfd6507e6af1af"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/diamond_small_dust.png"
+hash = "a1487b788a1c8e504116478718efca5a9b94a8af063abbc59b0d1d7d64b178cf"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/diesel_bucket.png"
+hash = "d9a3d968adc45b3254f8f28426ed597f62d2218df4cf334a83f23c7af625c80d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/diesel_generator.png"
+hash = "14e4afeb8ed996d7f27358bfd0a46cf5a4a51ec06ab3792e0a84313c4fd78535"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/digital_display.png"
+hash = "80080d71acc4ec887373ab07dbe09f117596028e447c1b3643b6e7facc34011a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/diorite_dust.png"
+hash = "feef2a837104913b994ac39f1f1ffa42a20329a63e94965438d70b43c74773b1"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/diorite_small_dust.png"
+hash = "3be154a65e6b4a29838279c947401677b5a3dfb03575631327619866659def0b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/distillation_tower.png"
+hash = "e058922a61f2e8568e16954dd8b106da57c118bfa0fa6d01649c94229c4f696c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/dragon_egg_syphon.png"
+hash = "9c246d96dfb8b9ad74c493ca70c380a38bd2b0527e73795bb3da810032e05dcb"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/drain.png"
+hash = "a55b3b16baba7c218f011a26cdf5da2946697572deee46d120be95e2e53b6099"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/electric_furnace.png"
+hash = "01d101c2c51e5c3318db7272d1c2603b57c84a0e365235da9f4643a8a061a5ed"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/electric_treetap.png"
+hash = "ddb6a5c30e3eb47c8c5ead63bfe2a28d7691fe81eb8e3eed527ae1508b4f666a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/electrolyzed_water_bucket.png"
+hash = "098276d69067ec1cfa191d43235a3a182a59e4c201623f607c0e930d7fbb2e40"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/electronic_circuit.png"
+hash = "a3fc261e3572c0c6c4acec616d64884f9864d1de80d49c03b8a9ebeafe350b17"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/electrum_dust.png"
+hash = "a7f0364264bbc1b7b2dc131508a43f9e6e1fc117d7061fe08d2408771c900122"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/electrum_ingot.png"
+hash = "12f14537c293c7392eaebaa6b1431344c3de0908f4fba3d6fd7ab48758b9e6d7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/electrum_nugget.png"
+hash = "e2aec4ed4419b6488f6ed47d2fc2a0f52eaa1045dcc8fd20cbe9661ec2395ede"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/electrum_plate.png"
+hash = "7dfc14d9e7c4382d34be82b1dbf913e7605d8254943ec1dbce233661f3226d0f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/electrum_small_dust.png"
+hash = "8fa741183d7f3b589ccb6063818a0ca7e237e4da424ca086dcf7225783634b1f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/electrum_storage_block.png"
+hash = "b5522870f2fc1e81bb6340ba2c18121ff64532e18629dd34afaab9128ed453fd"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/electrum_storage_block_slab.png"
+hash = "fd85044373ed5368afa114ce394b8099a1820899dcfade0dbe332658b48606cb"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/electrum_storage_block_stairs.png"
+hash = "f78a9dbee24a5c0eba0afe485b32a5bc1c71d2e1dd62db36707d23904bb0ccbe"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/electrum_storage_block_wall.png"
+hash = "6994a033f9791c9fc4137ad8e51314d9e2fae3b0edbb13a56eab1b63aa77f4c5"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/elevator.png"
+hash = "36a3961c9afbb4950913ddbdc7d99e5952e2807482ad5e84edc3ede70076613b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/emerald_dust.png"
+hash = "5daf0492fe925156f874c0dd7426c22c912d7f1deed667a4685c9afedafe8d4c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/emerald_nugget.png"
+hash = "dd28f2592192dd632b464f50d5881e9d322b2dfa6252f4df52b8b537e95b195b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/emerald_plate.png"
+hash = "4dbeae183f69be56710f87b82c4bdcc7f36695d5a52f7ce6d35d394a9ff499e6"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/emerald_small_dust.png"
+hash = "45ceacb500c9b65fe7bfbac9d89c3a6748e3dac85329a457f3762ef7dd060f68"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ender_eye_dust.png"
+hash = "79b2259318ebf7158a4459efcce97533f2627e4748b46acd18fa1d862417c3a0"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ender_eye_small_dust.png"
+hash = "cf23f4946afba210dd6872b5e2323dca47545cf7815298e3f7ec82e2f4a45b61"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ender_pearl_dust.png"
+hash = "aea8543154ca55362a49af9c3b9cf4e9cff05a64eafaa237f0b4e72a8824021f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ender_pearl_small_dust.png"
+hash = "776ab230ea5ff88a3319d3e7b1eba159ae81cf45202155f895a97953e35c48b4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/endstone_dust.png"
+hash = "c258dc69be8e94c180007a6b978fe4d7bb19df47d5212bc49a4839aa86ca7c1d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/endstone_small_dust.png"
+hash = "e469f9f376a34da18553b6b115ee0cfc4331636ea3bdec2d5a98cdc66b9d54b8"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/energy_crystal.png"
+hash = "9ebedb6760d6dadefd75a9f45d784285b7d9665e8d03be3db0e8fe3f41022315"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/energy_flow_chip.png"
+hash = "29a81d81bbc2c71ce8e7c46e8f2651f9d92dc34191551974b0d18cc6b7696245"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/energy_storage_upgrade.png"
+hash = "d2d70e0f3daac6135400d60c3c5e4bd220f64298d68cb4fb1368753908ecf9ef"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ev_transformer.png"
+hash = "ee5f1a35b7afc6ff0546e8400ef658b5651379ec9b226fd8a8419422d0701ea7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/extractor.png"
+hash = "679e128007dd48139c12d0926a6e7341101015bdb774765fb279f954ae13f869"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/flint_dust.png"
+hash = "b76efc6ec53603cd4b328b3dbc4a2b09e1e2c4db832ee7d6c24c6f6cc2a0685f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/flint_small_dust.png"
+hash = "d5529d0374d55b3e412a06bd293f93bbd9f8a025bfe7287e28946e2f108c620a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/fluid_replicator.png"
+hash = "cf609215e03e85047a9bd929c6fc8f445166b78be14875eaf1b7db8f665025f5"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/frequency_transmitter.png"
+hash = "03312acf588a2655f42061d9ea94e76d435b148adf77bbd8839f7386175b4378"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/fusion_coil.png"
+hash = "1762da0066b04b67a4f6e64b47d5cd3a70d4a3c4d361adb7e3999bb1d19232fc"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/fusion_control_computer.png"
+hash = "4a9464ac2922f5a71a9f2d4e1a7da749e520f9c1220c47f827b450a3ec28ce44"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/galena_dust.png"
+hash = "52086cd858e3cf2c0b30768e335cb1a018f729070a86b438346ed8b7540a40be"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/galena_ore.png"
+hash = "824ee8ae79fdad42a5c801fed0a29faed1670a35c7fab5737675bfa3d9fb9f40"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/galena_small_dust.png"
+hash = "9703d8f252b6bd8aa7478670155818779ac264634e386b87066d117ef675e690"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/gas_turbine.png"
+hash = "21927475370df5f4b58c473513726a507e0cb79f5a63cf7b559eea82d134b953"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/glassfiber_cable.png"
+hash = "674ae21a5296c062f5626744dcc35376c40baaab4ad20760672b94ac8918218c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/glowstone_small_dust.png"
+hash = "424f65d51855379df806fadc11355a24255eceee6ba428e4b5068857ba721e30"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/glyceryl_bucket.png"
+hash = "66b9e0d996d74d0b34d80c5ef671a1c8072c948fce0ae0ec990fa72806180c0a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/gold_cable.png"
+hash = "e43df2221b31cecf53d8dbabf51c4ff6913e4283c419672fa096cac35ece44ac"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/gold_plate.png"
+hash = "3c22dca45677d2a63a6b6f92ddc20a640ad408ef970e56ce85572b0485d025a9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/gps.png"
+hash = "f9864a2bbf5c060f74acc417dcc5c9cfb0d467960b3355430eb5c6daf1acd973"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/granite_dust.png"
+hash = "4a18047f719d928d7530928026c2d069b0e79e7d780edd0f4f1dd88672019e4d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/granite_small_dust.png"
+hash = "9e4a9dba765ebec7716d4bea22393e3ed4cc360f1d2d64047e78239e1b216c5e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/greenhouse_controller.png"
+hash = "fdb29d92f1e512a72bdfb9e7ca839d4a626ad26ceeef1073f02d3584c72b9119"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/grinder.png"
+hash = "10d20768787463cfa0875c8e5b29675b6e0c8f7207f633a74306c0d5d05d649e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/grossular_dust.png"
+hash = "7374cdd39f8b0f8b5e781aacfea56888e09390ef701b8cafac30336b30745942"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/grossular_small_dust.png"
+hash = "5bbe7ebe941595d8da7cad0b2f18834e82ea5cea0d16ee8833df21bded34391b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/helium3_bucket.png"
+hash = "0690e01790af05ffa7446d013d1de70b67a9a1b1a439398c3707294ac54c4162"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/helium_bucket.png"
+hash = "e69c4f8392860e97e571a333f3afb99830d3c5db2ca40fe3fd5cc80401e0329c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/helium_coolant_cell_180k.png"
+hash = "7a193c5d87675dde49693e0d46f861ca3130edddb2c19c7fa1a0aa3367298555"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/helium_coolant_cell_360k.png"
+hash = "b2fe5a3aac12754b9a47c2b01ee7f53421d5eed368261c5e2b08e471dbcaa042"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/helium_coolant_cell_60k.png"
+hash = "579480e6d364f9efd26903c4077708ea2ad7fb50dca7c01b52ddde75d8b3d595"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/heliumplasma_bucket.png"
+hash = "ea04996dd25d5c9c5b9ca2d675915b0bc08d0372ef4fea20ec9601523f52b1ce"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/high_voltage_su.png"
+hash = "a95f4dca04568be531035a13df8f0f57914c2d0cbc1a6578c7e5047ae74885f8"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/hot_tungstensteel_ingot.png"
+hash = "222ac7cb9fd083492f5ea717895dacb2fa6fc223c4df7b630e0709a5d68d9c50"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/hot_tungstensteel_nugget.png"
+hash = "d26ead2e1216efab5a97b3e3819bb068f44893094b58ad7504c6949e5b1f2a5a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/hot_tungstensteel_storage_block.png"
+hash = "025324a92d14a012b2e1229b814f20dc38da16c1dba4db8df9a2df50f2f1b200"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/hot_tungstensteel_storage_block_slab.png"
+hash = "5e2fada0ead2fd303f0f4b24ece96b6a96721d7b67fdcbfa3f4c07956363826d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/hot_tungstensteel_storage_block_stairs.png"
+hash = "6099c498f0ebfe74da8fc3a6e57fc21b70c1eaa7310c3b08d1f62160933d9593"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/hot_tungstensteel_storage_block_wall.png"
+hash = "0555db9d28f1136da28bf1f1a57f63ea7ed021e6e292dfc73e324c4968dc639b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/hv_cable.png"
+hash = "7486afc963a9a5b50f6cd78c4bf20b068dc5d9a6a94d1b50f9ceca355b4822ba"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/hv_transformer.png"
+hash = "de05d20044d7137020ae1c8b064d12ed07d91b1250da75673fd5f6928373a17f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/hydrogen_bucket.png"
+hash = "7d6c86db5b08a6caf47eb529bcdae57e2ae1aafb76a5886bd94431e101f75d8e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/implosion_compressor.png"
+hash = "79c987ac8f72594a89f5b4f0e770c808147b90e5628e18b1d7041d7f0329a4b4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/industrial_blast_furnace.png"
+hash = "7c0bb09790c486c6aafde7aa89996682297bfc159b669b758807eecbc6e7b9d3"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/industrial_centrifuge.png"
+hash = "7349b829895342fcb388474d24aac2bddccca213c70a2e5b4f13726787c5606d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/industrial_chainsaw.png"
+hash = "c1c1a6e3f8b1e5bafa90687900f3c26c268f495a3d50b56bbba6d3fb07890ced"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/industrial_circuit.png"
+hash = "16d1029a5c14f3c8906a2436accfdef8553ef71d763e31f6108f2f98f200ac2c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/industrial_drill.png"
+hash = "091a9f951e307858356f44a0b48070fe258da25720ec569449d8cd008fa0da7c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/industrial_electrolyzer.png"
+hash = "ece697312c149552ba2feaf38ad2a1376239f1a23cea7b1af6ee0b1e035db3fd"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/industrial_grinder.png"
+hash = "d876ffe922ff314c1d978a38bd705c7ece4ee16a6b5a805b40b9bde9164edfb1"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/industrial_jackhammer.png"
+hash = "36b96cfc84b0af3a0641010e5167f58cc4bb966287ec5554165ea4239896e298"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/industrial_machine_casing.png"
+hash = "ec0cce5f4dff9ae348e7faf8c1d155a5482d12948716ecbbbe9b1f7186473013"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/industrial_machine_frame.png"
+hash = "51e9a7d1c6b0928faacbaa2e6a1ca8e4a0d9aa957247a63d1afb705495f3603d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/industrial_sawmill.png"
+hash = "c73f0f81af2c92b40b7659d69975e7c0332f028add82d531faa693ed35ceec36"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/industrial_solar_panel.png"
+hash = "fdb8d047bcb4c1cb33b14c52b531f989ba1e8472c0ff2859e06ae89f0207d282"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/industrial_storage_unit.png"
+hash = "6426d0373dbe6a1e250c4aa191b17ee394e885d4c554d5c9ae30e00fe1e226de"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/industrial_tank_unit.png"
+hash = "9e68e97ffb9de3d296a9d1b83c21eca5efc523e5c42f0022bb2a0e5ca202cfd4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/industrial_unit_upgrader.png"
+hash = "1a8c8349bf4d61051c7fa4033d014d7e94375e1ed572fda5d03239b89f60352d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/insulated_copper_cable.png"
+hash = "3a816d1792924b9e4cf112d2e78ad17ad0342e89861ae514d84f6bb5f443859e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/insulated_gold_cable.png"
+hash = "6b709420890cacc59da1f9f8c71ffe013dc72bafe59fd07559f686ec24ad5e6e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/insulated_hv_cable.png"
+hash = "90e37244b124be0951ade8b11c3c5a2bd3a112d8850512bcc09914e794953422"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/interdimensional_su.png"
+hash = "6c3543b3206969c8c809b3bdd98d70bfcd70be42c8cfce7dcae85bce2673f51b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/invar_dust.png"
+hash = "20ff6009174bbdfe9a421e09485d94814a91a238541273c193e6d592c39c92ac"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/invar_ingot.png"
+hash = "ef632b5966c10e8edb39abaa8ea6555f2838cd0ef9331c061620f2af1edbfa9b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/invar_nugget.png"
+hash = "edf26d13cf6d9c22b15bb1709745b30fb24323c328ac42bc76a1269e4cfbfb22"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/invar_plate.png"
+hash = "9f1a80dddba84244b1abea11a3188427fb0a6d8dda8e4e2666d2566d500936db"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/invar_small_dust.png"
+hash = "8c4fbd666bcfe4dd17ded1b6f0f3ca59c9ffd9fdb14ea0b094ebebccd8d55e6f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/invar_storage_block.png"
+hash = "65c429aaccd36eb545a9bf3b01400b45d42407cbf1ae2b2ce1a02be470d76b33"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/invar_storage_block_slab.png"
+hash = "e28642a2d74e8c87cfbecd7b39a762689a4ae09833c94d1918c572423a5cc3bf"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/invar_storage_block_stairs.png"
+hash = "32af01de074672ebe24644a6999015d0952dbb2c44535ab2c3779bc1441e788f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/invar_storage_block_wall.png"
+hash = "40d3e06c9dab104aff12b63dff4a852f8e2b86070dfecef8f082cdd2692bd42f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_alloy_ingot.png"
+hash = "bdfcbc5755ae2b2698651d569a7452e660e92592abd709a2f065bbf66df94206"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_alloy_plate.png"
+hash = "da599ec4b3ace61e5d217806e63e6d0debe59a703abd79776a469b3fa105829c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_ingot.png"
+hash = "4b7a7122cabbc748249b738422eda687fee4c34bbc23e7a7a6a8d12b5d53b783"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_neutron_reflector.png"
+hash = "744f5c69f710660cc18b6b44f00b6047f7c71de2ca882f8b71d1e064b8021dd2"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_nugget.png"
+hash = "be5aea33bfd0e07edd23f8bb671a6005199df7c8f08dfc2c701ef71f1e3a8fb8"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_ore.png"
+hash = "418cf06fdb88dea6538cbdb357b3128631c27fb1655f59f80defa9346482383f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_plate.png"
+hash = "0459f9a1e60a3fd40cf4bbdd2a49c46ae9011f61f16c94fb02a1d9a37a058c6c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_reinforced_stone_storage_block.png"
+hash = "69aa9a9084545de4345863fe198685d6bf28fff97fad5651012bc6ddf9d0d6a2"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_reinforced_stone_storage_block_slab.png"
+hash = "89f7dfd410731f6134a06ee37559456dc31be06cc4f08d115390cfff74573fad"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_reinforced_stone_storage_block_stairs.png"
+hash = "ef0c720c92976ef02e553871261118b74bf654d564a30ff68de8cdcb58ce1f46"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_reinforced_stone_storage_block_wall.png"
+hash = "51ce464c2cba92227f85361006619536aa5268c5726dcd03d69194860a973c50"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_reinforced_tungstensteel_storage_block.png"
+hash = "98bf4a3e8cc8a53762e463122fb08e4f85293d01687df548fa63aa37f8e6460d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_reinforced_tungstensteel_storage_block_slab.png"
+hash = "1e72d75c5a96862d5b8e80bdd3d954beb6266370af757a59ab9e8b16698a9453"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_reinforced_tungstensteel_storage_block_stairs.png"
+hash = "9fed931e42a2744369792dad18bfcce109c8a89b0590b6e5c6fe31b1813f2d1a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_reinforced_tungstensteel_storage_block_wall.png"
+hash = "fdd1437747fd3c81d3e3c34b61c50dd3888d45df67f6aeea43b8bb9c0bd5af8f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_storage_block.png"
+hash = "1ff117cf02e14efda62d357d91f0cd24c53785d93fd8df3edb8bee174069b23e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_storage_block_slab.png"
+hash = "4a7973770106f79d0eb182e795d22e163c6a74c8d4001366ab24c9ef4173eae1"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_storage_block_stairs.png"
+hash = "d5df68da68ec7c866669544e391fc9784b35a3555da28929d2082653aef1b0e0"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iridium_storage_block_wall.png"
+hash = "eb41148cf2bd675ef985f603924b602bb3d993c674e45d2bad4f3f75f3cff568"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iron_alloy_furnace.png"
+hash = "45ea337da23f0e5cf7e4b5b9f17e802d03048351faf0b895f7ddecee02a7e9cf"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iron_furnace.png"
+hash = "f14a97f367e6552888f107ea14fd0abf0789d82d8d2ad77240585ab9a8df8dca"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/iron_plate.png"
+hash = "4eccb16d4672feba56bb932a9e41e1f072a14e146aec1a4df50ac319bcdf43d2"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/kanthal_heating_coil.png"
+hash = "befe2e17f17a89cdface6170880465b3a513496a68290e8014baf319a9e9248d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lamp_incandescent.png"
+hash = "039d902325ebdd03e4b7b40b077ddfa313ec1c777ce241d2b6f38e7c9ba991d4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lamp_led.png"
+hash = "a290991e481f37cee5527ee0ac636bf4e9f36029b216e43d563bafcc1e5e0ca8"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lapis_plate.png"
+hash = "896e5ac1483bafd5c27ba7f1bf6a52f08503a6b9773cd5770189383d577bd6c6"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lapotron_crystal.png"
+hash = "ef0b5985807bf4149118bc7639ec4328b33b552327c463b8ec776f3156d302e0"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lapotronic_orb.png"
+hash = "30b4b4949a3b6ca9e5507f299027e395052a80a345cf01683e8680bb651fb921"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lapotronic_orbpack.png"
+hash = "eba1d6c2bfeba22804a5e73910e7d47366816b7bf28a3555c72cea466783850f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lapotronic_su.png"
+hash = "bee1b1d21d608ded3576e65168feee7026aa77b1f16eac9b76e598baaf69e13b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/launchpad.png"
+hash = "0327a22c70d61c978da8803448a27d03b8249e05a434ab35bf240e1b789948e2"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lazurite_dust.png"
+hash = "10c07f51fe367d341f49ea2770b18d10973c7e8f7bbfbede5e91c41ab1ae5bac"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lazurite_plate.png"
+hash = "1849430b660f5fe8d833581a977a37ed7c70c24f4a13519a2918680dcae679fc"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lazurite_small_dust.png"
+hash = "39c52dd224b450f9caea5ec26d3aa8b75a3accf37e75ce762bd91a88b1bd92c8"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lead_ingot.png"
+hash = "cc735d569570097d8a4eacbc3be735b12282f6d3d326973846733b6bc0f9ad49"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lead_nugget.png"
+hash = "fca9d0f76da526fee70a94a51714cb44b0604d12f5745ab431a29c27b3d6a8c2"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lead_ore.png"
+hash = "ebd49a93007979d9a9ad3ad74d0c9fe761c208318576c49e62c6b8af79ee6da5"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lead_plate.png"
+hash = "ba6fe189d20331cb2c4f3ff6dc0f68572718a6fd0df40d1623f629b90ca941dd"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lead_storage_block.png"
+hash = "133f7fba8e834b38176d144cec240e4658ff9a8cf0c3fbf34b3076f966cc6176"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lead_storage_block_slab.png"
+hash = "82a115b86e10372c95125fcb5bcae3c46b6eaa490fd8a37f51294f1e830adea9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lead_storage_block_stairs.png"
+hash = "52765cae2007f56b8f3031ee7976322583543696358761073e5af673acba970a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lead_storage_block_wall.png"
+hash = "e4d5034bb93981af746af5637b7505f4f6406fa0017595c2312e37684fe7d9e8"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lightning_rod.png"
+hash = "b6189529a0d34501ed995e3165db1163b8cb645d99f80af8d2c3e23d07b77f0a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lithium_bucket.png"
+hash = "ad5286ca80ccf241c732a37361fbd2880f527e7ede0f2705218eb788dec13ae9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lithium_ion_batpack.png"
+hash = "d2e8d3dd2298593ed2cc8cd78854dc1190e44005b04bd70609b904e4173a3ced"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lithium_ion_battery.png"
+hash = "d791b4d8079a97a3d5c2ac71ecafe357f24331d28383eaf18bea3df6fecaf7a3"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/low_voltage_su.png"
+hash = "5c4afb4c1036a606f745e09f6d1c80733f585d966e2f23556d2d06675c6bd76a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lsu_storage.png"
+hash = "2cc0bbd25bbcf4001a03e5695ff6ffdbde8440732fa101cf6495f2d5575673f0"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/lv_transformer.png"
+hash = "15872a59c741ff5558a3373e770c78d10ae9a8ab80eb494db3b36af052e35b07"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/machine_parts.png"
+hash = "cb207d102c22bbbaa4c519879f268119f02b5738c2a5505b4b6eda722cd597d7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/magnalium_plate.png"
+hash = "3658f60b9e63403cd9258c8ebc763e9f059de685bf90dcb94f853a22e7dda3dc"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/magnesium_dust.png"
+hash = "a0d45ca9c9a1360828f156c6c7e56cdaddc755b359fd32d8b401fb056ae38aa5"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/magnesium_small_dust.png"
+hash = "1820a2bcd3cdf3ebb6cbbe649bf8f3ac274d1be5c330841cf5058c38222faf6d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/manganese_dust.png"
+hash = "a93187354da5f429341971123b661ae35ae79bf427e65150bdd78f901aa62c93"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/manganese_small_dust.png"
+hash = "0a7e232a7e8a72540fd8422e79295b8b5808ec2041d3090d3a3d56547f42c755"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/manual.png"
+hash = "e92f82a26c2bffb8c0a07444f36408ddf58405827723cc9f5c1386f661f5b55d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/marble_dust.png"
+hash = "cbec349975bb1b01d1dd467fa687442ca9b2d09ac9f5cab37224fb801ad130b7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/marble_small_dust.png"
+hash = "3ba0ed8f640837d1372216be7ec38c6958c76ca5faeb979efa8d4ee7e39614f3"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/matter_fabricator.png"
+hash = "d47b65d956f83a4f1621f12456e2052b035e52fef90f510a8ace1a10eabeb2c8"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/medium_voltage_su.png"
+hash = "459b13230b2c95ff8708e1653c92b896e00258fe9bf353f91cd38d08edaef705"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/mercury_bucket.png"
+hash = "5868f8cd2a5d5a481c8b2fc967ae486a7f6a874c00fcb325d968585082ae6bfe"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/methane_bucket.png"
+hash = "deb9e12466770c2264034aa4100da995aa3d3110ac11f9ceab9d71d2c07260e6"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/mixed_metal_ingot.png"
+hash = "30623bfc18f8b490bd71306ec6d2357134238a5baa87681dbdd15fa818fa29a4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/muffler_upgrade.png"
+hash = "ff25b194f7eda4f9ce92f0ed476a0828af1e3b38a82707b9e0c3340e56213187"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/mv_transformer.png"
+hash = "9e9a5144cc3ab801c676f4d4a88ae7ed485491431c5fadc6c1556feba178262f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nak_coolant_cell_180k.png"
+hash = "a6caf398be950f717499e027a52d5bd876b730e54bca7a27f9b3a687fe8696ed"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nak_coolant_cell_360k.png"
+hash = "ed92a5dee41564f0ecec819b0ec68c555950d7e00d85419967b530c636599027"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nak_coolant_cell_60k.png"
+hash = "79201395f3e978e909d04f5f2e596bc913a79ac4452c4a859bfdeaf55a6a37f9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nanosaber.png"
+hash = "52a48cc6558d5e224dd7e8179097f8cc92afc7ec9c0325ae212387c04ac5cb29"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/netherite_nugget.png"
+hash = "379a4048d15feec81ad0755899c8a9e861eb2f9050f71dde756c9b324022bc80"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/netherrack_dust.png"
+hash = "a70f978b4ab6b19254a84132fecdc3b92657adc92f956a370d2dd3be5be53e14"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/netherrack_small_dust.png"
+hash = "406f2fe5852cf8009fafc5e7f70f6c34a55192595cb6743f23d960f0d461db03"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/neutron_reflector.png"
+hash = "f07bb670fc42f389287b052f96792f5ad9bad079c0769a9c9c177eec480756ba"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nichrome_heating_coil.png"
+hash = "e48ccfc907d483030873fed83d3a274f84cc00919caf21276ecdc68b186fd292"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nickel_dust.png"
+hash = "fff697211dc3a7545dad99bce8a7950d18b425e48660374477d90e4befc8d484"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nickel_ingot.png"
+hash = "bb0f3c6a0c26c48241cddf6c3c48256ad888ee792d0f755e980d86777eabb519"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nickel_nugget.png"
+hash = "b1936f27683a1ea3936972740fefdc22344654016ee2fee9ab0ddae50160a27d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nickel_plate.png"
+hash = "ebd74db4126d56118279c5867db807c59abd8b17f5e06bd2b84d9fd5352e6dc9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nickel_small_dust.png"
+hash = "2d23e21c12701f71f1dc2c0b8d0654f5513ccd13d20b1f9a2526e9458e843537"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nickel_storage_block.png"
+hash = "d8c1556ddb3a95ead67f8382ce0ccc489e96adb897d6a4266f062df430a2520d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nickel_storage_block_slab.png"
+hash = "9efa8882a3b652925228085806521741ecd2dab295b0ea0a56c8bd92fe37dc03"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nickel_storage_block_stairs.png"
+hash = "346e78f2b272ec754132768f0db6f50d743380505ca55658400ebb2c2ec14b9e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nickel_storage_block_wall.png"
+hash = "d057be1bf5dab006c7eb7d7383002726dcd087679b5edfdce0bbe7720c9d8baf"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nitro_carbon_bucket.png"
+hash = "4d95296f878e2609cc18c34b2135c7164ac56201b6c97cb32263e6e6530f9fda"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nitro_diesel_bucket.png"
+hash = "8cb2423082a8b1668ae645b3b1183ba8e1619446a72e26ba4dfeb791145fc9bc"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nitrocoal_fuel_bucket.png"
+hash = "8a88ec652646c2a013315287bca43a40d1a434510f0c04a996845e80a765b855"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nitrofuel_bucket.png"
+hash = "62fbdf79538cf7dd0e5996bd78ce3aad28c43904190e16ced1db67641fd06ae1"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nitrogen_bucket.png"
+hash = "e8a6f314301d3023045f229dad6fd2f4618efd2333e01d6a070ef536202e5584"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nitrogen_dioxide_bucket.png"
+hash = "7f0965953c79773b6952e4e79989a8dbb04bfd523eb5b68ed4ac7053d05f11e7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/nuke.png"
+hash = "59f86daba655204a303d0c607327ec4f1ce2592e58d9f438d5de0f7a0becdc5e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/obsidian_dust.png"
+hash = "067f9c80fde39e6a38f5d699f0b5bcc60303d052a574e5df669901c82163f832"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/obsidian_plate.png"
+hash = "0e568e19ad6e6c24b403ea81be43b768f0b37663a8f267a4a5a202ae56f7bdc2"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/obsidian_small_dust.png"
+hash = "2ecec3ae2182c2d428e32dcc2b39a4fca8989c1b59c4f836f0bc9890156369c8"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/oil_bucket.png"
+hash = "4cb28fdfca0290436f9944d3a5ff7527be8df8b07f36a24732c63d27f989d561"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/olivine_dust.png"
+hash = "bd0a094ca9a9fc0ba5120a14f025ae09e6e5ed843310a2a8af2d8fd1de0ea602"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/olivine_small_dust.png"
+hash = "ef19e54623ed0f2e1e30de8d10f04d4ff07bb015a0ec06661ed65d383cc5562d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/omni_tool.png"
+hash = "c2ecc4a251e7ff21004cc6b31427acda96613fca29dbf35b5d63f1a99f2779e7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/overclocker_upgrade.png"
+hash = "0feb65005a8854366a6d6301881ab9025469253ce4d374cc2b9e222ded667bd0"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/painting_tool.png"
+hash = "1801107ce8e906e5a1fd61acbe65723abce7e0fd53f08bdebf26b6eb10f3d875"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_axe.png"
+hash = "170c1836c3f9c599eaa72635b7b3400e2603553f02ddcc883eee9183ab83197d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_boots.png"
+hash = "48cb0aa3d3df2b977e66a860a9024fc9b176110efaebba187e9a2dec18034aad"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_chestplate.png"
+hash = "063d4b65f75161f9a5779ae2c57c99880007e37bc7dc638ae01a3ca527499395"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_dust.png"
+hash = "29c7dcc1088fd02cb26f5d3c5cd03e377673743315ae7c4e70452edffc0731ca"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_gem.png"
+hash = "17dbb7b0d34898cb5b179661afe2932dea28af18aaa0111d9b716627a022e221"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_helmet.png"
+hash = "8ec41582e6f00840aeee52ac48f385a0aff427e7f8830ca02f4f15be3d9a359a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_hoe.png"
+hash = "2ad784e719c5a989f756fd275d08beac226a70f9b0eca81066bad91e84e78ec9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_leggings.png"
+hash = "5b73a025b8c98a6582b30f9901540d37f83079adc6fc12a7459c991ff7b6a838"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_ore.png"
+hash = "6b6b9634297124ee7f3d854a8b9287bac6160df8bcb240b011f95a0cff777a06"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_pickaxe.png"
+hash = "8927c64de8630d93600522bd94ddabe7ec029db20b0411fda81e6f2281e1a638"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_plate.png"
+hash = "3e8f3ebb3a062530f1ef48c4d6ffd2a7ad48ba5cf7050d2840c99123c4742be5"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_small_dust.png"
+hash = "c8ad9199c735ba329a0658cd2feadcc46d9c87c6be754524fec71b9ce61f951d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_spade.png"
+hash = "a2b3ccec62eb01a18663b2009d442d595bdaef8fdd3d9880577338f9797f8353"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_storage_block.png"
+hash = "04bcc11a3b2f582cb614246d39c4e170480804ebc9d30318c57249594ce3a025"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_storage_block_slab.png"
+hash = "ce665ba90bd730d89aa79e8049bf0ec605701ff54e524261d5d066dd2326202c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_storage_block_stairs.png"
+hash = "cab3cee3301a9b670756965cec24c7be23b46a4edef5cb478d0ca98fa80559eb"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_storage_block_wall.png"
+hash = "1db2cd071f790cbf85bfaa98776faf06cb6b9ef9abcd29db047710adac27f8ef"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/peridot_sword.png"
+hash = "49df2a658aaf2374308899845a795b934e3d8b3f0bcdc9198c2fa94d6e44d52c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/phosphorous_dust.png"
+hash = "b57d4f655c3ef81aba0baffd7be0ed804b6989b7c1c8d3a873f7c1f129efc593"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/phosphorous_small_dust.png"
+hash = "2e9e8a9643a3433d52a0fdf629d8ca8005bc241d69c2739d82ed2df403e3bb0d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/plantball.png"
+hash = "eeedd11c17068da08a49cdc16325703a07db8c08ba07dd19b8ec2e37185bbcf6"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/plasma_generator.png"
+hash = "81302d8b0448285f3c9c69e6f113914cc09da61009001545a414dfa54d44a063"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/platinum_dust.png"
+hash = "c2abd3d4a57ad001fb679c188eba38188828b489506d48bb9660873bbe04e8a4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/platinum_ingot.png"
+hash = "36ae18556afac4a01c14f16520eaa41ae74967527490b9918864f49d38fce532"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/platinum_nugget.png"
+hash = "fcbc2f34c23cce8d0c5fad03f630e8b270fbebbde1e832eae60e54851cd23926"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/platinum_plate.png"
+hash = "ffc7c60b7297ad8138a1fd12c5158b80b0abed315264177d367b7cdcfb3382e5"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/platinum_small_dust.png"
+hash = "4c41fef52f23f1631b6213ccfa105bdb3c28b7473ba3679113348680045d857f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/platinum_storage_block.png"
+hash = "f813783e8e6b0d5eda0a2d0db82b9afbfe867b439583a732800f1db9cbd70735"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/platinum_storage_block_slab.png"
+hash = "55b94501e29795d796f68deb08cb0df5be06ddf7a9ef47cd408edf44f4ffab26"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/platinum_storage_block_stairs.png"
+hash = "a11b88658aabc7a3c6a1e59a4f9d829b36cf6ccdec5bb9181adc24ee6b168ab6"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/platinum_storage_block_wall.png"
+hash = "565bb060bc82e42d8182ec625298f7a31fa1efc0642c6bf813b0f1c64aa7d300"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/player_detector.png"
+hash = "8488fa883db2d15d0857fc7f5e83f7728cf8108a3bc50d39e6b642a42da4a205"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/potassium_bucket.png"
+hash = "779febc573fcecebb2d57144221dea7ca74a022fe7755fbb222cc92cb8cb2191"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/pyrite_dust.png"
+hash = "9075133564aa3c840bf63eb64cda4001e5dfe6a3d1d3caa1814878306edd4a89"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/pyrite_ore.png"
+hash = "0e017740bd0460fb4776be3e6f57cdb7643af9d1ef0cdca72d7476fda8f2524e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/pyrite_small_dust.png"
+hash = "5182eb5c33706396c31fce484cdce01f34f1124d0eab864a502152d7e3d3d4a3"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/pyrope_dust.png"
+hash = "51ce2b5f306e32af4b964be6cd7f01dc00866bbf069fa1be5ce14864a3cf86b5"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/pyrope_small_dust.png"
+hash = "4fccdecc1eeb706a43ed594eacbf70a35b0d6c05d65b9e571308ec1334918c57"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/quantum_boots.png"
+hash = "34d59a76b0f84329c9eb36b3b11e687ca45e4576b72a96854a8adbd9b23282d7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/quantum_chestplate.png"
+hash = "188191a24a195fdc1c08f1dd426e918e2b70f628e7a06be7b5e0db290861d457"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/quantum_helmet.png"
+hash = "f5f9fb9fd6ed93a9f4c3fe3cc9fd53b3a874bae940200efcdfc3db3cf350e9eb"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/quantum_leggings.png"
+hash = "ddce80b887a176a609ab5d38d8f4f5bb7d33860f9b07d2a4f1851503d23804aa"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/quantum_solar_panel.png"
+hash = "855cab04d75b170148a296cb63d6f5b36e1167ea31b0b674abb4d7443aa456fe"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/quantum_storage_unit.png"
+hash = "e1eb25e6e683e8cc3b9745bee6a859e8d622b406be90f3804a9795e1c8d75a93"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/quantum_tank_unit.png"
+hash = "0d34b36de45f39381b211884156b119765601a8847aa69a44070ca5a6690e573"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/quartz_dust.png"
+hash = "58a8d8b98165798abe0103d1c6a555a9093c98fe1a0375549359c8f2074bdccb"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/quartz_plate.png"
+hash = "444e3a764466939112847a7d79fe0ea49d89d85d48ddbc66707d95b3002c1330"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/quartz_small_dust.png"
+hash = "11b4ccdeb2b63f769b41b01f5a948092ab91fc64d55d3d35f376e7ce01a73923"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_iridium.png"
+hash = "853f197db1a25779c64e7705f2e4246479ae0a83af9274d3ec395ece068043aa"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_iridium_storage_block.png"
+hash = "e0678db0aac83e3cb7764ac3ef77944d540f087a5793c398c2186c33b4a78bd0"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_iridium_storage_block_slab.png"
+hash = "bce44aba454036ad99eba91daf36545b089811adc55ba0b03fc082f6503e88df"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_iridium_storage_block_stairs.png"
+hash = "49d0d22f8cc15de1b743f68b0f9fa81078e6602607676870759c0b488f0d04c7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_iridium_storage_block_wall.png"
+hash = "5c5f9002b319dad8bf7f7163fc4220ef14d4c2f0e3ab6acf860ee825374f110c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_lead.png"
+hash = "8af802e3fcb7167195398ab009222ead8cd32679c2861b3963a636503bb885f2"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_lead_storage_block.png"
+hash = "1a76915784dcb20000ad23312c3ec00ccfe56ef49b54e890eead4ac88d8dd838"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_lead_storage_block_slab.png"
+hash = "2127f55867900d85d86098fd0b868c5252d0783bebf023e64dd5c9ad8a6589c0"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_lead_storage_block_stairs.png"
+hash = "fc441359f6d80132c86470398fc250a987503db34ba7a241afd261b2f6606af5"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_lead_storage_block_wall.png"
+hash = "39a5feb7560a0dc8023a451fddd806a49abd8fe5f370dc2ec8378de2f8f60895"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_silver.png"
+hash = "ab3821c4561b133695084393337c63cf4773c1149311c391f10dd7f0d51e7590"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_silver_storage_block.png"
+hash = "63dc9eab1ca342f422213227c89b609a7ade086d02da58efd58865c478a6d714"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_silver_storage_block_slab.png"
+hash = "969bf798f3909d074e34970bf04d11ead7d268aa1c59cc98be0fed940f95aad6"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_silver_storage_block_stairs.png"
+hash = "b4a50ccde50042011a8121a5b6cf0c0e2c06f16941a430e2b1786cc29508d7a2"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_silver_storage_block_wall.png"
+hash = "52676c724441fcad61170b1d19f29a1f2047e267de3b0c50794022b42f0a071d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_tin.png"
+hash = "485189429d54a95ae3369cd9bc440f2652d0e06f205d5a0d31afd556283dab5f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_tin_storage_block.png"
+hash = "ac3a8def3475f12e63a045c4ad4aa9b5eccb2c1911ce6aee8ae4901402383645"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_tin_storage_block_slab.png"
+hash = "593d16c54a9eabb73b4569058faf5fba46c17670bb98895847aa20ceae09c1e0"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_tin_storage_block_stairs.png"
+hash = "81478ae8619d7a7dd7c1ff0e4544cde496a62cedc986817ee27c5e252ae55e0d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_tin_storage_block_wall.png"
+hash = "6a919f8cd5fc385eaab6c890d77b3ba13e689f54a1562be94699eea5a4de9a70"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_tungsten.png"
+hash = "61779f41faf1578c5fd193362fcf90402f520de1052240fc6a6443e5fa39bd64"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_tungsten_storage_block.png"
+hash = "b8e89c05dfd1cb17b6254591095991c6ff0d9158b1f7149a85c45b5319db4cbc"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_tungsten_storage_block_slab.png"
+hash = "77ed455c642ca23e9996aa1373fd64633859999ac4fd2e3101e35337f161a66d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_tungsten_storage_block_stairs.png"
+hash = "b9a6ac232b41830e8c066b490514f687bda83e2f64faebca31bd00102ce1f90f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/raw_tungsten_storage_block_wall.png"
+hash = "7368ba13d820d300f437501848d633400d6b8d4ad304b4a57a18535126965948"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/recycler.png"
+hash = "dab305efd4d42f1ef3fd2df25277f4793cf79ae74fb797df19648db65862cb83"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/red_cell_battery.png"
+hash = "0fb14881bae7279a66c0ab6b363dfbc4233cd52b351ecb166dbbb090f25daaa4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/red_garnet_dust.png"
+hash = "373f9283cc63d2c9406145132b5595227a7782d955ade5d364b527c432ae6f21"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/red_garnet_gem.png"
+hash = "595b5dd67db571154e42c0f5f1272ae332417ca4179d7fe41a89726fd0fc3f2f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/red_garnet_plate.png"
+hash = "0c4ed2aabcd60485e2864c8ccf9906c5a9f8d6fbbea497e8b7c380fc5f4f1ba7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/red_garnet_small_dust.png"
+hash = "c5e20ea07cb6f14c52811c635120f78d641e79e9af233655b91c98cbc09e42dc"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/red_garnet_storage_block.png"
+hash = "08edb6d6f1571f4646328528b4f9488e2f340260ab2cb3f058223866a4d1a0e7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/red_garnet_storage_block_slab.png"
+hash = "bd542463c9f7a8f9abf65647abaa8ad88641f6ac1b300c7ef0098ab1d5e93cb1"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/red_garnet_storage_block_stairs.png"
+hash = "d36344548b23250cb39838b439a9172e61b723cf0d999810d733053dc8be2b51"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/red_garnet_storage_block_wall.png"
+hash = "a0f3d2cc1b3fd4d1540df91db00847a1fe9ab74c0f9b20677a89ce7d427125e6"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/redstone_plate.png"
+hash = "fce98552e36dad15e5b86e2223669a10c083639abf9d423897d9637afad0001f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/redstone_small_dust.png"
+hash = "7ea282f7568a2d26afe840756aaf258042c32371956917f082e624c0da4f7199"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/refined_iron_fence.png"
+hash = "cde9da99f7d46d0c03531b2eb269ee6e8afe0a9dd7a771427fa72d20f7f25ded"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/refined_iron_ingot.png"
+hash = "5bec7fe7ec1240423f0a3370ce8b32e88f99ef88f6b8abe7f616609ea4c58572"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/refined_iron_nugget.png"
+hash = "2cbdccc5cfc89958f85c3dffdc0dd78588104cc6ed81b60ea6828fd73b85c5f3"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/refined_iron_plate.png"
+hash = "5397f1ddc5ad98c465a63e1bc824d18fcfb21e97fa2002716de11491e8dc1026"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/refined_iron_storage_block.png"
+hash = "faf4a874c6f70a8bf5f46906c7614ca4b1aae0f37b2d96d7e0726732ff0d9c2d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/refined_iron_storage_block_slab.png"
+hash = "3b01e130b45a0eef81f612e32cacc8bcff3cbc15cd55764a29020a259a9ee8f7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/refined_iron_storage_block_stairs.png"
+hash = "e10c046e5656098a31bcbf49d5d0b4c3de770b2eb662e4232514ca2605b8ab87"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/refined_iron_storage_block_wall.png"
+hash = "c7471bad79bcc56a83325539bf1856451add8ac929185000f8780316fd78e27b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/reinforced_glass.png"
+hash = "00118b3d56a8572a033489e2796bf8bdc9935efa7b5f7349333d6f9182bb135f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/resin_basin.png"
+hash = "a120262d2302e72011ba1b70187d9b0eb6df7a31ff5dc3d551c80c7b2159bfaa"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rock_cutter.png"
+hash = "84875b05d71782b91d41a964fec98d0ce4a959eaabd27e216cc07b91a673a6b7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rolling_machine.png"
+hash = "1b48b5af7fb27b712c4107835e7e462669847077a3241e7da6c73eb54547085a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rubber.png"
+hash = "104025da7d8f2c0065e79dd135fb955a9c82ba5e9a1ee5c0e278208a4a5741d4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rubber_button.png"
+hash = "e3967eb1bbcace7e8c863a42a666c5efc169485a58e65076ac187084090e1b4b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rubber_door.png"
+hash = "1315131dca13e23eefffa9fae6a1fca80ca1a5fc165cf53a10913de5727ff677"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rubber_fence.png"
+hash = "6c641b517f78522caa850340cf5736b24fd7e8ff1032e63eaa9d3b2c1ee241bd"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rubber_fence_gate.png"
+hash = "ea4331826cbc5adfeab641d4bec2a1b0431d3000c12ed03f16b8cef4c6f9d55d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rubber_leaves.png"
+hash = "98e6142ae93bacee4b7fca99b06d38468e4ae6467a8d874e4cac105a79f2088c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rubber_log.png"
+hash = "fe22eb9312be14a1ffed7223d160ac09e26e533e65c6eeeadabbb6a4ae092e13"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rubber_log_stripped.png"
+hash = "b7ec4fd7c4945d2e7a9c8a2a2cd3b413a71ae351c9ba6cce95ee9e8f94606f77"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rubber_planks.png"
+hash = "6be58f128c110406265519cdba1a286b13736ba02f2084a9e6612962a3d66a74"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rubber_pressure_plate.png"
+hash = "381d34ba42d525e71a2feb51987dc803ef39cbd134add408fa98024da8714522"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rubber_sapling.png"
+hash = "d8c7196a946d66da3c49e335714a6815311c471b12182257c3f63699201280cb"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rubber_slab.png"
+hash = "a6a325bf21c5f3902f81174a4e54b1fd35cf0457d8df00d35c84c257a204c440"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rubber_stair.png"
+hash = "f8a81f82c0b751c9b8e838b97888c1b8c4e5d179b5d927414237f75d128a99dd"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rubber_trapdoor.png"
+hash = "997f631d599e89ddf8a27df41138aab66be8fc5de62f221179530cc7bf98100b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/rubber_wood.png"
+hash = "ed74a4cc8dbc53f519fe0e615331c46077ab73279bf992e0db1bdd210ff1577d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_axe.png"
+hash = "41e510d75e4905d19687e8d9c2eb536847bbc39edd92ec943312deb87157a722"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_boots.png"
+hash = "af999535ab0655758bd346a6ca946f354061b52dadf26faf1cbde0e6d18c0363"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_chestplate.png"
+hash = "510057fd5b5bcc9bf4fcbeb1cb53492e0df4da66a77216824e65970b883f8887"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_dust.png"
+hash = "117f5158a4aa0b94d2ac4747ca55d45778338ef52510307bdce0cc27842a359e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_gem.png"
+hash = "cc240ba8e8a3fca2898a85db72117a6ce7f450a1b4778870347be73e6afb2c08"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_helmet.png"
+hash = "fbeebf25c00411c300aaa6ffbd40c2ae8475eefc71bb2dd79d87c2f4b78dbc0f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_hoe.png"
+hash = "0d3abb5c1dfaeb2d55d15e020fe0cd84ff01cbb53138ddc4c117737f1069d688"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_leggings.png"
+hash = "2cda759f599bfa5146017fb9922bf3834359cd80658bb563935732167a9a7e46"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_ore.png"
+hash = "f20f43f9071d9d4920a1c118f1c966f0590d82b7e6c0b7346d34db40c8a5dbf3"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_pickaxe.png"
+hash = "aade21463f6d21d1847ecf333d3b401b97af01da94b321184603197d5a913b01"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_plate.png"
+hash = "297cc971ed071ec8d66cbef687463a8cc6475d6ba6fb295d7b92bd64d0071b90"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_small_dust.png"
+hash = "5d45436aa61d13e31212be621c7498ed4deeab88d9843e74754cc0b0e49329b8"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_spade.png"
+hash = "bfd1988d8e9a58c5b95208372ba28e5da9bc644e12e93a55ab5312f6cc24c041"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_storage_block.png"
+hash = "371ae0a0a41756895b822154467e09d30ee4300825b75c8d1606536845af5afd"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_storage_block_slab.png"
+hash = "2864512677934d301eb2e2b05bf6a5bd2300f52b25d6153f2a715d1ad687f645"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_storage_block_stairs.png"
+hash = "a96034f1fa5d668f8a801dbdc2586432bff561875244ed3325b023a53dbe1048"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_storage_block_wall.png"
+hash = "e53525c9a82a49a63ca026de77b9bf05eda2db4814d3064e3db39a626ef8c424"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ruby_sword.png"
+hash = "7b1051bb07068917c4e8f661ae5f1328b64854a25c380b37809cba71b7727213"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/saltpeter_dust.png"
+hash = "e9f66fc8c4d8dffce75d51b40fcccbbd2e0c2cbe28bda60f053ea524f07ecab4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/saltpeter_small_dust.png"
+hash = "46637316b4cebbe5b522ddea65a3181d769daf48b6651bdb7a4a8f9b5aea7333"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sap.png"
+hash = "f0ad2b07fa2acdd324709a246d22daae9aee655acce850ca184493afe85a35fd"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_axe.png"
+hash = "bd4420b1b4ecec1d2baa165e69706ab244aa384c20ab5a8699ca50e64b089085"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_boots.png"
+hash = "037f4d579f0e2c1ef1f8ac037d88632a6e29ea330ecf4ea93bfd8789ce3ac922"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_chestplate.png"
+hash = "06b83d9e8a8d13f9637a96b27432d87e3ca22b62ea58bb945ecf5c026612c62f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_dust.png"
+hash = "bc4473069d5339b6230b61413689babbe711691830544718a0ccedb07a010fba"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_gem.png"
+hash = "6f3ac8cd9c25045d9ce95da434c25328bbef2a14a77131bf40df6d14d93590d1"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_helmet.png"
+hash = "deca9767ce3f9de3b95213f16046bc5eced332efc0fb66cbc487bc605feea677"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_hoe.png"
+hash = "1294c7db4b937f6f65d8647daa58e66921f35ee079902bbf6bf738a50407c86a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_leggings.png"
+hash = "8f25617d769e3578193986a649a2701ee08d3be89aa7cdbd6bfda8ea2aba9622"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_ore.png"
+hash = "d98adb882cda547977eaaa0f9aa3cf3a8474716f6cfd0e159c9c39414f249a3f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_pickaxe.png"
+hash = "d407ea928e64c6db33d69dcdcfc40e8819d96d1e3e15ef23667722b3bb5490f9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_plate.png"
+hash = "79d6f5ba7575569993a870e99faa27256ca7f17ad263317eae48c68aa2a86a4a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_small_dust.png"
+hash = "bd0344cf817c6fa08088900a0721445e538dedd67c006a5bdf1ea80810bc3570"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_spade.png"
+hash = "4abb12b5875731167ae755fb57f0f5987c2cc0e3fb4415e23c5a99c6505c83ad"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_storage_block.png"
+hash = "0aea52f7678acec9f7017c0d63db409142d208cf49ac6841e2cb38334e0089c9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_storage_block_slab.png"
+hash = "807171889348435df48be52b0f6c68a70c895042a9b03aa1a47333817d84ea45"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_storage_block_stairs.png"
+hash = "b143277ffe269fc33ac9f94fa5b78a486b4d13f0fb3d468d78ef58cd56c61f43"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_storage_block_wall.png"
+hash = "6fe5140358b33d602621ef3bb95f402f10c26f03fc4d812d934594de3b1334b9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sapphire_sword.png"
+hash = "ad2fbc026a1ddb696ac07efddaed0d59a7f48e302cf602bfdf6c0b5ce41768f4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/saw_dust.png"
+hash = "783d9b5ab5f8f052c4f177b82f9b97852f999795a19b9fa0ade8f38a25c694e9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/saw_small_dust.png"
+hash = "c7f7b4c7018f5f8a058ab6f6ac08b0b94aec41028ca25b16d722694c98e912c7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/scrap.png"
+hash = "f1373de5877000f204a2a59c7fd2a1d8264593943d1693d8eec4aadc4f3101a9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/scrap_box.png"
+hash = "7b2cd857792e1595d5d9385c3b8b39fda23da9be9d01a59b037d64f4bc80de2c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/scrapboxinator.png"
+hash = "2054394715f12d145898ed06169229d4ec3cf6c8f9774ab6fb7826941050215a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/semi_fluid_generator.png"
+hash = "1cb19c2cb7613b3fc046bad44f05f19e50575af5c75fd66b168c21ee7016876f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sheldonite_ore.png"
+hash = "b535c46ce1fc351609536a67953be8286d51a0e4635e83bf42b279d141b71746"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/silicon_bucket.png"
+hash = "b9df33b322b3bc7ae30c9dc8d1bcb26ccff608dd04c3bc57de98b7769aa5d7a7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/silicon_plate.png"
+hash = "dd3e8f1785d27bff4a8dd5a2f269df0681dbda311e7af728b4bde6bc33ae4a0e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/silver_boots.png"
+hash = "725d68dada08450619c6ffcfc8bbe6ae079081d16ffb9575664bd459d22259d9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/silver_chestplate.png"
+hash = "ba11f82c3e38f321af94add3c9c753e127e738d73493ab528b5361fecb5d8b73"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/silver_helmet.png"
+hash = "e451edfbad8ee24f9c2a051061e20b03f1d52e7f7ab873eaf39282a01f14d98e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/silver_ingot.png"
+hash = "3c82350c7f60927736ed75f448c94d32bc4682c34e4f5c5ec5f72b4a148c9c17"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/silver_leggings.png"
+hash = "28ef238c4c0199ca83f8c6773b7ed028a43b45d8ef382e0b37412d71bc45ac84"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/silver_nugget.png"
+hash = "c2430df2d8e07523406aaa2157bf6d1e5f3c5fd2253be60f39eb8d02ffd5cbd3"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/silver_ore.png"
+hash = "958d09fcd0f2ae64c8613fd06eac24b3286352c896198cd38060f6f32df1660e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/silver_plate.png"
+hash = "e31fe5c67045b7adee81ce4d5b9a419416149e84a8a57c20ad8c28ab9e6bc3af"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/silver_storage_block.png"
+hash = "bd589d99920419b90e741cb83ffcc95bf1b8b5c93a8d3a940b3374b01bc8406a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/silver_storage_block_slab.png"
+hash = "d0d866fa8a0d4c3aaed210483f020a0e55e4be9a10d81a90f9a07bd853ff3dc0"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/silver_storage_block_stairs.png"
+hash = "bd6fd094b483261d922867da9b42e513b99a476cbb33ce768c89c43610b6f8b2"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/silver_storage_block_wall.png"
+hash = "9cb2c90fc16040cdf2578fcf02d7e73ddc54edc363abb16a7bcd4a9369c0f07a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sodalite_dust.png"
+hash = "11afc33705cabbed4d72e3bbf2a57aaea2f30c47d3aaddf2b4ce069bda955679"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sodalite_ore.png"
+hash = "5c3933219995f5fdfcfed5c9e35cfe6521c78af4cb8cad5e4245ac24e4520090"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sodalite_small_dust.png"
+hash = "953ab5eec8cf8389fc70260dde1be8854959c8de9c124adb59eea7f7dfb3f670"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sodium_bucket.png"
+hash = "43a860783ecdcc29552d2ce20fd6f6398b00aef6ad77a894cbe7a5fc21ec2dde"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sodium_persulfate_bucket.png"
+hash = "b0d3fe7fe5685727d25881ee2fb8f256442c2a6caf5fef8586c386fceb5cc10e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sodium_sulfide_bucket.png"
+hash = "641dc4c6672bbf1f7eaddcf6051558e94128896b8e0f8b7383ebc7ce519a8234"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/solid_canning_machine.png"
+hash = "2a77d66e76e97a23be394e83ad9f5209ff24f843f909d483a0e265e29e62fcb7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/solid_fuel_generator.png"
+hash = "6d3630cb0cfb828004f25d25066994b46b3089efad23f91bba9a1873caf08e65"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/spessartine_dust.png"
+hash = "4dce7116cac1261e596a3aa9fa1cb1e8d19d1ba614137b336fa563c60b946d98"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/spessartine_small_dust.png"
+hash = "e94fe5e1b9c6c1a5d9de4dcb33aa11d20c2366b2823cea0f3271c6fab296a953"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sphalerite_dust.png"
+hash = "4a559e0c82f14700e94bcbe90bfb522d5e6b0df8bf5dc67302ac4ae096309ed9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sphalerite_ore.png"
+hash = "408693315476affbc668cb1cd34553ded8b6569329dbe6df6121a1ee20b73e7a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sphalerite_small_dust.png"
+hash = "7bb697d58f4593f616b604a0e1ef46f3ebd13d5c0c8874802268d470aa26af76"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sponge_piece.png"
+hash = "ae20e540587a9cd585696b4fbdbcda1f71b69d099b0cac5e8b2fc1d48ecf9d8c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/steel_boots.png"
+hash = "13c012810f28f278c75590617bdce1015c48ad5fcb2119fda201709f5fd33669"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/steel_chestplate.png"
+hash = "b22bfcb24c1c7b0b79f8dd5cb460ab0b701a94c56434fa694dfcbe979f23731b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/steel_dust.png"
+hash = "d2467e9969ece91571e957c97612b3ffa495b0260b2a2fffeddc5d2a353e0a5c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/steel_helmet.png"
+hash = "2967ec19c1f6f01be1cca7807ec4047c735d691ac4e65956ec55facc8fe58ebc"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/steel_ingot.png"
+hash = "99b58aed0f7853f1734c729bbc645b9d25c604752e1609bf00ae88131d582c5c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/steel_leggings.png"
+hash = "66f1ba533cb82a1e408367a4af9a99af744319c058fbb63c98aee0a378fc87f9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/steel_nugget.png"
+hash = "6c8f6ef6c38e30d899e051e5272c0457743d36b0427db8f9edf6daa9e1c1fd25"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/steel_plate.png"
+hash = "f6ac03be9893f0715fa83bf782b419bd860baea1b54b31892053ca910c38158a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/steel_small_dust.png"
+hash = "7cc763dad394085704cae05741fad7b2e81a960ed321a47285b49250d7eedf7f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/steel_storage_block.png"
+hash = "b6cc50354c9e9732d1dbbe5fe926c8871d17ec077f6a901aec1b13da42a78fd3"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/steel_storage_block_slab.png"
+hash = "a5a6f3a939b083f2d8d70850bda1d0886cfc04cfc6b7689adebb12c675a97699"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/steel_storage_block_stairs.png"
+hash = "ca894e690924974b601fa6018fa66d10db1de0f0265cb984d32390aefbc94334"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/steel_storage_block_wall.png"
+hash = "0ebc04c60e1b7c5368d1381a5a5818d77ba40679c690d5799598d03e4c63ed5b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/storage_buffer.png"
+hash = "907b784107aa208ecb0c2be810c293ec93846f086fa1ba6f7544bcb0403f8679"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/stripped_rubber_wood.png"
+hash = "5a048426e2406bae0a8ef0a244fd8f9d3e371896af4c4170cea430b24d216d36"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sulfur_bucket.png"
+hash = "a00afbf34d362445036c561c10782fca67869d97262bd896e3ac5579b8bfe245"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sulfur_dust.png"
+hash = "eeb5877d0ee2e7c3bed8447d827f34eff8aa2f186ece51adf5c5027f96deacab"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sulfur_small_dust.png"
+hash = "b912a14eca3f185d7c3f51462059bf301efa8ba882e8a8c1de8be665d1d40293"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/sulfuric_acid_bucket.png"
+hash = "ad85bb8a01237ac7f1ad8e2caec5c8e5cd45f4526135d6ca17d2f89510444e6d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/superconductor.png"
+hash = "f345b7e7a8778f4a36b19c2fda537b30bb1098bd9f8d2fc4eedb48fc8cde2859"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/superconductor_cable.png"
+hash = "b039ad4922d636a1a78221978f3ed153c72b27269356403fb96e100d4aa0aeaa"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/superconductor_upgrade.png"
+hash = "a9ae753c5cc7c94f3342e8d4771d6cad619d4495bb480507b075674e9e20bd02"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/synthetic_redstone_crystal.png"
+hash = "d835173a1d38ca5640dda873d51adc536407ab7258a0364df7dcb1ec8d781141"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/thermal_generator.png"
+hash = "85b33aa48b91e53e4ac72c7c53a9820828d9385a2af0ae4e38862eac905d47d5"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/thick_neutron_reflector.png"
+hash = "96d5ded923a3cd602539bf2b5afced8ffc03d633566c1383b97df7c62513fb48"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tin_cable.png"
+hash = "b8939c0aac103053aa01843392547bbb04082608a253b1d486380cbbce968212"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tin_ingot.png"
+hash = "dd041feeef462de71011ab426bebdfac3e58f4a994badd5829105106f5bd1a43"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tin_nugget.png"
+hash = "bcab5e5d6e98aabf3f0d7cc0c0260229bde1aba9c3387e535facbeb85dec87b6"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tin_ore.png"
+hash = "f66e5f49c643cc76db1d64c3cb9175c79c6a14cf37091760a3295710606197f9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tin_plate.png"
+hash = "8722b3423d7846e7190c05ae2ac36f5520fbef1e081e071eabb09351ef25ab6c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tin_storage_block.png"
+hash = "efa2463a3f65abe07c6d7468c0ae1b644128db94c8125909a28d362b6ad2a69e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tin_storage_block_slab.png"
+hash = "839e7dd1dde79f88312fb3c9e3bfd820f777e71bd886afe62b3891460ac8059f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tin_storage_block_stairs.png"
+hash = "ed69417d2a2aa067cca5a6baf8a8c7ceac34e3570d52694151d4ccaa37908c68"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tin_storage_block_wall.png"
+hash = "0da459b14db5a1ab80a95f5225bede408fdc04be4c9e61817dcf438b829d6214"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/titanium_dust.png"
+hash = "f7102f0c168484be993878d0d32d51898e00c0c284bc0e8dde3209779dcc4f56"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/titanium_ingot.png"
+hash = "bbef2d7a4bbd0ab4ec5ae9c9433de39a273b9be9280705af0539173dcbbe433c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/titanium_nugget.png"
+hash = "8b0310f2ce9b68fbc2cf8c3dc63c4c5347678cc3bfaf339274fa52fc6540cc9a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/titanium_plate.png"
+hash = "7521b32c873fab651da0db8662da0864e63690a0ec979a4a5d42955b70add780"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/titanium_small_dust.png"
+hash = "0700fc42f3232ce2b9c9af314e5e42bdca360e8c2c3de6250ddbfeab2602687c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/titanium_storage_block.png"
+hash = "4d6ef1aed77c0298d9a3c058ca364cbddd2fe1d0f183a057dbb0e94d52200d85"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/titanium_storage_block_slab.png"
+hash = "836d3f0e90f8c1608b1cf5406f44c5f51f1a816c1c9678ccdaab8ae25616d8c5"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/titanium_storage_block_stairs.png"
+hash = "25a625537efa86288ade2659f50a029208130816261f432707df8af73d2d0419"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/titanium_storage_block_wall.png"
+hash = "53273fcbc74d18f339fd00f902a2e91e70e4497dda99f60f54708d127a67adbe"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/transformer_upgrade.png"
+hash = "6efb14715a590f0eb26f3c0002ab1236b688e2442050fff0c5ca5400afd2f24d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/treetap.png"
+hash = "856d0f9c322fa80012f77e6039b64e03181c8268f8fcb8054130e42d435d88f7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tritium_bucket.png"
+hash = "75723a0774a9dad2ad40e878331a77147a84e63f1bd2e36dfea0255e090cd4bc"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungsten_grinding_head.png"
+hash = "666a1e200ec35ca2a5a2d0e545e6c6d67daa7e5241a8b62941e49ebe1504811d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungsten_ingot.png"
+hash = "ea92aee78ec6ffec4f72a1d5707cb68d1d15efdebf906f6d97278a845e95e3c4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungsten_nugget.png"
+hash = "ac28c43f6d63f8a548d0b7586d223b76e7e186194c0880b8ff1bec91932b8612"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungsten_ore.png"
+hash = "7c3451b264a8f2e300fbea80e2e2278df0964366c0a0f5c2f97397d468b86eef"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungsten_plate.png"
+hash = "36f3effe2ad27c66b56f91ad37dff3819199918b40f91c26fe97cd3fc51049d6"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungsten_small_dust.png"
+hash = "06bb8e84af77d862d2cbfbae72ab109c760570e39060c158024282a9c9955392"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungsten_storage_block.png"
+hash = "fe8e390c4dbf6b3aca7ec15cdbdf8673d9f3d6568bfae0d39b1c0ded8ee96d06"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungsten_storage_block_slab.png"
+hash = "685b15b9ee31eb0077320d7ec744daf7d3ca40740a8611fc8c0001f99fd8136d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungsten_storage_block_stairs.png"
+hash = "5a87303dfd9a3a0d5075d45b0795f582c5adce67a8cd34a9fd005661a1ab03c9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungsten_storage_block_wall.png"
+hash = "f1881303d4c48ab30d22e8199ad27c35a6bfa625903c5b9c9f61e3bfdafeb5a1"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungstensteel_ingot.png"
+hash = "e633fd21961ba094e6813e19cc4e498c3122fa46d705edafd70a1b50a8b73fc1"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungstensteel_nugget.png"
+hash = "1f8d7b0f47f4858793ca048091857113ae9fc51d99661410a5509ff300d64b82"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungstensteel_plate.png"
+hash = "e78855a79386cd36befc1c2ffa45134c2978e03536a5bd0ebeeb0c4fe48bf6b3"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungstensteel_storage_block.png"
+hash = "de3d94ebb74bcf7168e97b9e4dbc93c3c74f159f985f9edf1675b2d1bd41adf8"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungstensteel_storage_block_slab.png"
+hash = "15f4db94c49c34cf19c39207ef054b4544e78dfb5fece94c0866104e01350407"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungstensteel_storage_block_stairs.png"
+hash = "02a6f7e926c96ec660252a10b7464971083070ac10078414c4626ded1363131a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/tungstensteel_storage_block_wall.png"
+hash = "075958524c631776d91534511e91b94d9d4b903de2c3da2f1d888017f1a154b5"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/ultimate_solar_panel.png"
+hash = "ebf89b650512b5f8861fbafa99166b0653f7d3c048ad959348a6c27f520e1c83"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/uu_matter.png"
+hash = "9b1edf19864b1516915528b484e51fd68d8111b04c9b0f329da3c13773c1eef0"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/uvarovite_dust.png"
+hash = "df3cb08e8a9ca91230fe63759e009321d9ee3a48e3f3ee4d616fdc1fd2e39975"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/uvarovite_small_dust.png"
+hash = "0fcb1676564c948e9ef80440050f4dfb13da821cda6bf845f789bc7f44fddcb0"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/vacuum_freezer.png"
+hash = "8e68524ae494efd86dba17e6f1dcf4be5b32d36ca19d54186d863152687f0403"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/water_coolant_cell_10k.png"
+hash = "7e38d74d5e24cec25ab01e44a7db63d9d6d590d9595a0aacac531b9f527e6bf5"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/water_coolant_cell_30k.png"
+hash = "2d55da66cb1122c6357f81ad9c6d1c08dd8a6a5321b81ff6ff1bf2dbd3a10336"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/water_coolant_cell_60k.png"
+hash = "ef0e563a772b2f16e4542d99665f68ea9de6b879be1ca208de4089cae4f5db2f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/water_mill.png"
+hash = "509cc844d39ac6a060decfc5419ad149172d5fcc1d3849a445265b5300df425f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/wind_mill.png"
+hash = "ccff43cf8e43620f27fc02cb43bf56e279dc66ac49574e65aecfb627cfc2e331"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/wire_mill.png"
+hash = "d29fe9a4477c54cc1f0e5dda7eba06a9aa4bf57914e4615a1909045e676aa295"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/wolframium_bucket.png"
+hash = "7ad660348017feb30beca1ae9c191e7c41a58b338da20c7d8038a7b727dff4a0"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/wood_plate.png"
+hash = "b0bfbd629c246d2c0bac380f5aa4f176638d8ce01f81090a3b9b1a054572f7df"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/wrench.png"
+hash = "caa124e573020c8aaf9dd4d4a162cabe344e4c975e2d239821c24a1ae627392d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/yellow_garnet_dust.png"
+hash = "1198ce5b6cea80e8c15efb3be5220703bd26c5c82fdb6709a4ec4539e295a60c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/yellow_garnet_gem.png"
+hash = "d34846387b1b410f542204cf33beeda622e928e935c85bdb6106037a84a881dd"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/yellow_garnet_plate.png"
+hash = "4032eab7c7a7b8c158f2161520636250dc069061c7965ad69bdf854afc84e4f4"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/yellow_garnet_small_dust.png"
+hash = "93134b1891d2038fee7541bee509d73ba2317c59d34ec3c0601f7bdf6d879e03"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/yellow_garnet_storage_block.png"
+hash = "00005c435594f6d817173acfe1102c781f7ee8f76192d242e604d28804808e89"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/yellow_garnet_storage_block_slab.png"
+hash = "38c520494fdd15215626b9d0946a041d436d4b36528c018c366c20a7ad4c48ee"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/yellow_garnet_storage_block_stairs.png"
+hash = "a54418af0b811c04f765397b6ed66e06e889adfe02b4a4b18233a93842748df1"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/yellow_garnet_storage_block_wall.png"
+hash = "a25510b6078855883910633f9bf18918aefc36f73191f910d14679319e883d3d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/zinc_dust.png"
+hash = "2eb711f64220746d8b764885d54bfe81b5becf33f776872ee454598a9cffa35f"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/zinc_ingot.png"
+hash = "6d184ea9f3b16abbc511d7baad341891506308df232c04cc3808f52bc7496588"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/zinc_nugget.png"
+hash = "783192eb27f56dcea1d1a48441a927142f6d441890470d0f72d889fff74e38ac"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/zinc_plate.png"
+hash = "7016d4a7c9eaea3b1a7dcb79f253ed8d3b0c87aafaf9c376d56d32042a5e4940"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/zinc_small_dust.png"
+hash = "c48ca10fe09f5ca468cf40f7b8628158995201cfcca7f09c5b2502801281bc4b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/zinc_storage_block.png"
+hash = "196ca3ec93be3ce12a828c777942eb5eaf488695a18e9d604d0c6db3c7ffa447"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/zinc_storage_block_slab.png"
+hash = "2e2fd321b2dc09b9f5198ae9d2cd830572ead445602e376eabfe565f6da2d702"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/zinc_storage_block_stairs.png"
+hash = "b400661aea2c4ce60559f906dd8c664314d748e1775ddd3800cea402a3ca2d47"
+
+[[files]]
+file = "kubejs/probe/cache/rich/techreborn/zinc_storage_block_wall.png"
+hash = "184f47934cc3b9f51d152862769d5e2c09f723704752a76813721ba306591cd1"
+
+[[files]]
 file = "kubejs/probe/cache/rich/travelersbackpack/backpack_tank.png"
 hash = "e82a1539c9ddbaebfce681dba5401cdbd38f136963e82c571069255644f03ec3"
 
@@ -28625,6 +31237,182 @@ file = "kubejs/probe/cache/rich/travelersbackpack/yellow_sleeping_bag.png"
 hash = "c3cecb4df65b36722bff5ddf2feacf4b3fd8d3bda0963496a58ccb189f49afad"
 
 [[files]]
+file = "kubejs/probe/cache/rich/universal_ores/andesite_coal_ore.png"
+hash = "f7f65a571e4b8dc396cb8c4553a174f3ae2f6aa1442491f89389de91f0ae3352"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/andesite_copper_ore.png"
+hash = "05e6f274496785dba8281731bbb25f3f3f149ff1d96302bd461cd7aa7060fced"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/andesite_diamond_ore.png"
+hash = "2a9866e7eb2be269c1722d3bdc54a151581814893e0eba43f7faabbbd7943e2c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/andesite_emerald_ore.png"
+hash = "b9d1b62f8dac43d625d25e95233c22a9955cc62b38498bfb5a15e26a1bff38dd"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/andesite_gold_ore.png"
+hash = "22286efdda1ca397a4ebc2e15c85525de688f9e8b56bc304207e5db34ffec49d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/andesite_iron_ore.png"
+hash = "30681ac81b884cd4a231a2151d1d57f4f446f0adc070190e38c18295506e773b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/andesite_lapis_ore.png"
+hash = "22ac22017698572bbb35c8bd530dde8ec6524bfd416af631ade09816ed1edc43"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/andesite_redstone_ore.png"
+hash = "03763dd00149a2458e9f431bfa52d4ec255a4f11dd2f264e7503b6272ae397ab"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/basalt_gold_ore.png"
+hash = "a482c52a265b490ee558123e90d706f2cfb5127be284c8ef9845a7bbb855c316"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/basalt_quartz_ore.png"
+hash = "e5c201992996e533181619373188b8e7bdb9526114c6c4f8fec151920e1a328a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/blackstone_gold_ore.png"
+hash = "bd55794b9bca028df61fada4283f0ac9f9bb739af0a5ff3c7798058a22cdaef7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/blackstone_quartz_ore.png"
+hash = "41bcf1627cfba4a07c44f0b23fea3ce2a2dc31523ba0b672e305216c03b09323"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/calcite_coal_ore.png"
+hash = "d068760f62dd793b7533db25c5a2cf346fc4f2dd28708563d5fa678de12aeaf0"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/calcite_copper_ore.png"
+hash = "5c982ebd150c67840d279f0e205572fad603e783421b202a9cb0bb796f24f8f5"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/calcite_diamond_ore.png"
+hash = "d9c2da6cdcc546c84e6b8ee11fee8f409edeba319f6323e806734bb6b30cdea8"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/calcite_emerald_ore.png"
+hash = "08cd6f46b9e133121a99215b028871925b219934e78477eee39e6f7f98f0c618"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/calcite_gold_ore.png"
+hash = "554d82927db562610cc381ca1013c48bbe88dc0cdad74f4a3fdced04b57d8150"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/calcite_iron_ore.png"
+hash = "57629c6501c39eda7f38501192a96666c126f0f149f7af310c3ae8ff639517ee"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/calcite_lapis_ore.png"
+hash = "b689ba530ceb2975a3c2f58c12ca82de3b7290b6263302ccdb547c5090d88bed"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/calcite_redstone_ore.png"
+hash = "55a92b31b9fd6d1e5da35752e1e6dd3000114a16a99d80789d9cf59bcdc60622"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/diorite_coal_ore.png"
+hash = "21aa8b03d7e67dbc489278f0e00769adf90eef9a5f21c43e8c4167536268e9bc"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/diorite_copper_ore.png"
+hash = "57b6964f9b332f9674bba16f248ba23a3b98fbd6459400317387a0484a835bb7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/diorite_diamond_ore.png"
+hash = "0825fc235e450f0222ddf1c1e750df7dff6c03a728f9fe6f4ce042b83c171e28"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/diorite_emerald_ore.png"
+hash = "a5e059556874fc6dfd564fc299936089a2a79aa328cec3898f044fef24364087"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/diorite_gold_ore.png"
+hash = "c22c88a1226e447412c986470b8ddbab6b1ad16b3b6b70fe99de47acc4d5b3aa"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/diorite_iron_ore.png"
+hash = "9fcbe88afd7039999643f85c7b9446fa5e60c991dfa656ce1a38f3e6f47fd77b"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/diorite_lapis_ore.png"
+hash = "5550ac69e0f1d845d9d04bcc8c80fbdc4487baa21a9b1617fca2af3fad111d80"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/diorite_redstone_ore.png"
+hash = "a7f89ed9f9b9c07705e16a02ae235c5ef6ee464b5a4c24c51cfa47739317703c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/granite_coal_ore.png"
+hash = "98897e07ed31b4520ebc3faa9e238a0ab8a2ef7b66ae02dc0d0940002de7032a"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/granite_copper_ore.png"
+hash = "355dd53190e87953946fffc0f939a249c18098bab8f39a630050fc8e7d0ffc9e"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/granite_diamond_ore.png"
+hash = "4f49338710077978c0e8c5e607d3767000c86fcf8951e56b9ddc1b875f8516a7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/granite_emerald_ore.png"
+hash = "ccd7d204603eccc1c90d465d2e5d706143a8cc026055fa81034f0325ac2fc9f7"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/granite_gold_ore.png"
+hash = "1cbef30780c0b787acd2ba6c01c9fe97925cd3376fae58f4c68e2f7a646a3522"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/granite_iron_ore.png"
+hash = "dd306ee563648b31d022a978cfb4054c63240ea6bfa518b25b8a62ac663aa6cb"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/granite_lapis_ore.png"
+hash = "0b631c2cca439c159c2179e44f3f4b7814fc3f4ce9e946887c8993aa7367d7c9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/granite_redstone_ore.png"
+hash = "21545f2a5c467b9f87954b8405b46f778a38171b3c8d7b6ea0baa42c35dc36ab"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/tuff_coal_ore.png"
+hash = "bf7aa2dc93874f2f8b7251898e95fbb9b566ec6573c7c2caf3b3a74dedef8bc9"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/tuff_copper_ore.png"
+hash = "f789eab0b11ca0827ba8d88d3b54dccfd453f87c8c05ed61d5bd80bae45566ae"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/tuff_diamond_ore.png"
+hash = "9e3d1e841579983df3788af782df3c86557c9d99b654a9999319d5d1e1b29897"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/tuff_emerald_ore.png"
+hash = "0b4c6e811dcfd28b444b97771d3415fb319d00fba2620c52337f8182509c687c"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/tuff_gold_ore.png"
+hash = "b9a32d79e4d7b34627b804660db8af1a39f7ddd763d549842625d3d03d70edff"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/tuff_iron_ore.png"
+hash = "88ec59ed62ec112705422f205bd7625542e7c2b4533ceb391a53754bb869c38d"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/tuff_lapis_ore.png"
+hash = "f7776a98da29e959ee4eac42e93f2ad4755c80da9524b2b13548e153998bcfdc"
+
+[[files]]
+file = "kubejs/probe/cache/rich/universal_ores/tuff_redstone_ore.png"
+hash = "b2ebd95207e5e7835baf68bec1f2bcb1ab02c0d2199324329a7271c8d95b700a"
+
+[[files]]
 file = "kubejs/probe/cache/rich/vanilla-hammers/diamond_hammer.png"
 hash = "6cc09d38c696ad148ff40954861a2bb8099f22cbd7b2b42e7bbcce9ff8667d08"
 
@@ -28681,16 +31469,28 @@ file = "kubejs/probe/cache/rich/vanilla-hammers/wooden_hammer.png"
 hash = "868d07df8a2a860c1788300984521c354689c1186a70588d9f78dde5774bbb77"
 
 [[files]]
+file = "kubejs/probe/cache/rich/yacg/cobble.png"
+hash = "c5af8bf2b72f1796747a053a9561f538ab989a4d5e9aaab452dc5ee729dd2a84"
+
+[[files]]
+file = "kubejs/probe/cache/rich/yacg/ore.png"
+hash = "47bbddc74bb1ca8adbd1300ef317bf471cd02ed9c31d132cac1f564e72b42073"
+
+[[files]]
+file = "kubejs/probe/cache/rich/yacg/stone.png"
+hash = "3f01573ef47a31bb947aa85989a3b4f001613e55924dd04ea8782a1106442bee"
+
+[[files]]
 file = "kubejs/probe/generated/constants.d.ts"
 hash = "7c634b0459906d6191ba1bc83cff3fc0c93314db0ffb93000614c3d320b8b10d"
 
 [[files]]
 file = "kubejs/probe/generated/events.d.ts"
-hash = "80d269cc9bc181c28b6110ccc571d5b0cdefc9bb69739f7d704aa4b7b71c4ac2"
+hash = "aded704d21d906147840fce16f348a1619dd2f871667845ce83212c091011a4e"
 
 [[files]]
 file = "kubejs/probe/generated/globals.d.ts"
-hash = "c1c006a116d1f1d5589a9df6c90ec358ddea42e1be3429c9b0a1c63d1f558e13"
+hash = "522e34ec69ffd46d13f42c186e5f277ba41ca51119dec651892a87e57e46259c"
 
 [[files]]
 file = "kubejs/probe/generated/names.d.ts"
@@ -28706,15 +31506,19 @@ hash = "264fe2d5b2c0858a8e267e2cf98ad411144a524ac11ffca00f9589b3a7d418bc"
 
 [[files]]
 file = "kubejs/probe/generated/tag_events.d.ts"
-hash = "e9b0b815e128e63eeb2633f96f6044afd113e5d197aeeb5065483e71b1013c5c"
+hash = "9be603fed93bc030e15d5896a206f5cc792f74b51831cd34b4540c0dceaf2d04"
 
 [[files]]
 file = "kubejs/server_scripts/MI.js"
-hash = "5afd8abea31557bb4475964458c02fa036dd6529d01c137e3915a3a5e92f664c"
+hash = "7f53ee255011cce15fb19fa78c8e97e3a861f2fb2b16bb50ced0e8ae8a2c4728"
 
 [[files]]
 file = "kubejs/server_scripts/ae2.js"
 hash = "8df9562fe463cd8377323e79a3dfcb573875c1eea7eb5d08a12cf20241c54e36"
+
+[[files]]
+file = "kubejs/server_scripts/mi_bronze_machine_recipe.js"
+hash = "79e0fea678ab3dc24af567fd9dc1d8bfe5568a429c0384cdb4b5c883cef0f42a"
 
 [[files]]
 file = "kubejs/server_scripts/remove_hand_crafting.js"
@@ -28722,7 +31526,7 @@ hash = "32d402969d95917396415840c22b8a4eddd729fb850e23ec7a8dd7dd5f43bf08"
 
 [[files]]
 file = "kubejs/server_scripts/sequencedAssembly.js"
-hash = "0e1ad24ba767b8a649d4f1ac45e74e97bba09d80ed1719de00bf3a54c3a1ad62"
+hash = "65670e64e3e9c8eeaca204fe2a332742c75d6c52b28d5c9a053608d8c36c2ad1"
 
 [[files]]
 file = "kubejs/server_scripts/server.js"
@@ -28730,15 +31534,15 @@ hash = "a8916d5afd4b7d9157b8700f9d50f8e4250cd8406a4d540f978835fb54d95814"
 
 [[files]]
 file = "kubejs/server_scripts/startgame.js"
-hash = "2ff65e1ef176b24f1928e85a0a46889a1e17bd71192220509501d4ee5cdb91bd"
+hash = "1f5f3d05b89f992e4b35d5443cc49310a188c93e841e010422fd5bd1c6d23340"
 
 [[files]]
 file = "kubejs/server_scripts/unif.js"
-hash = "5fbd023fe030305ade1d7529ad5365a44beacede06c8911bef4e21e91582ad18"
+hash = "4ded14366334f413b414a270d20faaf38260f7595464841492c1f2920ddfbc33"
 
 [[files]]
 file = "kubejs/startup_scripts/register.js"
-hash = "d0d9b407ccbef84c7fc5c1eed93d8d7579a9df5b647f92c0be42794ba9a40b3f"
+hash = "577788f839413d713f3ed16bf7defa6d32a85388e58a6c0f2d9b77093c5642fb"
 
 [[files]]
 file = "kubejs/startup_scripts/worldgen.js"

@@ -112,5 +112,20 @@ ServerEvents.recipes(e => {
 	]).transitionalItem(inter3).loops(1)
 
 
-	
+	e.forEachRecipe({type: MC("crafting_shaped"), output: /modern_industrialization:(.*)_gear/ }, r => {
+        let ingredients = r.originalRecipeIngredients
+        let outputs = r.originalRecipeResult
+		
+		let ina = ingredients[4]
+
+		e.remove({type: MC("crafting_shaped"), input:ingredients,output:outputs})
+		e.recipes.createSequencedAssembly([
+			outputs,
+		], ina , [
+			e.recipes.createDeploying(outputs, [ina, ingredients[2]]),
+			e.recipes.createDeploying(outputs, [ina, ingredients[1]]),
+			e.recipes.createPressing(outputs, ina)
+		]).transitionalItem(outputs).loops(4)
+        
+    })
 })
