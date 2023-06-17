@@ -38,16 +38,7 @@ ServerEvents.recipes((e) => {
         return allRecipes
     })()
     let forEachRecipeByType = (recipeType) => allRecipes.filter(r => r.type == recipeType)
-
-    let assembler = (inputs, outputs, duration, power) =>
-        e.custom({
-            type: "modern_industrialization:assembler",
-            duration: duration,
-            eu: power,
-            item_inputs: inputs,
-            item_outputs: outputs,
-        });
-
+    
     //Iron Furnace
     e.replaceInput(
         { output: "fabric-furnaces:iron_furnace" },
@@ -81,60 +72,13 @@ ServerEvents.recipes((e) => {
     );
 
     //harder steel
-    e.smelting(MI("pig_iron_ingot"), "minecraft:iron_ingot");
-    e.custom({
-        "type": "modern_industrialization:forge_hammer",
-        "duration": 0,
-        "eu": 15,
-        "item_inputs": [
-            {
-                "amount": 1,
-                "item": MI("pig_iron_ingot")
-            }
-        ],
-        "item_outputs": [
-            {
-                "amount": 1,
-                "item": MI('wrought_iron_ingot')
-            }
-        ]
-    })
-    e.custom({
-        "type": "modern_industrialization:compressor",
-        "eu": 2,
-        "duration": 100,
-        "item_inputs": {
-            "item": MI("pig_iron_ingot"),
-            "amount": 1
-        },
-        "item_outputs": {
-            "item": MI('wrought_iron_ingot'),
-            "amount": 1
-        }
-    })
+    e.remove({type:"minecraft:blasting",output:'modern_industrialization:steel_ingot'})
+    e.smelting(MI('wrought_iron_ingot'), "minecraft:iron_ingot");
 
     e.replaceInput(
         { output: "modern_industrialization:uncooked_steel_dust" },
         "modern_industrialization:iron_dust",
         MI('wrought_iron_dust')
-    );
-
-    //harder item pipe and fluid pipe
-    e.remove({ output: "moderndynamics:item_pipe" });
-    e.remove({ output: "moderndynamics:fluid_pipe" });
-
-    assembler(
-        [MI_ITEM(2, MI("steel_ingot")), MI_ITEM(1, MC("glass"))],
-        [MI_ITEM(8, "moderndynamics:item_pipe")],
-        100,
-        8
-    );
-
-    assembler(
-        [MI_ITEM(2, MI("bronze_ingot")), MI_ITEM(1, MC("glass"))],
-        [MI_ITEM(8, "moderndynamics:fluid_pipe")],
-        100,
-        8
     );
 
     //harder robotic arm
@@ -223,18 +167,11 @@ ServerEvents.recipes((e) => {
         .itemIn('#c:limestone')
         .itemOut("2x modern_industrialization:flux_dust");
 
-    e.remove({ type: "minecraft:smelting", output: 'minecraft:iron_ingot', input: 'modern_industrialization:iron_dust' })
-    e.remove({ type: "minecraft:blasting", output: 'minecraft:iron_ingot', input: 'modern_industrialization:iron_dust' })
-
     e.replaceInput({ input: 'minecraft:raw_iron', type: "smelting" }, 'minecraft:raw_iron', 'modern_industrialization:flux_Iron_dust')
     e.replaceInput({ input: 'minecraft:raw_iron', type: "blasting" }, 'minecraft:raw_iron', 'modern_industrialization:flux_Iron_dust')
 
     e.recipes.create.milling('2x modern_industrialization:flux_dust', '#c:limestone')
     e.recipes.create.mixing('modern_industrialization:flux_Iron_dust', ['modern_industrialization:flux_dust', 'minecraft:raw_iron'])
-
-    e.recipes.modern_industrialization.blast_furnace(1, 200)
-        .itemIn('modern_industrialization:iron_dust')
-        .itemOut('minecraft:iron_ingot');
 
     e.recipes.modern_industrialization.blast_furnace(1, 200)
         .itemIn('#c:raw_iron_ores')
@@ -302,7 +239,7 @@ ServerEvents.recipes((e) => {
     )
 
     //recipe for redalloy
-    e.shapeless('6x modern_industrialization:red_alloy_dust', ['modern_industrialization:copper_dust','minecraft:redstone','minecraft:redstone','minecraft:redstone','minecraft:redstone','minecraft:redstone'])
+    e.shapeless('3x modern_industrialization:red_alloy_dust', ['modern_industrialization:copper_dust','minecraft:redstone','minecraft:redstone','minecraft:redstone','minecraft:redstone','minecraft:redstone'])
 
     e.recipes.modern_industrialization.assembler(8, 100)
         .itemIn('kubejs:component.glass.tube')
@@ -384,25 +321,5 @@ ServerEvents.recipes((e) => {
 
     e.remove({output: "minecraft:iron_pickaxe"})
     e.shapeless("minecraft:iron_pickaxe", ['kubejs:iron.pickaxe.head','minecraft:stick'])
-    
-    // new recipe bronze machine
-
-
-    //test
-    // e.forEachRecipe({ type: 'create:crushing', output: '#create:crushed_ores' }, r => {
-    //     let ingredients = r.originalRecipeIngredients
-    //     let output = r.originalRecipeResult
-    // })
 });
 
-//change ore drop to cursh ore
-LootJS.modifiers((event) => {
-    event.addBlockLootModifier('#forge:ores').modifyLoot('#forge:raw_materials', item => {
-        const replacement = AlmostUnified.getReplacementForItem(item);
-        if (replacement.isEmpty()) {
-            return item;
-        }
-        replacement.setCount(item.getCount());
-        return replacement;
-    });
-});

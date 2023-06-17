@@ -35,62 +35,13 @@ ServerEvents.recipes((e) => {
         });
     };
 
-    let assembler = (inputs, outputs, duration, power) =>
-        e.custom({
-            type: "modern_industrialization:assembler",
-            duration: duration,
-            eu: power,
-            item_inputs: inputs,
-            item_outputs: outputs,
-        });
-
-    let chemical_reactor = (inputs, outputs, f_in, f_out, duration, power) =>
-        e.custom({
-            type: "modern_industrialization:chemical_reactor",
-            duration: duration,
-            eu: power,
-            item_inputs: inputs,
-            item_outputs: outputs,
-            fluid_inputs: f_in,
-            fluid_outputs: f_out,
-        });
-
-
-    let mixer = (inputs, outputs, fin, fout, duration, power) =>
-        e.custom({
-            type: "modern_industrialization:mixer",
-            eu: power,
-            duration: duration,
-            fluid_inputs: fin,
-            fluid_outputs: fout,
-            item_inputs: inputs,
-            item_outputs: outputs,
-        });
-
-    let circuit_assembler = (inputs, outputs, fin, duration, power) =>
-        e.custom({
-            type: "modern_industrialization:circuit_assembler",
-            duration: duration,
-            eu: power,
-            fluid_inputs: fin,
-            item_inputs: inputs,
-            item_outputs: outputs,
-        });
-
     //Red alloy dust recipe
-    mixer(
-        [
-            MI_ITEM(1, "modern_industrialization:copper_dust"),
-            MI_ITEM(5, "minecraft:redstone"),
-        ],
-        [MI_ITEM(6, "modern_industrialization:red_alloy_dust")],
-        [],
-        [],
-        200,
-        2
-    );
+    e.recipes.modern_industrialization.mixer(2, 200)
+        .itemIn("modern_industrialization:copper_dust")
+        .itemIn("5x minecraft:redstone")
+        .itemOut("3x modern_industrialization:red_alloy_dust")
 
-    e.recipes.create.mixing("6x modern_industrialization:red_alloy_dust", [
+    e.recipes.create.mixing("3x modern_industrialization:red_alloy_dust", [
         "modern_industrialization:copper_dust",
         "minecraft:redstone",
         "minecraft:redstone",
@@ -100,61 +51,39 @@ ServerEvents.recipes((e) => {
     ]);
 
     //ad astra fuel recipes
-    chemical_reactor(
-        [],
-        [],
-        [
-            MI_FLUID(100, MI("hydrogen")),
-            MI_FLUID(100, MI("oxygen")),
-            MI_FLUID(50, MI("heavy_fuel")),
-        ],
-        [MI_FLUID(200, "ad_astra:fuel")],
-        200,
-        36
-    );
+    e.recipes.modern_industrialization.chemical_reactor(36, 200)
+        .fluidIn(MI("hydrogen"), 100)
+        .fluidIn(MI("oxygen"), 100)
+        .fluidIn(MI("heavy_fuel"), 50)
+        .fluidOut("ad_astra:fuel", 200)
 
     //rocket workbrech tweak
     e.remove({ output: "ad_astra:nasa_workbench" });
-    assembler(
-        [
-            MI_ITEM(1, "modern_industrialization:digital_circuit"),
-            MI_ITEM(4, "modern_industrialization:stainless_steel_plate"),
-            MI_ITEM(1, "modern_industrialization:assembler"),
-            MI_ITEM(2, "modern_industrialization:large_motor"),
-            MI_ITEM(1, "modern_industrialization:turbo_machine_hull"),
-            MI_ITEM(2, "modern_industrialization:robot_arm"),
-        ],
-        [MI_ITEM(1, "ad_astra:nasa_workbench")],
-        500,
-        20
-    );
+    e.recipes.modern_industrialization.assembler(20, 500)
+        .itemIn("modern_industrialization:digital_circuit")
+        .itemIn("4x modern_industrialization:stainless_steel_plate")
+        .itemIn("modern_industrialization:assembler")
+        .itemIn("2x modern_industrialization:large_motor")
+        .itemIn("modern_industrialization:turbo_machine_hull")
+        .itemIn("2x modern_industrialization:robot_arm")
+        .itemOut(1, "ad_astra:nasa_workbench")
 
     //moon drill
     ////head
-    assembler(
-        [
-            MI_ITEM(3, "ad_astra:desh_ingot"),
-            MI_ITEM(5, "ad_astra:desh_plate"),
-            MI_ITEM(3, "ad_astra:cheese"),
-        ],
-        [MI_ITEM(1, "kubejs:moon_drill_head")],
-        200,
-        8
-    );
+    e.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn("3x ad_astra:desh_ingot")
+        .itemIn("5x ad_astra:desh_plate")
+        .itemIn("3xad_astra:cheese")
+        .itemOut("kubejs:moon_drill_head")
 
     ////drill
-    assembler(
-        [
-            MI_ITEM(1, "kubejs:moon_drill_head"),
-            MI_ITEM(2, "modern_industrialization:advanced_motor"),
-            MI_ITEM(2, "modern_industrialization:advanced_pump"),
-            MI_ITEM(1, "modern_industrialization:iron_gear"),
-            MI_ITEM(1, "modern_industrialization:digital_circuit"),
-        ],
-        [MI_ITEM(1, "kubejs:moon_drill")],
-        200,
-        8
-    );
+    e.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn("kubejs:moon_drill_head")
+        .itemIn("2x modern_industrialization:advanced_motor")
+        .itemIn("2x modern_industrialization:advanced_pump")
+        .itemIn("modern_industrialization:iron_gear")
+        .itemIn("modern_industrialization:digital_circuit")
+        .itemOut("kubejs:moon_drill")
 
     custom_quarry_drill(
         [MI_ITEM_CHANCE(1, "kubejs:moon_drill", 0.01)],
@@ -169,83 +98,53 @@ ServerEvents.recipes((e) => {
     );
 
     //rash alloy
-    mixer(
-        [
-            MI_ITEM(4, "ad_astra:desh_ingot"),
-            MI_ITEM(2, "modern_industrialization:tin_dust"),
-            MI_ITEM(1, "modern_industrialization:silicon_dust"),
-        ],
-        [MI_ITEM(6, MI("rash_alloy_dust"))],
-        [MI_FLUID(300, MI("molten_redstone"))],
-        [],
-        200,
-        23
-    );
+    e.recipes.modern_industrialization.mixer(23, 200)
+        .itemIn("4x ad_astra:desh_ingot")
+        .itemIn("2x modern_industrialization:tin_dust")
+        .itemIn("modern_industrialization:silicon_dust")
+        .fluidIn(MI("molten_redstone"), 300)
+        .itemOut("6x " + MI("rash_alloy_dust"))
+
 
     //harder 'modern_industrialization:highly_advanced_machine_hull'
     e.remove({
         output: "modern_industrialization:highly_advanced_machine_hull",
         type: MI("assembler"),
     });
-    assembler(
-        [
-            MI_ITEM(2, "modern_industrialization:cadmium_battery"),
-            MI_ITEM(3, "modern_industrialization:annealed_copper_cable"),
-            MI_ITEM(
-                1,
-                "modern_industrialization:highly_advanced_machine_casing"
-            ),
-            MI_ITEM(1, "modern_industrialization:processing_unit"),
-            MI_ITEM(4, "modern_industrialization:rash_alloy_plate"),
-        ],
-        [MI_ITEM(1, "modern_industrialization:highly_advanced_machine_hull")],
-        200,
-        8
-    );
+    e.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn("2x modern_industrialization:cadmium_battery")
+        .itemIn("3x modern_industrialization:annealed_copper_cable")
+        .itemIn("modern_industrialization:highly_advanced_machine_casing")
+        .itemIn("modern_industrialization:processing_unit")
+        .itemIn("4x modern_industrialization:rash_alloy_plate")
+        .itemOut("modern_industrialization:highly_advanced_machine_hull")
 
     //recipe for ostumium
-    mixer(
-        [
-            MI_ITEM(4, "ad_astra:ostrum_ingot"),
-            MI_ITEM(2, "modern_industrialization:silver_dust"),
-            MI_ITEM(1, "modern_industrialization:quartz_dust"),
-        ],
-        [MI_ITEM(8, "modern_industrialization:ostumium_dust")],
-        [MI_FLUID(100, MI("molten_redstone"))],
-        [],
-        200,
-        36
-    );
+    e.recipes.modern_industrialization.mixer(36, 200)
+        .itemIn("4x ad_astra:ostrum_ingot")
+        .itemIn("2x modern_industrialization:silver_dust")
+        .itemIn("modern_industrialization:quartz_dust")
+        .fluidIn(MI("molten_redstone"), 100)
+        .itemOut("8x " + MI("ostumium_dust"))
 
     //recipe for 'modern_industrialization:calosisum_dust'
-    mixer(
-        [
-            MI_ITEM(4, "ad_astra:calorite_ingot"),
-            MI_ITEM(2, "modern_industrialization:titanium_dust"),
-            MI_ITEM(1, "ad_astra:desh_ingot"),
-        ],
-        [MI_ITEM(8, "modern_industrialization:calosisum_dust")],
-        [MI_FLUID(50, MI("argon"))],
-        [],
-        200,
-        36
-    );
+    e.recipes.modern_industrialization.mixer(36, 200)
+        .itemIn("4x ad_astra:calorite_ingot")
+        .itemIn("2x modern_industrialization:titanium_dust")
+        .itemIn("ad_astra:desh_ingot")
+        .fluidIn(MI("argon"), 80)
+        .itemOut("8x " + MI("calosisum_dust"))
 
     //harder quantum machine casing
     e.remove({
         output: "modern_industrialization:quantum_machine_casing",
         type: MI("assembler"),
     });
-    assembler(
-        [
-            MI_ITEM(1, "modern_industrialization:highly_advanced_machine_hull"),
-            MI_ITEM(4, "modern_industrialization:iridium_plate"),
-            MI_ITEM(4, "modern_industrialization:ostumium_plate"),
-        ],
-        [MI_ITEM(1, "modern_industrialization:quantum_machine_casing")],
-        200,
-        8
-    );
+    e.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn("modern_industrialization:highly_advanced_machine_hull")
+        .itemIn("4x modern_industrialization:iridium_plate")
+        .itemIn("4x modern_industrialization:ostumium_plate")
+        .itemOut("modern_industrialization:quantum_machine_casing")
 
     //harder quantum circuit board
     e.remove({
@@ -388,102 +287,60 @@ ServerEvents.recipes((e) => {
     );
 
     //circuit assembler recipe
-    assembler(
-        [
-            MI_ITEM(1, "modern_industrialization:electronic_circuit"),
-            MI_ITEM(1, "modern_industrialization:basic_machine_hull"),
-            MI_ITEM(2, "modern_industrialization:robot_arm"),
-            MI_ITEM(1, "modern_industrialization:conveyor"),
-        ],
-        [MI_ITEM(1, "modern_industrialization:circuit_assembler")],
-        200,
-        8
-    );
+    e.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn("modern_industrialization:electronic_circuit")
+        .itemIn("modern_industrialization:basic_machine_hull")
+        .itemIn("2x modern_industrialization:robot_arm")
+        .itemIn("modern_industrialization:conveyor")
+        .itemOut("modern_industrialization:circuit_assembler")
+
 
     //harder analog_circuit
     e.remove({
         id: "modern_industrialization:assembler_generated/electric_age/circuit/craft/lv_circuit",
     });
-    circuit_assembler(
-        [
-            MI_ITEM_CHANCE(3, "modern_industrialization:red_alloy_wire", 0.5),
-            MI_ITEM(2, "modern_industrialization:resistor"),
-            MI_ITEM(2, "modern_industrialization:capacitor"),
-            MI_ITEM(1, "modern_industrialization:inductor"),
-            MI_ITEM(1, "modern_industrialization:analog_circuit_board"),
-        ],
-        [
-            MI_ITEM(2, "modern_industrialization:analog_circuit"),
-            MI_ITEM_CHANCE(1, "modern_industrialization:analog_circuit", 0.15),
-        ],
-        [
-            MI_FLUID(50, "modern_industrialization:soldering_alloy")
-        ],
-        300,
-        8
-    );
+    e.recipes.modern_industrialization.circuit_assembler(8, 300)
+        .itemIn("3x modern_industrialization:red_alloy_wire", 0.5)
+        .itemIn("2x modern_industrialization:resistor")
+        .itemIn("2x modern_industrialization:capacitor")
+        .itemIn("modern_industrialization:inductor")
+        .itemIn("modern_industrialization:analog_circuit_board")
+        .fluidIn("modern_industrialization:soldering_alloy", 50)
+        .itemOut("modern_industrialization:analog_circuit")
+        .itemOut("modern_industrialization:analog_circuit", 0.15)
 
     //better electonic circuit
-    circuit_assembler(
-        [
-            MI_ITEM_CHANCE(3, "modern_industrialization:copper_wire"),
-            MI_ITEM(3, "modern_industrialization:analog_circuit"),
-            MI_ITEM(2, "modern_industrialization:diode"),
-            MI_ITEM(2, "modern_industrialization:transistor"),
-            MI_ITEM(1, "modern_industrialization:electronic_circuit_board"),
-        ],
-        [
-            MI_ITEM(1, "modern_industrialization:electronic_circuit"),
-            MI_ITEM_CHANCE(
-                1,
-                "modern_industrialization:electronic_circuit",
-                0.15
-            ),
-        ],
-        [MI_FLUID(50, "modern_industrialization:soldering_alloy")],
-        300,
-        16
-    );
+    e.recipes.modern_industrialization.circuit_assembler(16, 300)
+        .itemIn("3x modern_industrialization:copper_wire", 0.5)
+        .itemIn("3x modern_industrialization:analog_circuit")
+        .itemIn("2x modern_industrialization:diode")
+        .itemIn("2x modern_industrialization:transistor")
+        .itemIn("modern_industrialization:electronic_circuit_board")
+        .fluidIn("modern_industrialization:soldering_alloy", 50)
+        .itemOut("modern_industrialization:electronic_circuit")
+        .itemOut("modern_industrialization:electronic_circuit", 0.15)
 
     //other
-    circuit_assembler(
-        [
-            MI_ITEM_CHANCE(3, "modern_industrialization:copper_wire"),
-            MI_ITEM(3, 'kubejs:plate.integrated_logic_circuit'),
-            MI_ITEM(2, "modern_industrialization:diode"),
-            MI_ITEM(2, "modern_industrialization:transistor"),
-            MI_ITEM(1, "modern_industrialization:electronic_circuit_board"),
-        ],
-        [
-            MI_ITEM(2, "modern_industrialization:electronic_circuit"),
-            MI_ITEM_CHANCE(
-                1,
-                "modern_industrialization:electronic_circuit",
-                0.3
-            ),
-        ],
-        [MI_FLUID(50, "modern_industrialization:soldering_alloy")],
-        150,
-        16
-    );
+    e.recipes.modern_industrialization.circuit_assembler(16, 300)
+        .itemIn("3x modern_industrialization:copper_wire", 0.5)
+        .itemIn("3x kubejs:plate.integrated_logic_circuit")
+        .itemIn("2x modern_industrialization:diode")
+        .itemIn("2x modern_industrialization:transistor")
+        .itemIn("modern_industrialization:electronic_circuit_board")
+        .fluidIn("modern_industrialization:soldering_alloy", 50)
+        .itemOut("modern_industrialization:electronic_circuit")
+        .itemOut("modern_industrialization:electronic_circuit", 0.3)
 
     //harder Digital circuit
     e.remove({ output: 'modern_industrialization:digital_circuit', type: MI("assembler") })
-    circuit_assembler(
-        [
-            MI_ITEM(1, "modern_industrialization:or_gate"),
-            MI_ITEM(1, 'modern_industrialization:and_gate'),
-            MI_ITEM(2, "modern_industrialization:not_gate"),
-            MI_ITEM(4, "modern_industrialization:electronic_circuit"),
-            MI_ITEM(1, "modern_industrialization:digital_circuit_board"),
-        ],
-        [
-            MI_ITEM(1, "modern_industrialization:digital_circuit"),
-        ],
-        [MI_FLUID(50, "modern_industrialization:soldering_alloy")],
-        300,
-        32
-    );
+    e.recipes.modern_industrialization.circuit_assembler(32, 300)
+        .itemIn("modern_industrialization:or_gate")
+        .itemIn("modern_industrialization:and_gate")
+        .itemIn("2x modern_industrialization:not_gate")
+        .itemIn("4x modern_industrialization:electronic_circuit")
+        .itemIn("modern_industrialization:digital_circuit_board")
+        .fluidIn("modern_industrialization:soldering_alloy", 50)
+        .itemOut("modern_industrialization:digital_circuit")
 
     e.recipes.modern_industrialization.clean_circuit_processing_assembler(40, 500)
         .itemIn("modern_industrialization:or_gate")
@@ -641,22 +498,22 @@ ServerEvents.recipes((e) => {
         let ingredients = r.originalRecipeIngredients
         let output = r.originalRecipeResult
 
-        createaddition_rolling_mill(ingredients,output)
+        createaddition_rolling_mill(ingredients, output)
     })
 
-    e.forEachRecipe({type: MI("cutting_machine"), output: /modern_industrialization:(.*)_rod/ }, r => {
+    e.forEachRecipe({ type: MI("cutting_machine"), output: /modern_industrialization:(.*)_rod/ }, r => {
         let ingredients = r.originalRecipeIngredients
         let output = r.originalRecipeResult
 
-        createaddition_rolling_mill(ingredients,output)
+        createaddition_rolling_mill(ingredients, output)
     })
 
     //create cutting machine
-    e.forEachRecipe({type: MI("cutting_machine"), output: /modern_industrialization:(.*)_bolt/ }, r => {
+    e.forEachRecipe({ type: MI("cutting_machine"), output: /modern_industrialization:(.*)_bolt/ }, r => {
         let ingredients = r.originalRecipeIngredients
         let output = r.originalRecipeResult
 
-        e.recipes.create.cutting(output,ingredients).processingTime(300)
+        e.recipes.create.cutting(output, ingredients).processingTime(300)
     })
 
     // the gear seuencedassembly in "sequencedAssembly"
@@ -775,12 +632,12 @@ ServerEvents.recipes((e) => {
     e.recipes.modern_industrialization.blenderMachine(8, 100)
         .itemIn('modern_industrialization:steel_rod')
         .itemOut('2x modern_industrialization:steel_spring')
-    
-    e.recipes.modern_industrialization.forge_hammer(20,0)
+
+    e.recipes.modern_industrialization.forge_hammer(20, 0)
         .itemIn('modern_industrialization:steel_rod')
         .itemOut('modern_industrialization:steel_spring')
 
-    createaddition_rolling_mill({item: 'modern_industrialization:steel_rod'}, {item: 'modern_industrialization:steel_spring'})
+    createaddition_rolling_mill({ item: 'modern_industrialization:steel_rod' }, { item: 'modern_industrialization:steel_spring' })
 
     //place circuit component using plate circuit silicion thing
     //// ram plate
@@ -792,31 +649,28 @@ ServerEvents.recipes((e) => {
     //qbit thing
     e.replaceInput({ output: 'modern_industrialization:qbit' }, '#c:glass_panes', '2x kubejs:plate.qbit')
 
-    event.custom({
-        "type": "modern_industrialization:assembler",
-        "duration": 300,
-        "eu": 8,
-        "item_inputs": [
-            {
-                "amount": 1,
-                "tag": "c:diamond_plates"
-            },
-            {
-                "amount": 1,
-                "item": 'kubejs:plate.central_processing_unit'
-            }
-        ],
-        "item_outputs": [
-            {
-                "amount": 1,
-                "item": "modern_industrialization:arithmetic_logic_unit"
-            },
-            MI_ITEM_CHANCE(1, "modern_industrialization:arithmetic_logic_unit", 0.25)
-        ]
-    })
+    e.recipes.modern_industrialization.circuit_assembler(16, 300)
+        .itemIn('#c:diamond_plates')
+        .itemIn('kubejs:plate.central_processing_unit')
+        .itemOut("modern_industrialization:arithmetic_logic_unit")
+        .itemOut("modern_industrialization:arithmetic_logic_unit", 0.25)
 
     //replace wire in piston with spring
-    event.replaceInput({output:'modern_industrialization:piston'}, 'modern_industrialization:tin_cable', 'modern_industrialization:steel_spring')
+    event.replaceInput({ output: 'modern_industrialization:piston' }, 'modern_industrialization:tin_cable', 'modern_industrialization:steel_spring')
+
+    //harder item pipe and fluid pipe
+    e.remove({ output: "moderndynamics:item_pipe" });
+    e.remove({ output: "moderndynamics:fluid_pipe" });
+
+    e.recipes.modern_industrialization.assembler(8, 100)
+        .itemIn('2x modern_industrialization:steel_curved_plate')
+        .itemIn("1x " + MC("glass"))
+        .itemOut("moderndynamics:item_pipe")
+
+    e.recipes.modern_industrialization.assembler(8, 100)
+        .itemIn('2x modern_industrialization:bronze_curved_plate')
+        .itemIn("1x " + MC("glass"))
+        .itemOut("8x moderndynamics:fluid_pipe")
 });
 
 ServerEvents.tags("item", (event) => {

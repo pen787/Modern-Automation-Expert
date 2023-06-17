@@ -19,7 +19,7 @@ WorldgenEvents.add(event => {
 				anchors.aboveBottom(32),
 				anchors.absolute(90)
 			)								              
-		ore.size = 35
+		ore.size = 25
 		ore.noSurface = 0.5
 		ore.worldgenLayer = 'underground_ores'
 		ore.chance = 0.3
@@ -43,7 +43,7 @@ WorldgenEvents.add(event => {
 			)
 
 		
-		ore.size = 35
+		ore.size = 25
 		ore.noSurface = 0.5
 		ore.worldgenLayer = 'underground_ores'
 		ore.chance = 0.35

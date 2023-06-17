@@ -23,10 +23,6 @@ ServerEvents.recipes(event => {
 
 	//remove all the rolling mill recipe
 	event.remove({mod: 'createaddition', type:"createaddition:rolling", not: {output: 'createaddition:straw'} })
-	
-	//remove the techreborn recipe for futher progression
-	event.remove({mod: "techreborn"})
-	// event.remove({output: 'techreborn:refined_iron_ingot'})
 
 	//replace all electron tube with a vacum tube
 	event.replaceInput({mod: "create"}, 'create:electron_tube', 'kubejs:vacuum_tube')
@@ -45,10 +41,21 @@ ServerEvents.tags('item', event => {
 	event.get("c:tools/knives").add('notreepunching:diamond_knife')
 	event.get("c:tools/knives").add('notreepunching:netherite_knife')
 
-	event.get("c:limestone").add('blockus:limestone')
 	event.get("c:limestone").add('create:limestone')
 })
 
 ServerEvents.tags('fluid', e => {
 	e.get('ad_astra:oxygen').add('modern_industrialization:oxygen')
 })
+
+//change ore drop to cursh ore
+LootJS.modifiers((event) => {
+    event.addBlockLootModifier('#forge:ores').modifyLoot('#forge:raw_materials', item => {
+        const replacement = AlmostUnified.getReplacementForItem(item);
+        if (replacement.isEmpty()) {
+            return item;
+        }
+        replacement.setCount(item.getCount());
+        return replacement;
+    });
+});

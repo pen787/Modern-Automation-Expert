@@ -33,6 +33,7 @@ mode = "fancy"
 				skeleton = true
 				llama = true
 				bat = true
+				frog = true
 				rabbit = true
 				drowned = true
 				experience_orb = true

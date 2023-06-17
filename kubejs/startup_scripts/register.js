@@ -96,23 +96,23 @@ MIRegistrationEvents.registerFluids((event) => {
 });
 
 MIMaterialEvents.addMaterials(function (e) {
-    e.createMaterial("Pig Iron", "pig_iron", 0x5b5b5b, (b) => {
-        b.addParts(
-            "nugget",
-            "ingot",
-            "dust",
-            "tiny_dust",
-            "rod",
-            "gear",
-            "ring",
-            "plate",
-            "bolt",
-            "large_plate",
-            "curved_plate"
-        )
-            .defaultRecipes()
-            .forgeHammerRecipes();
-    });
+    // e.createMaterial("Pig Iron", "pig_iron", 0x5b5b5b, (b) => {
+    //     b.addParts(
+    //         "nugget",
+    //         "ingot",
+    //         "dust",
+    //         "tiny_dust",
+    //         "rod",
+    //         "gear",
+    //         "ring",
+    //         "plate",
+    //         "bolt",
+    //         "large_plate",
+    //         "curved_plate"
+    //     )
+    //         .defaultRecipes()
+    //         .forgeHammerRecipes();
+    // });
 
     e.createMaterial("Red Alloy", "red_alloy", 0xff1111, (b) => {
         b.addParts(
@@ -684,3 +684,7 @@ MIMaterialEvents.modifyMaterial("steel", event => {
         // .customRegularPart("Long Stick", "stick_long")
         // .customRegularPart("Small Spring", "spring_small")
 })
+
+// MIMaterialEvents.modifyMaterial(event => {
+//     console.log(event.builder)
+// })

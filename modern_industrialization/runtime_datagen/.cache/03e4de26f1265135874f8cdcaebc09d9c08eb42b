@@ -1,4 +1,4 @@
-// 1.19.2	2023-06-15T20:15:27.0225073	Tags for minecraft:item
+// 1.19.2	2023-06-17T23:15:26.2939408	Tags for minecraft:item
 2b310dcf125c12935f084c61af6ef4e37ea4bbdf data\c\tags\items\rash_alloy_tiny_dusts.json
 6a3189bfabe037ab62ea56953653156dcd370309 data\c\tags\items\dark_steel_dusts.json
 3d04296e170995f3c4ccbe7a273d3106065a3604 data\c\tags\items\zinc_tiny_dusts.json
@@ -35,7 +35,6 @@ c61ed13b19022dd4b2be26021c32508dc3167a1e data\c\tags\items\antimony_blocks.json
 b92781951d40b5d35d758b3196d8f19078ac3d49 data\c\tags\items\redstone_tiny_dusts.json
 b9a2f736d8bb99df74f469ff0fe7e5d6d6ae82d1 data\c\tags\items\quartz_tiny_dusts.json
 3441e88618b7a232730cb48e760cd28008388183 data\c\tags\items\invar_tiny_dusts.json
-8e1e9e9f1a52b32515bfe6f1f93f906f3c7fe18d data\c\tags\items\pig_iron_plates.json
 2e66114c9d554838cd64c6eb55dfa3a3324bd3a5 data\c\tags\items\lapis_ores.json
 fc454b95b2467e2d45f197aa4659df232de64296 data\c\tags\items\manganese_tiny_dusts.json
 003014055e4d2ba2cbc464ffdeaf1af30b069c8c data\c\tags\items\antimony_nuggets.json
@@ -159,7 +158,6 @@ dbcc912e1d42f7c6aaa261105dcb4f1204184499 data\c\tags\items\le_uranium_ingots.jso
 ce8e5d8a71abe11307cc1fde9bd905ca88ae41c4 data\c\tags\items\coal_dusts.json
 116a6281c7f3bdc35d66954d03a5b34fdee55602 data\c\tags\items\tin_nuggets.json
 8392f1e22d3d8809549be4f9e71b22d19286a7da data\c\tags\items\wrought_iron_tiny_dusts.json
-6745bdbce88b74a2cfc17e9ef24d3f3902db8f3c data\c\tags\items\pig_iron_nuggets.json
 f6a0a3aa5165a15a5b4d0851ce1a3a1b9316e101 data\c\tags\items\iridium_nuggets.json
 05d3a597800bcfccfe63911c499f75f6e9e39700 data\c\tags\items\raw_tungsten_blocks.json
 93f44cd30d419032aca818f06ceab3058b1dc73d data\c\tags\items\bronze_gears.json
@@ -180,6 +178,7 @@ bfe8d44a4d5902fb0be9e9aec232c9f32469dbb0 data\c\tags\items\tungsten_ores.json
 83be0a3cd6a2b545b72a713579566b6128115c1a data\c\tags\items\redstone_ores.json
 94e703f5f97220ede48e343138df3b7449cdc73b data\c\tags\items\chromium_nuggets.json
 f60a9d7fb617cedf0c8d28deb20e7fd229a1ae19 data\c\tags\items\raw_platinum_ores.json
+ab02fa93dce6e3cd94cfc176f59071fc343d400b data\c\tags\items\pe_plastic_plates.json
 59d274fc1786ceb35d825670ea6f50f1e7f344d8 data\c\tags\items\aluminum_tiny_dusts.json
 c89bb7d79cec26c312dfec82de830ec8543f7e45 data\c\tags\items\tungsten_dusts.json
 866991df57bd705747c58da1fbbe6198962d38ec data\c\tags\items\uranium_235_tiny_dusts.json
@@ -190,12 +189,10 @@ f4bbaaf1373f6bb3f7a1f92962db99245666e481 data\c\tags\items\sulfur_blocks.json
 ab40ac23c0540121c88ff7ee1b4a83d6899b0efe data\c\tags\items\sulfur_dusts.json
 d3b3bab755bc29121aa14a786e4468f8f874f4b8 data\c\tags\items\coal_tiny_dusts.json
 1cf35ca43bec3f6138412ee16f2eeeb6445376e4 data\c\tags\items\mozanite_dusts.json
-9dd4460ef52cd8eb5ef0c69054a75fd3ac09415e data\c\tags\items\pig_iron_dusts.json
 dc4442be5b8ef4db9db8858426e6d660af40d480 data\c\tags\items\antimony_tiny_dusts.json
 25330ec56f7d6db8e85934ad9330027e8eb2c7e9 data\c\tags\items\nickel_nuggets.json
 d951cd84c6a5327c62efd34c32a058222043a750 data\c\tags\items\nickel_tiny_dusts.json
 95c9067347dc2a3bbb5bc686dbb3d0d7d6ae8fdd data\c\tags\items\rash_alloy_plates.json
-a2b5b619f4f8fb31a2e7ff9048a3d6df9e556242 data\c\tags\items\pig_iron_gears.json
 b05a34a46a727e0781e3dddc89d4a5c3c61f46a9 data\c\tags\items\red_alloy_gears.json
 751711ca136a0dae7a374bd4bca8ddacbefbbf14 data\c\tags\items\bauxite_ores.json
 c604abc2cd4f3a45833068f3b1fae29c5513e248 data\c\tags\items\electrum_tiny_dusts.json
@@ -324,7 +321,6 @@ d38293997f4f6ac74452c9b97b6c2bfbd41c4a0c data\c\tags\items\coal_blocks.json
 7b22bca237951caa1dc195f5fc4495b365cbb9d4 data\c\tags\items\zinc_gears.json
 3b72ca3d96247084c45287b1a67059454dff99f9 data\c\tags\items\cupronickel_dusts.json
 ea14ca975c1ba67d1a9434c9deb82acf6fd559e6 data\c\tags\items\uranium_235_nuggets.json
-0658b6a74e7ddbb190eb278c70fcb20b5d10e33e data\c\tags\items\pig_iron_ingots.json
 a1e782ebc615d41fa56ad2410baac4afc365d654 data\c\tags\items\he_uranium_ingots.json
 510237960973e73b75e19429415075747862e42f data\c\tags\items\iron_tiny_dusts.json
 42c78682679100922e36e6b5fefd23ddfd7f9533 data\c\tags\items\sodium_tiny_dusts.json
@@ -340,7 +336,6 @@ c0ef9b57fd2f231b2e1f84c991c2539eeebd1614 data\modern_industrialization\tags\item
 189af89310b3dea03e635b76d3b34d3a5b55054c data\c\tags\items\chromium_dusts.json
 57bc86755e265b434b2947ed161f3f64247c90be data\c\tags\items\bauxite_blocks.json
 65f40a72abe34e2c7f8ea74b7de8daeb5165e046 data\c\tags\items\uranium_238_nuggets.json
-4dacf96e780d86147486310dec1cf9611c516214 data\c\tags\items\pig_iron_tiny_dusts.json
 6b980103b0405400dc2b649b9fc8dac994b60377 data\c\tags\items\electrum_nuggets.json
 7fe60502eb26b8fb33172e42ebdc9191e1249877 data\modern_industrialization\tags\items\fluid_pipes.json
 562809f26e4b118ad8e86ad189764ddf6961c60a data\c\tags\items\chromium_ingots.json
@@ -368,6 +363,7 @@ d7eaf7c4ad5731c5f0a2ab1366359516a634e631 data\c\tags\items\titanium_tiny_dusts.j
 0c4dad18889e355b6fb67631b1bb4966c297ddef data\c\tags\items\uranium_nuggets.json
 65cd78589c3dcead5720a3ca6774bcb39f21b03a data\c\tags\items\he_mox_blocks.json
 9e06dadf5e2ec26e0fa8111f4ec7364979ff0913 data\c\tags\items\annealed_copper_tiny_dusts.json
+74504f033095f5f0033786840cf8e0832a02fc0b data\c\tags\items\pe_plastic_dusts.json
 d2267ec7a95d2af43138433b44cfb1ef4ab219da data\c\tags\items\invar_dusts.json
 8e7b2aba47f45e17a8d6791b9fd6ceef3da0ecbf data\c\tags\items\gold_dusts.json
 d0df047bdb0a46403d861ddf7bc4c93bd7168288 data\c\tags\items\lignite_coal_blocks.json
