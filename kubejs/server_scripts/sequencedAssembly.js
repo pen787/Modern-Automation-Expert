@@ -22,7 +22,7 @@ ServerEvents.recipes(e => {
 		'2x modern_industrialization:capacitor',
 	],
 		"modern_industrialization:analog_circuit_board", [
-		e.recipes.createDeploying(inter, [inter, 'create:electron_tube']),
+		// e.recipes.createDeploying(inter, [inter, 'create:electron_tube']),
 		e.recipes.createDeploying(inter, [inter, Item.of('modern_industrialization:capacitor')]),
 		e.recipes.createDeploying(inter, [inter, 'modern_industrialization:inductor']),
 		e.recipes.createDeploying(inter, [inter,  Item.of('modern_industrialization:resistor')]),

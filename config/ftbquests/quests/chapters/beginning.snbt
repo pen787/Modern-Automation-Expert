@@ -1,0 +1,12 @@
+{
+	id: "17B54909FF900722"
+	group: ""
+	order_index: 0
+	filename: "beginning"
+	title: "Beginning"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

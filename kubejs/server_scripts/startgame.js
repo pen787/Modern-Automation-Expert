@@ -38,6 +38,18 @@ ServerEvents.recipes((e) => {
         return allRecipes
     })()
     let forEachRecipeByType = (recipeType) => allRecipes.filter(r => r.type == recipeType)
+
+    //replace a forge hammer recipe
+    e.remove({output:"modern_industrialization:forge_hammer", input:"minecraft:iron_ingot"})
+    e.shaped('modern_industrialization:forge_hammer', [
+        "WWW",
+        " A ",
+        "BBB",
+    ], {
+        W:'modern_industrialization:wrought_iron_ingot',
+        A: 'modern_industrialization:bronze_block',
+        B: 'modern_industrialization:bronze_ingot'
+    })
     
     //Iron Furnace
     e.replaceInput(
@@ -160,34 +172,7 @@ ServerEvents.recipes((e) => {
     e.shapeless('modern_industrialization:tin_dust', ['kubejs:mortar', 'modern_industrialization:raw_tin']).damageIngredient('kubejs:mortar')
 
     e.shapeless('2x modern_industrialization:bronze_dust', ['modern_industrialization:tin_dust', '3x modern_industrialization:copper_dust'])
-
-    // harder iron
-    //flux
-    e.recipes.modern_industrialization.macerator(2, 100)
-        .itemIn('#c:limestone')
-        .itemOut("2x modern_industrialization:flux_dust");
-
-    e.replaceInput({ input: 'minecraft:raw_iron', type: "smelting" }, 'minecraft:raw_iron', 'modern_industrialization:flux_Iron_dust')
-    e.replaceInput({ input: 'minecraft:raw_iron', type: "blasting" }, 'minecraft:raw_iron', 'modern_industrialization:flux_Iron_dust')
-
-    e.recipes.create.milling('2x modern_industrialization:flux_dust', '#c:limestone')
-    e.recipes.create.mixing('modern_industrialization:flux_Iron_dust', ['modern_industrialization:flux_dust', 'minecraft:raw_iron'])
-
-    e.recipes.modern_industrialization.blast_furnace(1, 200)
-        .itemIn('#c:raw_iron_ores')
-        .itemOut('minecraft:iron_ingot');
-
-    e.recipes.modern_industrialization.blast_furnace(1, 100)
-        .itemIn('modern_industrialization:flux_Iron_dust')
-        .itemOut('minecraft:iron_ingot');
-
-    e.shapeless('modern_industrialization:flux_dust', ['kubejs:mortar', '#c:limestone']).damageIngredient('kubejs:mortar')
-    e.shapeless('modern_industrialization:flux_Iron_dust', ['kubejs:mortar', 'minecraft:raw_iron', 'modern_industrialization:flux_dust']).damageIngredient('kubejs:mortar')
-
-    //easy input hatch
-    e.shapeless('modern_industrialization:bronze_item_input_hatch', ['4x modern_industrialization:bronze_large_plate', 'minecraft:chest'])
-    e.shapeless('modern_industrialization:bronze_fluid_input_hatch', ['4x modern_industrialization:bronze_large_plate', 'modern_industrialization:bronze_tank'])
-
+    
     //primitive alloy smelter
     e.recipes.modern_industrialization.primitive_alloy_smelter(2, 200)
         .itemIn('3x modern_industrialization:copper_dust')

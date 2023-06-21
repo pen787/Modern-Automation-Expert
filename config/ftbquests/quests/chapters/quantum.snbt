@@ -1,0 +1,12 @@
+{
+	id: "6C9A980F5E8429FD"
+	group: ""
+	order_index: 3
+	filename: "quantum"
+	title: "Quantum"
+	icon: "modern_industrialization:quantum_circuit"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

@@ -1,4 +1,4 @@
-// 1.19.2	2023-06-17T23:15:26.1427216	Block Loot Tables
+// 1.19.2	2023-06-21T21:04:23.0702589	Block Loot Tables
 0ded96ea0634eb14bae7d35609a6afe818da5412 data\modern_industrialization\loot_tables\blocks\raw_antimony_block.json
 aded282e345cacec0c1143c39addf50cc7ca41e0 data\modern_industrialization\loot_tables\blocks\mv_lv_transformer.json
 e723e1b5f047f6e5fdb495ed5da0c02c81b83337 data\modern_industrialization\loot_tables\blocks\electric_blast_furnace.json
@@ -141,6 +141,7 @@ a4ecb3e0889d28f576d2b1d9cb140abbf7b9718f data\modern_industrialization\loot_tabl
 076a66df9730f9338af31e6a02944993396a37fd data\modern_industrialization\loot_tables\blocks\lv_energy_output_hatch.json
 73c97f3e41149b5a77cfa725a79d9e13c9eaa747 data\modern_industrialization\loot_tables\blocks\steel_item_input_hatch.json
 0ea99d14234e1a7b752e03ae53413e5d269cc6e6 data\modern_industrialization\loot_tables\blocks\lv_storage_unit.json
+a4f7cfce05d7d402f3c16a449bead5cf64d123a0 data\modern_industrialization\loot_tables\blocks\advanced_quantum_computer_assembler.json
 1d1d0f4ae6e6095bf16ace9920b7b4f6465f502f data\modern_industrialization\loot_tables\blocks\sodium_block.json
 b05b817ead3692b6ace390a2581b2a1338ca39c4 data\modern_industrialization\loot_tables\blocks\rocket_assembler.json
 e55d67ded00bca00d6f4a22abb86132a49a4c593 data\modern_industrialization\loot_tables\blocks\centrifuge.json

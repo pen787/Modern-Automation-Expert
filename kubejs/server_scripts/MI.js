@@ -151,33 +151,13 @@ ServerEvents.recipes((e) => {
         output: "modern_industrialization:quantum_circuit_board",
         type: MI("assembler"),
     });
-    e.custom({
-        type: "modern_industrialization:assembler",
-        eu: 64,
-        duration: 2000,
-        item_inputs: [
-            {
-                item: "modern_industrialization:superconductor_cable",
-                amount: 12,
-            },
-            { item: "modern_industrialization:plutonium_battery", amount: 2 },
-            {
-                item: "modern_industrialization:processing_unit_board",
-                amount: 1,
-            },
-            { tag: "c:iridium_plates", amount: 6 },
-            MI_ITEM(4, MI("ostumium_plate")),
-        ],
-        fluid_inputs: [
-            { fluid: "modern_industrialization:helium_3", amount: 50 },
-        ],
-        item_outputs: [
-            {
-                item: "modern_industrialization:quantum_circuit_board",
-                amount: 1,
-            },
-        ],
-    });
+    e.recipes.modern_industrialization.assembler(64,2000)
+        .itemIn("12x modern_industrialization:superconductor_cable")
+        .itemIn("2x modern_industrialization:plutonium_battery")
+        .itemIn("modern_industrialization:processing_unit_board")
+        .itemIn("4x modern_industrialization:ostumium_plate")
+        .fluidIn("modern_industrialization:helium_3", 50)
+        .itemOut("modern_industrialization:quantum_circuit_board")
 
     //drill!
     e.custom({
@@ -518,6 +498,23 @@ ServerEvents.recipes((e) => {
 
     // the gear seuencedassembly in "sequencedAssembly"
 
+    //recipe for create precision_mechanism
+    e.recipes.modern_industrialization.assembler(8,150)
+        .itemIn('modern_industrialization:gold_plate')
+        .itemIn('3x modern_industrialization:bronze_gear')
+        .itemIn('5x modern_industrialization:steel_bolt')
+        .fluidIn('modern_industrialization:soldering_alloy', 50)
+        .itemOut('2x create:precision_mechanism')
+    
+    // now for arm
+    e.recipes.modern_industrialization.assembler(8,150)
+        .itemIn('modern_industrialization:analog_circuit')
+        .itemIn('modern_industrialization:steel_gear')
+        .itemIn('2x create:brass_sheet')
+        .itemIn('create:brass_casing')
+        .itemIn('create:precision_mechanism')
+        .itemOut('create:mechanical_arm')
+        .itemOut('create:mechanical_arm',0.3)
 
     //recipe for bender machine and forge machine
     e.shaped('modern_industrialization:bender_machine', [
@@ -675,12 +672,6 @@ ServerEvents.recipes((e) => {
 
 ServerEvents.tags("item", (event) => {
     //blacklist modern_industrialization:replicator_blacklist
-    let noclone = ["@modern_industrialization"];
-
-    noclone.forEach((element) => {
-        event.get("modern_industrialization:replicator_blacklist").add(element);
-    });
-
     event.get("modern_industrialization:lens").add(/kubejs:(.*)_len/)
     event.get("modern_industrialization:lens").remove('kubejs:quantumeye_len')
 });

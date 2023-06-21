@@ -21,14 +21,15 @@ ServerEvents.recipes((e) => {
             item_outputs: outputs,
         });
 
+    e.remove({ output: /ae2:(.*)_processor/ })
+
     //Better ME controller
     e.remove({ output: "ae2:controller", type: "crafting_shaped" });
     assembler(
         [
-            MI_ITEM(1, "ae2:engineering_processor"),
+            MI_ITEM(1, 'kubejs:data_processor_unit'),
             MI_ITEM(4, "ae2:fluix_crystal"),
-            MI_ITEM(4, "ae2:smooth_sky_stone_block"),
-            MI_ITEM(1, "modern_industrialization:electronic_circuit"),
+            MI_ITEM(4, 'modern_industrialization:advanced_machine_hull'),
         ],
         [MI_ITEM(1, "ae2:controller")],
         500,
@@ -41,8 +42,7 @@ ServerEvents.recipes((e) => {
         [
             MI_ITEM(2, "ae2:fluix_glass_cable"),
             MI_ITEM(4, "modern_industrialization:aluminum_plate"),
-            MI_ITEM(2, "ae2:engineering_processor"),
-            MI_ITEM(1, "modern_industrialization:electronic_circuit"),
+            MI_ITEM(2, 'kubejs:data_processor_unit'),
         ],
         [MI_ITEM(1, "ae2:drive")],
         300,
@@ -55,9 +55,8 @@ ServerEvents.recipes((e) => {
         [
             MI_ITEM(2, "ae2:fluix_glass_cable"),
             MI_ITEM(4, "modern_industrialization:aluminum_plate"),
-            MI_ITEM(2, "ae2:calculation_processor"),
-            MI_ITEM(1, "ae2:logic_processor"),
-            MI_ITEM(1, "modern_industrialization:electronic_circuit"),
+            MI_ITEM(2, 'kubejs:data_transfer_unit'),
+            MI_ITEM(1, 'kubejs:data_handler_stick'),
         ],
         [MI_ITEM(1, "ae2:crafting_unit")],
         300,
@@ -72,7 +71,6 @@ ServerEvents.recipes((e) => {
             MI_ITEM(1, "ae2:formation_core"),
             MI_ITEM(4, "modern_industrialization:aluminum_plate"),
             MI_ITEM(2, "minecraft:crafting_table"),
-            MI_ITEM(1, "modern_industrialization:electronic_circuit"),
         ],
         [MI_ITEM(1, "ae2:pattern_provider")],
         300,
@@ -87,7 +85,6 @@ ServerEvents.recipes((e) => {
             MI_ITEM(1, "ae2:annihilation_core"),
             MI_ITEM(4, "modern_industrialization:aluminum_plate"),
             MI_ITEM(2, "ae2:fluix_glass_cable"),
-            MI_ITEM(1, "modern_industrialization:electronic_circuit"),
         ],
         [MI_ITEM(1, "ae2:interface")],
         300,
@@ -100,7 +97,7 @@ ServerEvents.recipes((e) => {
         [
             MI_ITEM(1, "minecraft:quartz"),
             MI_ITEM(1, "ae2:annihilation_core"),
-            MI_ITEM(1, "ae2:logic_processor"),
+            MI_ITEM(1, 'kubejs:data_handler_stick'),
         ],
         [MI_ITEM(2, "ae2:annihilation_core")],
         100,
@@ -113,19 +110,39 @@ ServerEvents.recipes((e) => {
         [
             MI_TAG(1, "ae2:all_certus_quartz"),
             MI_ITEM(1, "ae2:fluix_dust"),
-            MI_ITEM(1, "ae2:logic_processor"),
+            MI_ITEM(1, 'kubejs:data_handler_stick'),
         ],
         [MI_ITEM(2, "ae2:formation_core")],
         100,
         8
     );
 
-	// Comment because it's not working for some reason
+    e.replaceInput({ mod: "ae2" }, 'ae2:logic_processor', 'kubejs:data_handler_stick')
+    e.replaceInput({ mod: "ae2" }, 'ae2:calculation_processor', 'kubejs:data_transfer_unit')
+    e.replaceInput({ mod: "ae2" }, 'ae2:engineering_processor', 'kubejs:data_processor_unit')
+    e.replaceInput({ mod: "ae2" }, 'minecraft:iron_ingot', "modern_industrialization:aluminum_plate")
+    e.replaceInput({ mod: "ae2" }, 'minecraft:copper_ingot', 'modern_industrialization:red_alloy_wire')
+    e.replaceInput({ mod: "ae2" }, 'minecraft:redstone', 'modern_industrialization:electrum_cable')
 
-    // Replace all the molten redstone with red alloy
-    // e.replaceInput(
-    //     { mod: "modern_industrialization", type: "modern_industrialization:assembler" },
-    //     "modern_industrialization:molten_redstone",
-    //     "modern_industrialization:red_alloy_bucket"
-    // );
+    e.recipes.modern_industrialization.circuit_assembler(8, 200)
+        .itemIn('modern_industrialization:electronic_circuit_board')
+        .itemIn('3x modern_industrialization:red_alloy_wire')
+        .itemIn('2x modern_industrialization:electronic_circuit')
+        .fluidIn("modern_industrialization:soldering_alloy", 100)
+        .itemOut('kubejs:data_transfer_unit')
+
+    e.recipes.modern_industrialization.circuit_assembler(8, 200)
+        .itemIn('modern_industrialization:electronic_circuit_board')
+        .itemIn('3x modern_industrialization:red_alloy_wire')
+        .itemIn('kubejs:plate.controll_memory_chip')
+        .itemIn('kubejs:plate.random_access_memory')
+        .fluidIn("modern_industrialization:soldering_alloy", 100)
+        .itemOut('kubejs:data_handler_stick')
+    
+    e.recipes.modern_industrialization.circuit_assembler(8, 200)
+        .itemIn('modern_industrialization:electronic_circuit_board')
+        .itemIn('3x modern_industrialization:red_alloy_wire')
+        .itemIn('kubejs:plate.central_processing_unit')
+        .fluidIn("modern_industrialization:soldering_alloy", 100)
+        .itemOut('kubejs:data_processor_unit')
 });

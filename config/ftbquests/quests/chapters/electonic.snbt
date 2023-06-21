@@ -1,0 +1,12 @@
+{
+	id: "4BCE4BAA193B3A9B"
+	group: ""
+	order_index: 2
+	filename: "electonic"
+	title: "Electonic"
+	icon: "modern_industrialization:analog_circuit"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

@@ -1,0 +1,12 @@
+{
+	id: "15FCD16997CA3E8E"
+	group: "33E15D7281D51FD7"
+	order_index: 0
+	filename: "applied_energistics_2"
+	title: "Applied Energistics 2"
+	icon: "ae2:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

@@ -1,0 +1,12 @@
+{
+	id: "5E831738F5F0E1C5"
+	group: "33E15D7281D51FD7"
+	order_index: 1
+	filename: "extened_storage"
+	title: "Extened Storage"
+	icon: "extended_drawers:single_drawer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

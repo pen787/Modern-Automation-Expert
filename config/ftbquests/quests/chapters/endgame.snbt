@@ -1,0 +1,12 @@
+{
+	id: "508B40B81453EC85"
+	group: ""
+	order_index: 4
+	filename: "endgame"
+	title: "Endgame"
+	icon: "ae2:creative_item_cell"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

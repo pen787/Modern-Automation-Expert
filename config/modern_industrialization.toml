@@ -1,5 +1,5 @@
 blacklistedOres = []
-enableNoEmiMessage = true
+enableNoEmiMessage = false
 spawnWithGuideBook = false
 respawnWithGuideBook = true
 disableFuelTooltips = false
