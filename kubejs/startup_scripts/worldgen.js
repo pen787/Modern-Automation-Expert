@@ -2,6 +2,7 @@ WorldgenEvents.add(event => {
 	// use the anchors helper from the event
 	const { anchors } = event
 
+	/*
 	event.addOre(ore => {
 		ore.id = 'kubejs:big_iron'
 
@@ -148,5 +149,6 @@ WorldgenEvents.add(event => {
 		ore.worldgenLayer = 'underground_ores'  // what generation step the ores should be generated in (see below)
 		ore.chance = 0.4							            // if != 0 and count is unset, the ore has a 1/n chance to generate per chunk
 	})
+	*/
 
 })

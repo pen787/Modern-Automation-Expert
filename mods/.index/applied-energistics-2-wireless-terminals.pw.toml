@@ -1,0 +1,14 @@
+name = "AE2WTLib"
+filename = "AE2WTLib-12.9.5.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "3398797a7a13359c9f3543508c62d6e29e91173a"
+
+[update]
+[update.curseforge]
+file-id = 4570564
+project-id = 459929

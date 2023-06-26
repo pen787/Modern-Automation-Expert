@@ -194,7 +194,7 @@ ServerEvents.recipes((e) => {
     e.campfireCooking('modern_industrialization:steam_bucket', 'minecraft:water_bucket')
 
     // add brass mixing with dust
-    e.recipes.create.mixing("2x modern_industrialization:brass_dust", ["modern_industrialization:copper_dust", "modern_industrialization:zinc_dust"])
+    e.recipes.create.mixing("2x modern_industrialization:brass_dust", ["modern_industrialization:copper_dust", "modern_industrialization:zinc_dust"]).id('kubejs:mixing_hand')
 
     //recipe for 'kubejs:vacuum_tube'
     e.shaped('kubejs:vacuum_tube',

@@ -1,0 +1,14 @@
+name = "Geocluster"
+filename = "geocluster-1.2.0+1.19.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/P43RxVjo/versions/1WWtDStY/geocluster-1.2.0%2B1.19.2.jar"
+hash-format = "sha512"
+hash = "960a3d35a6b5f0bc936bb00e0c9c9f1cb3bbe5a9ad92c08c7ac2c74f9a8aab2b2456e5bac7ab250f975298a20c029282fba64b6cf2c8885e2bf20e4a0acce6c2"
+
+[update]
+[update.modrinth]
+mod-id = "P43RxVjo"
+version = "1WWtDStY"
